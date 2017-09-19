@@ -54,4 +54,4 @@ freeline.py
 freeline/
 freeline_project_description.json
 git clone idea/gradle.xml.git
-
+git log
