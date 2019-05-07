@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/app_item_height">
+
+    <ImageView
+        android:id="@+id/iv_icon_banner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_item_height"
+        android:paddingBottom="@dimen/app_item_padding_top_and_bottom"
+        android:paddingLeft="@dimen/app_item_padding_left_and_right"
+        android:paddingRight="@dimen/app_item_icon_margin_right"
+        android:paddingTop="@dimen/app_item_padding_top_and_bottom"
+        android:src="@drawable/default_icon" />
+
+</LinearLayout>

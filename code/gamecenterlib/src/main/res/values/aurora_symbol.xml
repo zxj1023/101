@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     This file defines the base public resources exported by the
+     platform, which must always exist.
+-->
+<!-- Gionee <zhangxx> <2013-06-20> add for auroraframework. -->
+<resources>
+
+    <!--
+       We don't want to publish private symbols in aurora.R as part of the
+       SDK.  Instead, put them here.
+    -->
+    <!--<private-symbols package="com.aurora.internal" />-->
+
+    <!---->
+    <!---->
+    <!--<java-symbol name="aurora_action_bar_subtitle" type="id" />-->
+    <!--<java-symbol name="aurora_action_bar_back" type="id" />-->
+    <!--<java-symbol name="aurora_action_bar_icon" type="id" />-->
+    <!--<java-symbol name="aurora_alert_dialog_title" type="id" />-->
+    <!--<java-symbol name="aurora_dialog_cancel_icon" type="id" />-->
+    <!--<java-symbol name="aurora_alert_dialog_icon" type="id" />-->
+    <!--<java-symbol name="aurora_message" type="id" />-->
+    <!--<java-symbol name="aurora_pickers" type="id" />-->
+    <!--<java-symbol name="aurora_calendar_view" type="id" />-->
+    <!--<java-symbol name="aurora_day" type="id" />-->
+    <!--<java-symbol name="aurora_numberpicker_input" type="id" />-->
+    <!--<java-symbol name="aurora_month" type="id" />-->
+    <!--<java-symbol name="aurora_year" type="id" />-->
+    <!--<java-symbol name="aurora_datePicker" type="id" />-->
+    <!--<java-symbol name="aurora_timePicker" type="id" />-->
+    <!--<java-symbol name="aurora_increment" type="id" />-->
+    <!--<java-symbol name="aurora_decrement" type="id" />-->
+    <!--<java-symbol name="aurora_progress" type="id" />-->
+    <!--<java-symbol name="aurora_progress_number" type="id" />-->
+    <!--<java-symbol name="aurora_progress_percent" type="id" />-->
+    <!--<java-symbol name="aurora_hour" type="id" />-->
+    <!--<java-symbol name="aurora_minute" type="id" />-->
+    <!--<java-symbol name="aurora_amPm" type="id" />-->
+    <!--<java-symbol name="aurora_toolbar_group" type="id" />-->
+    <!--<java-symbol name="aurora_toolbar_position_arrow" type="id" />-->
+    <!--<java-symbol name="aurora_title" type="id" />-->
+    <!--<java-symbol name="aurora_icon" type="id" />-->
+    <!--<java-symbol name="aurora_checkbox" type="id" />-->
+   <!--&lt;!&ndash; <java-symbol name="aurora_edittext_container" type="id" />  &ndash;&gt;-->
+    <!--<java-symbol name="aurora_list_footer" type="id" />-->
+    <!--<java-symbol name="aurora_prefs_frame" type="id" />-->
+    <!--<java-symbol name="aurora_headers" type="id" />-->
+    <!--<java-symbol name="aurora_prefs" type="id" />-->
+    <!--<java-symbol name="aurora_button_bar" type="id" />-->
+    <!--<java-symbol name="aurora_back_button" type="id" />-->
+    <!--<java-symbol name="aurora_skip_button" type="id" />-->
+    <!--<java-symbol name="aurora_next_button" type="id" />-->
+    <!--<java-symbol name="aurora_seekbar" type="id" />-->
+    <!--&lt;!&ndash; <java-symbol name="aurora_switchWidget" type="id" /> &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; <java-symbol name="aurora_cancel" type="id" /> &ndash;&gt;-->
+
+    <!--<java-symbol name="aurora_button1" type="id" />-->
+    <!--<java-symbol name="aurora_button2" type="id" />-->
+    <!--<java-symbol name="aurora_button3" type="id" />-->
+    <!--<java-symbol name="aurora_text1" type="id" />-->
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-07-04> add for CR00833379 begin &ndash;&gt;-->
+    <!--<java-symbol name="aurora_transparent_bar" type="id" />-->
+    <!--<java-symbol name="aurora_overlap" type="id" />-->
+    <!--<java-symbol name="aurora_magicbar" type="id" />-->
+    <!--<java-symbol name="aurora_magic_bar" type="id" />-->
+    <!--<java-symbol name="aurora_item1_title1" type="id" />-->
+    <!--<java-symbol name="aurora_item2_title1" type="id" />-->
+    <!--<java-symbol name="aurora_item2_title2" type="id" />-->
+    <!--<java-symbol name="aurora_item3_title1" type="id" />-->
+    <!--<java-symbol name="aurora_item3_title2" type="id" />-->
+    <!--<java-symbol name="aurora_item3_title3" type="id" />-->
+    <!--<java-symbol name="aurora_title1" type="id" />-->
+    <!--<java-symbol name="aurora_title2" type="id" />-->
+    <!--<java-symbol name="aurora_title3" type="id" />-->
+    <!--<java-symbol name="aurora_title4" type="id" />-->
+    <!--<java-symbol name="aurora_item1_icon1" type="id" />-->
+    <!--<java-symbol name="aurora_item1_icon5" type="id" />-->
+    <!--<java-symbol name="aurora_item2_icon1" type="id" />-->
+    <!--<java-symbol name="aurora_item2_icon2" type="id" />-->
+    <!--<java-symbol name="aurora_item2_icon5" type="id" />-->
+    <!--<java-symbol name="aurora_item3_icon1" type="id" />-->
+    <!--<java-symbol name="aurora_item3_icon2" type="id" />-->
+    <!--<java-symbol name="aurora_item3_icon3" type="id" />-->
+    <!--<java-symbol name="aurora_item3_icon5" type="id" />-->
+    <!--<java-symbol name="aurora_icon1" type="id" />-->
+    <!--<java-symbol name="aurora_icon2" type="id" />-->
+    <!--<java-symbol name="aurora_icon3" type="id" />-->
+    <!--<java-symbol name="aurora_icon4" type="id" />-->
+    <!--<java-symbol name="aurora_icon5" type="id" />-->
+    <!--<java-symbol name="aurora_item1_listview" type="id" />-->
+    <!--<java-symbol name="aurora_item2_listview" type="id" />-->
+    <!--<java-symbol name="aurora_item3_listview" type="id" />-->
+    <!--<java-symbol name="aurora_listview" type="id" />-->
+    <!--<java-symbol name="aurora_magic_listitem_textview" type="id" />-->
+    <!--<java-symbol name="aurora_magic_listitem_checkbox" type="id" />-->
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-07-04> add for CR00833379 end &ndash;&gt;-->
+    <!--&lt;!&ndash; for ActionBar &ndash;&gt;-->
+    <!--<java-symbol name="aurora_action_bar_container" type="id" />-->
+    <!--<java-symbol name="aurora_up" type="id" />-->
+    <!--<java-symbol name="aurora_action_bar_intellgent_container" type="id" />-->
+    <!--<java-symbol name="aurora_content" type="id" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-10> add for CR00812456 begin &ndash;&gt;-->
+    <!--&lt;!&ndash; for ContextMenu &ndash;&gt;-->
+    <!--<java-symbol name="aurora_shortcut" type="id" />-->
+    <!--&lt;!&ndash; for ListActivity &ndash;&gt;-->
+    <!--&lt;!&ndash; <java-symbol type="id" name="aurora_empty" /> &ndash;&gt;-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-10> add for CR00812456 end &ndash;&gt;-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-15> add for CR00812456 begin &ndash;&gt;-->
+    <!--<java-symbol name="aurora_action_bar_overlay_layout" type="id" />-->
+    <!--<java-symbol name="aurora_action_context_bar" type="id" />-->
+    <!--&lt;!&ndash; <java-symbol type="id" name="aurora_top_action_bar" /> &ndash;&gt;-->
+    <!--<java-symbol name="aurora_split_action_bar" type="id" />-->
+    <!--<java-symbol name="aurora_action_mode_close_button" type="id" />-->
+    <!--<java-symbol name="aurora_home" type="id" />-->
+    <!--<java-symbol name="aurora_empty_view" type="id" />-->
+    <!--<java-symbol name="aurora_action_menu_presenter" type="id" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-15> add for CR00812456 end &ndash;&gt;-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-31> add for CR00812456 begin &ndash;&gt;-->
+    <!--<java-symbol name="aurora_search_button" type="id" />-->
+    <!--<java-symbol name="aurora_search_src_text" type="id" />-->
+    <!--<java-symbol name="aurora_search_edit_frame" type="id" />-->
+    <!--<java-symbol name="aurora_search_plate" type="id" />-->
+    <!--<java-symbol name="aurora_search_hint_icon" type="id" />-->
+
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.5 add for searchview's inputmethod picker &ndash;&gt;-->
+    <!--<java-symbol name="aurora_search_input_method" type="id" />-->
+    <!--<java-symbol name="aurora_input_method_list" type="id" />-->
+    <!--<java-symbol name="aurora_input_method_name" type="id" />-->
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.5 add for searchview's inputmethod picker &ndash;&gt;-->
+
+    <!--<java-symbol name="aurora_input_method" type="id" />-->
+    <!--<java-symbol name="input_top" type="id" />-->
+    <!--<java-symbol name="char_q" type="id" />-->
+    <!--<java-symbol name="char_w" type="id" />-->
+    <!--<java-symbol name="char_e" type="id" />-->
+    <!--<java-symbol name="char_r" type="id" />-->
+    <!--<java-symbol name="char_t" type="id" />-->
+    <!--<java-symbol name="char_y" type="id" />-->
+    <!--<java-symbol name="char_u" type="id" />-->
+    <!--<java-symbol name="char_i" type="id" />-->
+    <!--<java-symbol name="char_o" type="id" />-->
+    <!--<java-symbol name="char_p" type="id" />-->
+    <!--<java-symbol name="char_a" type="id" />-->
+    <!--<java-symbol name="char_s" type="id" />-->
+    <!--<java-symbol name="char_d" type="id" />-->
+    <!--<java-symbol name="char_f" type="id" />-->
+    <!--<java-symbol name="char_g" type="id" />-->
+    <!--<java-symbol name="char_h" type="id" />-->
+    <!--<java-symbol name="char_j" type="id" />-->
+    <!--<java-symbol name="char_k" type="id" />-->
+    <!--<java-symbol name="char_l" type="id" />-->
+    <!--<java-symbol name="char_z" type="id" />-->
+    <!--<java-symbol name="char_x" type="id" />-->
+    <!--<java-symbol name="char_c" type="id" />-->
+    <!--<java-symbol name="char_v" type="id" />-->
+    <!--<java-symbol name="char_b" type="id" />-->
+    <!--<java-symbol name="char_n" type="id" />-->
+    <!--<java-symbol name="char_m" type="id" />-->
+    <!--<java-symbol name="char_back" type="id" />-->
+    <!--<java-symbol name="char_upper" type="id" />-->
+    <!--<java-symbol name="input_middle" type="id" />-->
+    <!--<java-symbol name="input_bottom" type="id" />-->
+
+    <!--&lt;!&ndash; Aurora end <luofu> 2013.9.5 add for searchview's inputmethod picker &ndash;&gt;-->
+    <!--<java-symbol name="aurora_search_go_btn" type="id" />-->
+    <!--<java-symbol name="aurora_search_close_btn" type="id" />-->
+    <!--<java-symbol name="aurora_search_voice_btn" type="id" />-->
+    <!--<java-symbol name="aurora_search_mag_icon" type="id" />-->
+    <!--<java-symbol name="aurora_search_hint_icon" type="id" />-->
+
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-31> add for CR00812456 end &ndash;&gt;-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-08-05> add for CR00812456 begin &ndash;&gt;-->
+    <!--<java-symbol name="aurora_edit_query" type="id" />-->
+    <!--<java-symbol name="aurora_check_click_pref" type="id" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-08-05> add for CR00812456 end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Aurora <luofu> <2013-9-9> add for searchView begin &ndash;&gt;-->
+    <!--<java-symbol name="aurora_searchview_bar" type="id" />-->
+    <!--&lt;!&ndash; Aurora <luofu> <2013-9-9> add for searchView end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<java-symbol name="aurora_action_bar_btn_cancel" type="id" />-->
+    <!--&lt;!&ndash; <java-symbol name="aurora_action_bar_btn_ok" type="id" /> &ndash;&gt;-->
+    <!--<java-symbol name="aurora_action_bar_item" type="id" />-->
+    <!--<java-symbol name="aurora_action_bar_home_item" type="id" />-->
+    <!--<java-symbol name="aurora_action_bar_home_item_back" type="id" />-->
+    <!--<java-symbol name="aurora_action_bar_title" type="id" />-->
+    <!--<java-symbol name="aurora_action_bar_host" type="id" />-->
+    <!--<java-symbol name="aurora_action_bar" type="id" />-->
+    <!--<java-symbol name="aurora_action_bar_content_view" type="id" />-->
+    <!--<java-symbol name="aurora_menu_item_icon" type="id" />-->
+    <!--<java-symbol name="aurora_menu_item_text" type="id" />-->
+    <!--<java-symbol name="auroraMenuContentLv" type="id" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.16 add for spinner begin &ndash;&gt;-->
+    <!--<java-symbol name="aurora_spinner_layout" type="id" />-->
+    <!--<java-symbol name="aurora_spinner_img" type="id" />-->
+    <!--<java-symbol name="aurora_spinner_text" type="id" />-->
+    <!--<java-symbol name="aurora_search_hint_text" type="id" />-->
+    <!--<java-symbol name="aurora_search_view_parent" type="id" />-->
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.16 add for spinner end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.16 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<java-symbol name="aurora_action_bar_btn_left" type="id" />-->
+    <!--<java-symbol name="aurora_action_bar_btn_right" type="id" />-->
+    <!--<java-symbol name="aurora_action_bar_custom_view" type="id" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.16 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.18 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<java-symbol name="aurora_action_bottom_bar_menu" type="id" />-->
+    <!--<java-symbol name="aurora_action_bottom_bar_menu_item_image" type="id" />-->
+    <!--<java-symbol name="aurora_action_bottom_bar_menu_item_text" type="id" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.18 add for actionbar and menu end &ndash;&gt;-->
+
+    <!--<java-symbol name="aurora_select_dialog_listview" type="id" />-->
+    <!--<java-symbol name="aurora_parentPanel" type="id" />-->
+    <!--<java-symbol name="aurora_leftSpacer" type="id" />-->
+    <!--<java-symbol name="aurora_rightSpacer" type="id" />-->
+    <!--<java-symbol name="aurora_body" type="id" />-->
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.23 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<java-symbol name="aurora_action_bottom_bar_menu_item_image1" type="id" />-->
+    <!--<java-symbol name="aurora_action_bottom_bar_menu_item_image2" type="id" />-->
+    <!--<java-symbol name="aurora_action_bottom_bar_menu_item_image3" type="id" />-->
+    <!--<java-symbol name="aurora_action_bottom_bar_menu_item_image4" type="id" />-->
+    <!--<java-symbol name="aurora_action_bottom_bar_menu_item_image5" type="id" />-->
+    <!--<java-symbol name="aurora_action_bottom_bar_menu_item_layout1" type="id" />-->
+    <!--<java-symbol name="aurora_action_bottom_bar_menu_item_layout2" type="id" />-->
+    <!--<java-symbol name="aurora_action_bottom_bar_menu_item_layout3" type="id" />-->
+    <!--<java-symbol name="aurora_action_bottom_bar_menu_item_text1" type="id" />-->
+    <!--<java-symbol name="aurora_action_bottom_bar_menu_item_text2" type="id" />-->
+    <!--<java-symbol name="aurora_action_bottom_bar_menu_item_text3" type="id" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.23 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.9 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<java-symbol name="windowLayout" type="id" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.9 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.24 add for Spinner begin &ndash;&gt;-->
+
+    <!--<java-symbol name="aurora_spinner_dialog_list" type="id" />-->
+    <!--<java-symbol name="aurora_spinner_grey_bg" type="id" />-->
+    <!--<java-symbol name="auroara_searchview_convert" type="id" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.24 add for Spinner end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.29 add for datePickerDialog begin &ndash;&gt;-->
+
+    <!--<java-symbol name="aurora_date_picker_title" type="id" />-->
+    <!--<java-symbol name="aurora_date_picker" type="id" />-->
+    <!--<java-symbol name="aurora_date_picker_done_button" type="id" />-->
+    <!--<java-symbol name="aurora_date_picker_cancel_button" type="id" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.29 add for datePickerDialog end &ndash;&gt;-->
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.30 add for timePickerDialog begin &ndash;&gt;-->
+
+    <!--<java-symbol name="aurora_time_picker" type="id" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.30 add for timePickerDialog end &ndash;&gt;-->
+    <!--<java-symbol name="aurora_date_picker_dialog_grey_bg" type="id" />-->
+
+    <!--&lt;!&ndash; aurora <flash> 2013.10.16 add for preference start &ndash;&gt;-->
+    <!--<java-symbol name="aurora_bottom_widget_frame" type="id" />-->
+    <!--<java-symbol name="aurora_bottom_gap_line" type="id" />-->
+
+
+    <!--&lt;!&ndash; aurora <flash> 2013.10.16 add for preference end &ndash;&gt;-->
+
+    <!--<java-symbol name="aurora_arrow_inner" type="id" />-->
+    <!--<java-symbol name="aurora_list_preference_radio" type="id" />-->
+    <!--<java-symbol name="aurora_preference_category_layout" type="id" />-->
+    <!--<java-symbol name="aurora_preference_category_title" type="id" />-->
+    <!--<java-symbol name="aurora_preference_list_layout" type="id" />-->
+    <!--&lt;!&ndash;  <java-symbol name="aurora_preference_list_layout2" type="id" />&ndash;&gt;-->
+    <!--<java-symbol name="text1" type="id" />-->
+    <!--<java-symbol name="aurora_searchview_bg" type="id" />-->
+    <!--<java-symbol name="aurora_number_picker_layout" type="id" />-->
+    <!--<java-symbol name="aurora_menu_view" type="id" />-->
+    <!--<java-symbol name="aurora_menu_normal_layout" type="id" />-->
+    <!--<java-symbol name="aurora_custom_menu_layout" type="id" />-->
+    <!--<java-symbol name="aurora_date_picker_layout" type="id" />-->
+    <!--<java-symbol name="aurora_time_picker_layout" type="id" />-->
+    <!--<java-symbol name="aurora_week" type="id" />-->
+
+    <!--&lt;!&ndash; aurora <tangjun> 2013.9.26 add for aurora_action_bar_normal start &ndash;&gt;-->
+    <!--<java-symbol name="aurora_action_bar_normal_linear" type="id" />-->
+    <!--&lt;!&ndash; aurora <tangjun> 2013.9.26 add for aurora_action_bar_normal end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.1.17 add for aurora_preference start &ndash;&gt;-->
+    <!--<java-symbol name="aurora_preference_screen_title" type="id" />-->
+    <!--&lt;!&ndash; aurora <luofu> 2013.1.17 add for aurora_preference end-->
+    <!--<java-symbol name="aurora_action_bar_title_bg" type="id" />&ndash;&gt;-->
+
+	 <!--<java-symbol name="auroraActionbarLayout" type="id" />-->
+
+	 <!--<java-symbol name="aurora_action_bar_title_layout" type="id" />-->
+
+	<!--&lt;!&ndash; aurora <tangjun> 2014.5.07 add for searchview button linearlayout start &ndash;&gt;-->
+    <!--<java-symbol name="cancelbuttonlinear" type="id" />-->
+    <!--&lt;!&ndash; aurora <tangjun> 2014.5.07 add for searchview button linearlayout end &ndash;&gt;-->
+
+	 <!--<java-symbol name="aurora_select_dialog_checkbox" type="id" />-->
+
+	<!--<java-symbol name="aurora_preferece_title_layout" type="id" />-->
+
+	<!--<java-symbol name="aurora_action_bar_home_layout" type="id" />-->
+
+    <!--&lt;!&ndash; aurora <flash> 2013.9.26 add for auroraswitch pictures and attrs start &ndash;&gt;-->
+    <!--<java-symbol name="aurora_switch_anim_000" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_001" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_002" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_003" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_004" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_005" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_006" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_007" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_008" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_009" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_010" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_011" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_012" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_013" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_014" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_015" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_016" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_017" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_018" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_019" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_020" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_021" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_022" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_023" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_024" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_025" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_026" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_027" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_028" type="drawable" />-->
+    <!--<java-symbol name="aurora_switch_anim_029" type="drawable" />-->
+    <!--<java-symbol name="switch0001" type="drawable" />-->
+    <!--<java-symbol name="switch0002" type="drawable" />-->
+    <!--<java-symbol name="switch0003" type="drawable" />-->
+    <!--<java-symbol name="switch0004" type="drawable" />-->
+    <!--<java-symbol name="switch0005" type="drawable" />-->
+    <!--<java-symbol name="switch0006" type="drawable" />-->
+    <!--<java-symbol name="switch0007" type="drawable" />-->
+    <!--<java-symbol name="switch0008" type="drawable" />-->
+    <!--<java-symbol name="switch0009" type="drawable" />-->
+    <!--<java-symbol name="switch0010" type="drawable" />-->
+    <!--<java-symbol name="switch0011" type="drawable" />-->
+    <!--<java-symbol name="switch0012" type="drawable" />-->
+    <!--<java-symbol name="switch0013" type="drawable" />-->
+    <!--<java-symbol name="switch0014" type="drawable" />-->
+    <!--<java-symbol name="switch0015" type="drawable" />-->
+    <!--<java-symbol name="switch0016" type="drawable" />-->
+    <!--<java-symbol name="switch0017" type="drawable" />-->
+    <!--<java-symbol name="switch0018" type="drawable" />-->
+    <!--<java-symbol name="switch0019" type="drawable" />-->
+    <!--<java-symbol name="switch0020" type="drawable" />-->
+    <!--<java-symbol name="switch0021" type="drawable" />-->
+    <!--<java-symbol name="switch0022" type="drawable" />-->
+    <!--<java-symbol name="switch0023" type="drawable" />-->
+    <!--<java-symbol name="switch0024" type="drawable" />-->
+    <!--<java-symbol name="switch0025" type="drawable" />-->
+    <!--<java-symbol name="switch0026" type="drawable" />-->
+    <!--<java-symbol name="switch0027" type="drawable" />-->
+    <!--<java-symbol name="switch0028" type="drawable" />-->
+    <!--<java-symbol name="switch0029" type="drawable" />-->
+    <!--<java-symbol name="switch0030" type="drawable" />-->
+    <!--<java-symbol name="switch0070" type="drawable" />-->
+    <!--<java-symbol name="switch0071" type="drawable" />-->
+    <!--<java-symbol name="switch0072" type="drawable" />-->
+    <!--<java-symbol name="switch0073" type="drawable" />-->
+    <!--<java-symbol name="switch0074" type="drawable" />-->
+    <!--<java-symbol name="switch0075" type="drawable" />-->
+    <!--<java-symbol name="switch0076" type="drawable" />-->
+    <!--<java-symbol name="switch0077" type="drawable" />-->
+    <!--<java-symbol name="switch0078" type="drawable" />-->
+    <!--<java-symbol name="switch0079" type="drawable" />-->
+    <!--<java-symbol name="switch0080" type="drawable" />-->
+    <!--<java-symbol name="switch0081" type="drawable" />-->
+    <!--<java-symbol name="switch0082" type="drawable" />-->
+    <!--<java-symbol name="switch0083" type="drawable" />-->
+    <!--<java-symbol name="switch0084" type="drawable" />-->
+    <!--<java-symbol name="switch0085" type="drawable" />-->
+    <!--<java-symbol name="switch0086" type="drawable" />-->
+    <!--<java-symbol name="switch0087" type="drawable" />-->
+    <!--<java-symbol name="switch0088" type="drawable" />-->
+    <!--<java-symbol name="switch0089" type="drawable" />-->
+    <!--<java-symbol name="switch0090" type="drawable" />-->
+    <!--<java-symbol name="switch0091" type="drawable" />-->
+    <!--<java-symbol name="switch0092" type="drawable" />-->
+    <!--<java-symbol name="switch0093" type="drawable" />-->
+    <!--<java-symbol name="switch0094" type="drawable" />-->
+    <!--<java-symbol name="switch0095" type="drawable" />-->
+    <!--<java-symbol name="switch0096" type="drawable" />-->
+    <!--<java-symbol name="switch0097" type="drawable" />-->
+    <!--<java-symbol name="switch0098" type="drawable" />-->
+    <!--<java-symbol name="switch0099" type="drawable" />-->
+    <!--<java-symbol name="switch0100" type="drawable" />-->
+    <!--<java-symbol name="aurora_preference_arrow_selector" type="drawable" />-->
+    <!--<java-symbol name="aurora_preference_arrow_enable" type="drawable" />-->
+    <!--<java-symbol name="aurora_list_selector_background_transition_light" type="drawable" />-->
+    <!--<java-symbol name="aurora_list_selector_background_transition_light_down" type="drawable" />-->
+    <!--<java-symbol name="aurora_btn_checkbox_light" type="drawable" />-->
+    <!--<java-symbol name="aurora_btn_check_light" type="drawable" />-->
+    <!--<java-symbol name="aurora_btn_checkbox_light_orignal" type="drawable" />-->
+    <!--<java-symbol name="aurora_numberpicker_selector" type="drawable" />-->
+    <!--<java-symbol name="aurora_list_selector_disable" type="drawable" />-->
+    <!--<java-symbol name="aurora_front_list_selector_light_" type="drawable" />-->
+    <!--&lt;!&ndash; aurora <luofu> 2013.11.26 add for button's anim begin &ndash;&gt;-->
+
+    <!--<java-symbol name="aurora_button_anim_bg" type="drawable" />-->
+    <!--<java-symbol name="aurora_button_anim_bg" type="drawable" />-->
+    <!--<java-symbol name="aurora_button_anim_bg_normal" type="drawable" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.11.26 add for button's anim end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <tangjun> 2013.11.28 add for searchviewactivity start &ndash;&gt;-->
+
+    <!--<java-symbol name="aurora_search_button" type="drawable" />-->
+    <!--<java-symbol name="aurora_search_button_normal" type="drawable" />-->
+    <!--<java-symbol name="aurora_search_button_pressed" type="drawable" />-->
+    <!--<java-symbol name="aurora_activity_search_bg" type="drawable" />-->
+    <!--<java-symbol name="aurora_activity_searchbar_bg" type="drawable" />-->
+    <!--<java-symbol name="aurora_activity_searchbar_bg2" type="drawable" />-->
+
+    <!--&lt;!&ndash; aurora <tangjun> 2013.11.28 add for searchviewactivity end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2014.01.13 add for spinner begin &ndash;&gt;-->
+
+    <!--<java-symbol name="aurora_spinner_normal_up" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_pressed_bottom_up" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_pressed_middle_up" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_pressed_normal_up" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_pressed_top_up" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_left_backgound_bottom" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_left_backgound_normal" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_left_backgound_top" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_middle_backgound" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_right_backgound_bottom" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_right_backgound_normal" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_right_backgound_top" type="drawable" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2014.01.13 add for spinner end &ndash;&gt;-->
+
+    <!--<java-symbol name="aurora_alert_dialog_one_btn" type="drawable" />-->
+    <!--<java-symbol name="aurora_dialog_button_normal1" type="drawable" />-->
+    <!--<java-symbol name="aurora_dialog_button_normal2" type="drawable" />-->
+    <!--<java-symbol name="aurora_dialog_button_normal3" type="drawable" />-->
+
+    <!--&lt;!&ndash;-->
+    <!--<java-symbol name="track" type="attr" />-->
+    <!--<java-symbol name="switchTextAppearance" type="attr" />-->
+    <!--<java-symbol name="switchMinWidth" type="attr" />-->
+    <!--<java-symbol name="switchPadding" type="attr" />-->
+    <!--&ndash;&gt;-->
+
+    <!--&lt;!&ndash; aurora <flash> 2013.9.27 add for preference default widget layout picture id start &ndash;&gt;-->
+    <!--<java-symbol name="aurora_preference_arrow" type="drawable" />-->
+
+    <!--&lt;!&ndash; aurora <flash> 2013.9.27 add for preference default widget layout picture id start end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <flash> 2013.10.17 add for auroraListView rubbish pictures and attrs start &ndash;&gt;-->
+    <!--<java-symbol name="aurora_rubbish_anim_000" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_001" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_002" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_003" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_004" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_005" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_006" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_007" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_008" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_009" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_010" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_011" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_012" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_013" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_014" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_015" type="drawable" />-->
+    <!--<java-symbol name="aurora_rubbish_anim_016" type="drawable" />-->
+    <!--<java-symbol name="aurora_listview_rubbish_anim" type="drawable" />-->
+    <!--<java-symbol name="aurora_preference_arrow_white" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_drop_down_bg" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_up_background_normal" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_up_background_pressed" type="drawable" />-->
+    <!--<java-symbol name="aurora_spinner_arrow_up_backgound" type="drawable" />-->
+    <!--<java-symbol name="percent" type="drawable" />-->
+    <!--<java-symbol name="aurora_text_select_handle_left" type="drawable" />-->
+    <!--<java-symbol name="aurora_text_select_handle_right" type="drawable" />-->
+    <!--<java-symbol name="aurora_actionbartextbackground" type="drawable" />-->
+    <!--<java-symbol name="aurora_list_pressed_light" type="drawable" />-->
+
+    <!--<java-symbol name="aurora_checkbox0" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox1" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox2" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox3" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox4" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox5" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox6" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox7" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox8" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox9" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox10" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox11" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox12" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox13" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox14" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox15" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox16" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox17" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox18" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox19" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox20" type="drawable" />-->
+    <!--<java-symbol name="aurora_checkbox21" type="drawable" />-->
+
+
+    <!--<java-symbol name="aurora_frame_list_middle_background_light" type="drawable" />-->
+
+    <!--<java-symbol name="aurora_frame_list_bottom_background_light" type="drawable" />-->
+
+    <!--<java-symbol name="aurora_action_bar_icon_left_anim" type="drawable" />-->
+    <!--<java-symbol name="aurora_action_bar_icon_right_anim" type="drawable" />-->
+
+    <!--<java-symbol name="aurora_select_item_bottom_selector" type="drawable" />-->
+
+    <!--<java-symbol name="aurora_action_item_base_selector" type="drawable" />-->
+
+    <!--<java-symbol name="aurora_action_bar_title_layout_selector" type="drawable" />-->
+
+    <!--<java-symbol name="aurora_action_bar_title_layout_dark_selector" type="drawable" />-->
+
+    <!--<java-symbol name="aurora_action_bar_icon_left_anim_dark" type="drawable" />-->
+
+    <!--&lt;!&ndash; <java-symbol name="aurora_list_preference_radio" type="drawable" /> &ndash;&gt;-->
+    <!--<java-symbol name="aurora_text_cursor_light" type="drawable" />-->
+
+
+    <!--<java-symbol name="header_search_activation" type="drawable" />-->
+    <!--<java-symbol name="header_search_icon_small" type="drawable" />-->
+
+
+    <!--&lt;!&ndash; luofu add for new action bar &ndash;&gt;-->
+    <!--<java-symbol name="aurora_custom_action_bar_defalut_icon_selector" type="drawable" />-->
+    <!--<java-symbol name="aurora_custom_action_bar_search_icon_selector" type="drawable" />-->
+    <!--<java-symbol name="aurora_actionbar_search_icon_level_list" type="drawable" />-->
+
+    <!--<java-symbol name="aurora_action_bar_icon_right_anim_dark" type="drawable" />-->
+
+    <!--<java-symbol name="aurora_roundcheckbox0" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox1" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox3" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox4" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox5" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox6" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox7" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox8" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox9" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox10" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox11" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox12" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox13" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox14" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox15" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox16" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox17" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox_checked" type="drawable" />-->
+    <!--<java-symbol name="aurora_roundcheckbox_unchecked" type="drawable" />-->
+    <!--<java-symbol name="aurora_round_checkbox_selector" type="drawable" />-->
+    <!--<java-symbol name="aurora_round_checkbox_selector_orignal" type="drawable" />-->
+    <!--&lt;!&ndash; aurora <flash> 2013.10.17 add for auroraListView rubbish pictures and attrs end &ndash;&gt;-->
+
+    <!--<java-symbol name="aurora_datepicker_year_label" type="string" />-->
+    <!--<java-symbol name="aurora_datepicker_month_lebel" type="string" />-->
+    <!--<java-symbol name="aurora_datepicker_day_label" type="string" />-->
+    <!--<java-symbol name="aurora_time_picker_hour_lebel" type="string" />-->
+    <!--<java-symbol name="aurora_time_picker_m_label" type="string" />-->
+
+    <!--<java-symbol name="safe_media_volume_warning" type="string" />-->
+
+    <!--<java-symbol name="aurora_yes" type="string" />-->
+
+    <!--<java-symbol name="aurora_no" type="string" />-->
+
+    <!--<java-symbol name="aurora_listview_header" type="layout" />-->
+    <!--<java-symbol name="simple_spinner_dropdown_item" type="layout" />-->
+    <!--<java-symbol name="aurora_menu_layout" type="layout" />-->
+    <!--<java-symbol name="aurora_week_picker_dialog" type="layout" />-->
+    <!--<java-symbol name="auroraSharedGridViewMaxColumns" type="integer" />-->
+    <!--<java-symbol name="auroraSharedWindowPaddings" type="integer" />-->
+    <!--<java-symbol name="AuroraSharedGridViewPaddings" type="style" />-->
+
+     <!--<java-symbol name="AnimationAlertActivity" type="style" />-->
+
+    <!--<java-symbol name="AuroraListViewStyle" type="style" />-->
+	<!--<java-symbol name="AuroraCheckBoxStyle" type="style" />-->
+
+     <!---->
+     <!---->
+     
+</resources>

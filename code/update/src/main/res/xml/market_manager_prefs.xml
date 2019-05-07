@@ -1,0 +1,27 @@
+<AuroraPreferenceScreen xmlns:aurora="http://schemas.android.com/tools"
+    xmlns:Aurora="http://schemas.android.com/apk/res-auto">
+
+    <AuroraPreferenceCategory>
+
+        <com.aurora.appupdate.widget.AuroraMarketPreference
+            Aurora:aurorakey="app_update_check_key"
+            Aurora:auroratitle="@string/app_update_check_pref" />
+        <com.aurora.appupdate.widget.AuroraMarketPreference
+            Aurora:aurorakey="download_manager_key"
+            Aurora:auroratitle="@string/download_manager_pref" />
+
+    </AuroraPreferenceCategory>
+
+    <AuroraPreferenceCategory>
+        <com.aurora.appupdate.widget.AuroraMarketPreference
+            Aurora:aurorakey="settings_key"
+            Aurora:auroratitle="@string/settings_pref" />
+    </AuroraPreferenceCategory>
+
+    <!--     <AuroraPreferenceCategory >
+           <com.tran.com.android.gc.update.widget.AuroraMarketPreference Aurora:aurorakey="version_update_key"
+               Aurora:auroratitle="@string/version_update_pref"
+
+           />
+        </AuroraPreferenceCategory> -->
+</AuroraPreferenceScreen>

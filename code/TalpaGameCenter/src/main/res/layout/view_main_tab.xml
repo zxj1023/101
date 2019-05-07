@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_tab_view_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:background="#F5F5F5"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <tran.com.android.tapla.gamecenter.market.widget.MainTabItemView
+                android:id="@+id/mtiv_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android_custom:tab_bg="@drawable/discovery_bg"
+                android_custom:tab_img="@drawable/icon_special_selector"
+                android_custom:tab_text="@string/tab_starter"
+                android_custom:tab_top="@drawable/discover_top" />
+
+            <tran.com.android.tapla.gamecenter.market.widget.MainTabItemView
+                android:id="@+id/mtiv_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android_custom:tab_bg="@drawable/newgame_bg"
+                android_custom:tab_img="@drawable/icon_new_selector"
+                android_custom:tab_text="@string/tab_play"
+                android_custom:tab_top="@drawable/new_top" />
+
+            <tran.com.android.tapla.gamecenter.market.widget.MainTabItemView
+                android:id="@+id/mtiv_ranking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android_custom:tab_bg="@drawable/ranking_bg"
+                android_custom:tab_img="@drawable/icon_ranking_selector"
+                android_custom:tab_text="@string/tab_ranking"
+                android_custom:tab_top="@drawable/rank_top" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <View android:id="@+id/line_bottom"
+        android:layout_height="3px"
+        android:layout_width="match_parent"
+        android:background="@drawable/actionbar_shadow"
+        android:layout_weight="1"
+        android:visibility="gone">
+    </View>
+
+</LinearLayout>

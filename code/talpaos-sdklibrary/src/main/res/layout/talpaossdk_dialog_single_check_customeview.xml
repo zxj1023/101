@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.ossdk.dialog.view.TalpaOssdkDialogCustomeSingleCheckContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/talpaossdk_dialog_custome_single_check_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:clipToPadding="false">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:minHeight="32dip"
+            android:paddingTop="@dimen/talpaossdk_dialog_content_paddingTB"
+            android:paddingBottom="32dip"
+            android:paddingLeft="@dimen/talpaossdk_dialog_content_paddingLR"
+            android:paddingRight="@dimen/talpaossdk_dialog_content_paddingLR">
+            <include layout="@layout/talpaossdk_dialog_content_textview"/>
+            <CheckBox
+                android:id="@+id/talpaossdk_dialog_cb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:button="@drawable/talpaossdk_dialog_checkbox_drawable"
+                android:textSize="@dimen/talpaossdk_dialog_content_textsize"
+                android:textColor="@color/talpaossdk_dialog_content_textcolor"/>
+        </LinearLayout>
+    </ScrollView>
+</com.transsion.ossdk.dialog.view.TalpaOssdkDialogCustomeSingleCheckContainer>

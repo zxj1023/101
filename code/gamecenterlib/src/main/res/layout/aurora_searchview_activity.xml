@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aurora_activity_searchview_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+
+    <FrameLayout
+        android:id="@+id/aurora_activity_searchview_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/aurora_action_bar_height" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/actionbar_touying">
+
+        <LinearLayout
+            android:id="@+id/search_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/aurora_activity_searchviewbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/aurora_action_bar_height"
+            android:layout_below="@+id/search_top_bar"
+            android:clickable="true"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/cancelbuttonlinear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:gravity="center_vertical">
+
+                <ImageButton
+                    android:id="@+id/aurora_activity_searchviewcancelbtn"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/vector_drawable_home_btn_right"
+                    android:background="@drawable/ripple_bg"/>
+            </LinearLayout>
+
+            <tran.com.android.gc.lib.widget.AuroraSearchView
+                android:id="@+id/aurora_activity_searchviewwidget"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="16dp"
+                android:focusable="false"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

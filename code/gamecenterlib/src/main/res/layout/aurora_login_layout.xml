@@ -1,0 +1,200 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <TableLayout
+        android:id="@+id/aurora_user_name_layout"
+        style="@style/AuroraLoginLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/aurora_frame_list_bg_top_light"
+        android:shrinkColumns="1"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/aurora_login_user_name"
+                android:textColor="#444444"
+                android:textSize="18sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/aurora_preference_item_padding_inner" >
+
+                <TextView
+                     android:id="@+id/aurora_login_username_hint_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/aurora_login_user_name_hint"
+                    android:paddingRight="7.5dp"
+                    android:singleLine="true"
+                    android:textColor="#444444"
+                    android:textSize="16sp" />
+
+                <tran.com.android.gc.lib.widget.AuroraEditText
+                    android:id="@+id/aurora_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginLeft="@dimen/aurora_preference_item_padding_inner"
+                    android:background="@android:color/transparent"
+                    android:gravity="right"
+                    android:inputType="textEmailAddress"
+                    android:paddingRight="7.5dp"
+                    android:singleLine="true"
+                    android:textColor="#444444"
+                    android:textSize="16sp" />
+            </FrameLayout>
+
+            <ImageButton
+                android:id="@+id/aurora_user_name_delete_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:src="@drawable/aurora_edittext_deleteall" >
+            </ImageButton>
+        </TableRow>
+    </TableLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/aurora_password_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                style="@style/AuroraLoginLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/aurora_frame_list_bottom_light"
+                android:shrinkColumns="1"
+                android:stretchColumns="1" >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="@string/aurora_login_user_password"
+                        android:textColor="#444444"
+                        android:textSize="18sp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/aurora_preference_item_padding_inner" >
+
+                        <TextView
+                            android:id="@+id/aurora_login_password_hint_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:background="@android:color/transparent"
+                            android:hint="@string/aurora_login_password_hint"
+                            android:paddingRight="7.5dp"
+                            android:singleLine="true"
+                            android:textColor="#cbcbcb"
+                            android:textSize="16sp" />
+
+                        <tran.com.android.gc.lib.widget.AuroraEditText
+                            android:id="@+id/aurora_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|right"
+                            android:background="@android:color/transparent"
+                            android:gravity="right"
+                            android:paddingRight="7.5dp"
+                            android:password="true"
+                            android:singleLine="true"
+                            android:textColor="#cbcbcb"
+                            android:textSize="16sp" />
+                    </FrameLayout>
+
+                    <ImageButton
+                        android:id="@+id/aurora_password_delete_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/aurora_edittext_deleteall" >
+                    </ImageButton>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                    </TableRow>
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:gravity="center_horizontal"
+                android:textColor="#cbcbcb"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/aurora_login_error_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:gravity="center_horizontal"
+                android:textColor="#ff4444"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/aurora_login_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:background="@drawable/aurora_search_button"
+                android:text="@string/aurora_login_submit"
+                android:textColor="@android:color/white" />
+
+            <ProgressBar
+                android:id="@+id/aurora_login_progress"
+                style="?android:attr/progressBarStyleInverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <tran.com.android.gc.lib.widget.AuroraUnderLineTextView
+                android:id="@+id/aurora_login_forget_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="@string/aurora_forget_password"
+                android:textColor="#444444"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/aurora_email_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/aurora_frame_list_bottom_light"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</merge>

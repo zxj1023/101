@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/auroraActionbarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:layout_gravity="center_vertical"
+	android:orientation="horizontal">
+
+	<LinearLayout android:id="@+id/aurora_activity_searchviewbar"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/aurora_action_bar_height"
+		android:orientation="horizontal"
+		android:clickable="true"
+		android:focusable="false"
+		android:visibility="visible"
+		android:gravity="center_vertical"
+		android:layout_below="@+id/search_top_bar">
+
+
+		<LinearLayout
+			android:id="@+id/aurora_action_bar_home_layout"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="center_vertical"
+			android:layout_marginRight="16dp"
+			android:layout_marginLeft="16dp">
+
+			<ImageButton
+				android:id="@+id/aurora_action_bar_home_item"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/vector_drawable_home_btn_right"
+				android:background="@drawable/ripple_bg"/>
+
+			<TextView
+				android:id="@+id/aurora_action_bar_home_item_back"
+				android:layout_width="@dimen/aurora_action_bar_title_margin_left"
+				android:layout_height="@dimen/aurora_action_bar_height"
+				android:background="#00000000"
+				android:text="@string/empty"
+				android:visibility="gone"/>
+		</LinearLayout>
+
+
+		<FrameLayout
+			android:id="@+id/aurora_action_bar_custom_view"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="16dp">
+		</FrameLayout>
+
+	</LinearLayout>
+
+
+
+</LinearLayout>

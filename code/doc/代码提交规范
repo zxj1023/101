@@ -1,0 +1,4 @@
+git pull
+git add .....
+git commit -m "fix bug 编号 说明"
+git push origin HEAD:refs/for/spice（分支名）

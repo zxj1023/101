@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:id="@+id/windowLayout">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" />
+
+        <tran.com.android.gc.lib.widget.AuroraActionBarHost xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/aurora_action_bar_host"
+            android:layout_below="@+id/top_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <tran.com.android.gc.lib.widget.AuroraActionBar
+                android:id="@+id/aurora_action_bar"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/aurora_action_bar_height"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <FrameLayout
+                android:id="@+id/aurora_action_bar_content_view"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </tran.com.android.gc.lib.widget.AuroraActionBarHost>
+
+    </RelativeLayout>
+
+</FrameLayout>

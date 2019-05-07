@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_load_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--<ProgressBar
+        android:id="@+id/iv_loading"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" /> -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        app:lottie_fileName="loading_1_140_130dp.json"
+        app:lottie_loop="true"
+        app:lottie_imageAssetsFolder="images"
+        app:lottie_autoPlay="true" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:visibility="gone"
+        android:id="@+id/animation_view_end"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        app:lottie_fileName="loading_2_140_130dp.json"
+        app:lottie_loop="true"
+        app:lottie_imageAssetsFolder="images"
+        app:lottie_autoPlay="false" />
+    <LinearLayout
+        android:id="@+id/ll_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/page_loading_padding_left_right"
+        android:paddingRight="@dimen/page_loading_padding_left_right"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/down_man_nodata_uxiaobei_margintop" />
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/down_man_nodata_text_margintop"
+            android:textColor="@color/page_loading_text"
+            android:textSize="@dimen/textsize_empty_view_14" />
+
+        <Button
+            android:id="@+id/btn"
+            style="@style/generalButton"
+            android:layout_marginTop="@dimen/down_man_nodata_button_margintop"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+{
+  "code": 1,
+  "desc": "操作成功",
+  "appInfo": {
+    "id": 1,
+    "title": "微信",
+    "packageName": "com.tencent.mm",
+    "createTime": 1378781744000,
+    "versionCode": 352,
+    "versionName": "5.0.1",
+    "developer": "腾讯",
+    "category": "社交网络",
+    "likesRate": 95,
+    "downloadCount": "92389547",
+    "downloadCountStr": "9239万",
+    "appSize": 23769075,
+    "appSizeStr": "21.6MB",
+    "downloadURL": "http://apps.9apps.com/redirect?url=http%3A%2F%2F...",
+    "icons": {
+      "px256": "http://img.wdjimg.com/mms/icon/v1/9/58/87c3ec9407024bd753448df7b707f589_100_100.png",
+      "px100": "http://img.wdjimg.com/5295ac6a9_100_100.png"
+    },
+    "screenshots": [
+      "http://img.wdjimg.com/mms/screenshot/2/2e/b7e4675a0ad02c176ec67c24504112e2_320_533.jpeg",
+      "http://img.wdjimg.com/mms/screenshot/3/80/45b9c2dbc4bbc00e857fd1a532347803_320_533.jpeg",
+      "http://img.wdjimg.com/mms/screenshot/4/f2/ac26b8be6c1962051b33c265e6b05f24_320_533.jpeg",
+      "http://img.wdjimg.com/mms/screenshot/8/b0/6daac75ec35a5e02559c7d1636b78b08_320_533.jpeg",
+      "http://img.wdjimg.com/mms/screenshot/8/b0/6daac75ec35a5e02559c7d1636b78b08_320_533.jpeg",
+      "http://img.wdjimg.com/mms/screenshot/d/b0/3238669dc60061b7ce63100399c3eb0d_320_533.jpeg"
+    ],
+    "changelog": "- 给通讯录中的朋友添加标签，方便分类和查找…",
+    "description": "微信，超过3亿人使用，能够通过手机网络给好友发送语音..."
+  }
+}

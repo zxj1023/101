@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TalpaOssdk.Theme.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@drawable/talpaossdk_dialog_background</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:windowAnimationStyle">@style/TalpaOssdk.Bottom.Dialog.Animation</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/talpaossdk_dialog_listitem_height</item>
+        <item name="android:textColorAlertDialogListItem">@color/talpaossdk_dialog_listitem_textcolor</item>
+    </style>
+
+    <style name="TalpaOssdk.Widget.Holo.Button.Borderless" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/talpaossdk_btn_minheight</item>
+        <item name="android:background">@drawable/talpaossdk_btn_bg</item>
+        <item name="android:textSize">@dimen/talpaossdk_btn_textsize</item>
+        <item name="android:textColor">@color/talpaossdk_btn_textcolor</item>
+    </style>
+
+    <style name="TalpaOssdk_Operation_Animation">
+        <item name="android:windowEnterAnimation">@anim/talpaossdk_bottom_popup_window_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/talpaossdk_bottom_popup_window_slide_out</item>
+    </style>
+
+    <style name="TalpaOssdk.Widget.AppCompat.SeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:maxHeight">@dimen/talpaossdk_seekbar_progressdrawable_height</item>
+        <item name="android:thumb">@drawable/talpaossdk_icon_seekbar_thumb</item>
+        <item name="android:progressDrawable">@drawable/talpaossdk_seekbar_progressdrawable</item>
+        <item name="android:splitTrack">false</item>
+    </style>
+
+    <style name="TalpaOssdk.Activity.BaseTheme" parent="@android:style/Theme.Material.Light">
+        <item name="android:textAppearanceLargePopupMenu">@style/TalpaOssdk.TextAppearance.Material.Widget.PopupMenu.Large</item>
+        <item name="android:actionOverflowMenuStyle">@style/TalpaOssdk.Widget.Material.ListPopupWindow</item>
+        <item name="android:dropDownListViewStyle">@style/TalpaOssdk.Widget.Material.ListView.DropDown</item>
+    </style>
+
+    <style name="TalpaOssdk.Activity.WitchSwitch.Theme" parent="@android:style/Theme.Material.Light">
+        <item name="android:switchStyle">@style/TalpaOssdk.Widget.CompoundButton.Switch</item>
+        <item name="android:selectableItemBackground">@null</item>
+        <item name="android:selectableItemBackgroundBorderless">@null</item>
+        <item name="android:listViewStyle">@style/TalpaOssdk.Widget.Material.Light.ListView</item>
+        <item name="android:textAppearanceLarge">@style/TalpaOssdk.TextAppearance.Material.Large</item>
+        <item name="android:widgetLayout">@layout/talpaossdk_preference_widget_switch</item>
+        <item name="Ossdk.Switch">@style/TalpaOssdk.Widget.Ossdk.Switch</item>
+        <item name="Ossdk.SwitchPreferenceStyle">@style/TalpaOssdk.Widget.SwitchPreference</item>
+    </style>
+
+    <style name="TalpaOssdk_Operation_Item_Style">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/talpaossdk_operation_item_height</item>
+    </style>
+
+    <style name="TalpaOssdk_Operation_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/talpaossdk_operation_window_padding_lr</item>
+        <item name="android:paddingRight">@dimen/talpaossdk_operation_window_padding_lr</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/talpaossdk_btn_bg_normal_color</item>
+    </style>
+</resources>

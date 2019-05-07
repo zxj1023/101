@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.ossdk.dialog.view.LimitedWHLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentPanel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <include layout="@layout/talpaossdk_dialog_title_view"/>
+    <include layout="@layout/talpaossdk_dialog_single_check_customeview"/>
+    <include layout="@layout/talpaossdk_dialog_btn_container"/>
+</com.transsion.ossdk.dialog.view.LimitedWHLinearLayout>

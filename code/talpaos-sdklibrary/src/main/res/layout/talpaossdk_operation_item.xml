@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.ossdk.operation.view.TalpaOssdkOperationItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TalpaOssdk_Operation_Item_Style"
+    android:background="@drawable/talpaossdk_operation_item_static_bg">
+
+    <include layout="@layout/talpaossdk_operation_item_content"/>
+</com.transsion.ossdk.operation.view.TalpaOssdkOperationItemView>

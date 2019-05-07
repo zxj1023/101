@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="tran.com.android.tapla.gamecenter"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1709281610"
+    android:versionName="1.000.1709281610">
+
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name="tran.com.android.tapla.gamecenter.market.marketApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppActionTheme"
+        tools:replace="android:label,name">
+
+        <meta-data
+            android:name="tran.com.android.talpa.app_core.glide.OkHttpGlideModule"
+            android:value="GlideModule" />
+
+        <activity
+            android:name="tran.com.android.tapla.gamecenter.market.MarketMainActivity"
+            android:configChanges="screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppMarketTheme"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 系统弹出弹出框调试  by jiechen -->
+        <activity
+            android:name="tran.com.android.tapla.gamecenter.market.activity.module.DialogDemoActivity"
+            android:configChanges="screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <!-- 系统弹出弹出框调试  by jiechen -->
+
+        <activity
+            android:name="tran.com.android.tapla.gamecenter.detail.PictureViewActivity"
+            android:configChanges="screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="nosensor"
+            android:theme="@style/picture"></activity>
+
+        <!-- 应用列表Activity -->
+        <activity
+            android:name="tran.com.android.tapla.gamecenter.market.activity.module.AppListActivity"
+            android:configChanges="screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppMarketTheme"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="com.aurora.market.applist"
+                    android:scheme="openapplist" />
+            </intent-filter>
+        </activity>
+        <!-- 排行Activity -->
+        <activity
+            android:name="tran.com.android.tapla.gamecenter.market.activity.module.AppRankingActivity"
+            android:configChanges="screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppMarketTheme"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <!-- 分类Activity -->
+        <activity
+            android:name="tran.com.android.tapla.gamecenter.market.activity.module.CategoryActivity"
+            android:configChanges="screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppMarketTheme"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="tran.com.android.tapla.gamecenter.detail.MarketDetailActivity"
+            android:configChanges="screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppMarketTheme"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="com.aurora.activity.module.MarketDetailActivity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="tran.com.android.tapla.gamecenter.market.activity.setting.MarketManagerPreferenceActivity"
+            android:configChanges="screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/ActionBarTheme"></activity>
+        <activity
+            android:name="tran.com.android.tapla.gamecenter.market.activity.setting.MarketSettingsPreferenceActivity"
+            android:configChanges="screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/ActionBarTheme"></activity>
+        <activity
+            android:name="tran.com.android.tapla.gamecenter.market.activity.setting.UpdateSettingsPreferenceActivity"
+            android:configChanges="screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/ActionBarTheme"></activity>
+        <activity
+            android:name="tran.com.android.tapla.gamecenter.settings.MarketUpdateActivity"
+            android:configChanges="screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/ActionBarTheme"></activity>
+        <activity
+            android:name="tran.com.android.tapla.gamecenter.settings.MarketUpdateIgnoredActivity"
+            android:configChanges="screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/ActionBarTheme"></activity>
+
+        <!-- 下载管理Activity -->
+        <activity
+            android:name=".settings.DownloadManagerActivity"
+            android:configChanges="screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/ActionBarTheme" />
+        <!-- 搜索结果界面 -->
+        <activity
+            android:name="tran.com.android.tapla.gamecenter.market.activity.module.MarketSearchActivity"
+            android:configChanges="screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppMarketTheme"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="com.aurora.activity.module.MarketSearchActivity" />
+            </intent-filter>
+        </activity>
+
+
+        <!-- 专题页 -->
+        <activity
+            android:name="tran.com.android.tapla.gamecenter.market.activity.module.SpecialActivity"
+            android:configChanges="screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppMarketTheme"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <!--管理页面-->
+        <activity android:name=".settings.MarketManagerActivity"></activity>
+        <!--设置界面-->
+        <activity android:name=".settings.MarketSettingsActivity"></activity>
+        <!--更新设置界面-->
+        <activity android:name=".settings.MarketUpdateSettingsActivity"></activity>
+        <!-- 下载服务 -->
+        <service android:name="tran.com.android.tapla.gamecenter.download.AppDownloadService"></service>
+        <!-- 安装服务 -->
+        <service android:name="tran.com.android.tapla.gamecenter.install.AppInstallService"></service>
+        <!-- 自动更新服务 -->
+        <service android:name="tran.com.android.tapla.gamecenter.download.AutoUpdateService"></service>
+        <!-- 网络监听，自动下载服务器-->
+        <service android:name="tran.com.android.tapla.gamecenter.download.NetStateService"></service>
+
+        <!-- 包接收器 -->
+        <receiver android:name="tran.com.android.tapla.gamecenter.market.receiver.PackageReceive">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <!-- 网络改变接收器 -->
+        <receiver android:name="tran.com.android.tapla.gamecenter.market.receiver.NetWorkReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="tran.com.android.tapla.gamecenter.market.install.CleanUpIntent">
+            <intent-filter>
+                <action android:name="notification_installed_cancelled" />
+                <action android:name="notification_failed_cancelled" />
+            </intent-filter>
+        </receiver>
+        <!-- 关机接收器 -->
+        <receiver android:name="tran.com.android.tapla.gamecenter.market.receiver.ShutdownReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="tran.com.android.tapla.gamecenter.market.receiver.PushManagerReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="tran.com.talpagame.action.PUSH" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

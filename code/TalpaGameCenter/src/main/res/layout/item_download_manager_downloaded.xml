@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/down_man_item_height"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/normal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/down_man_item_height">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="@dimen/down_man_item_icon_width_and_height"
+            android:layout_height="@dimen/down_man_item_icon_width_and_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp" />
+
+        <tran.com.android.tapla.gamecenter.market.widget.ProgressBtn
+            android:id="@+id/progressBtn"
+            android:layout_width="@dimen/app_item_down_btn_manager_container_width"
+            android:layout_height="33dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/tv_appname"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/down_man_item_appname_height"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="@dimen/down_man_item_center_margin"
+            android:layout_marginTop="@dimen/down_man_item_padding_top"
+            android:layout_toEndOf="@id/iv_icon"
+            android:layout_toStartOf="@id/progressBtn"
+            android:gravity="start|center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/app_item_down_manager_namecolor"
+            android:textSize="@dimen/textsize_16" />
+
+        <ImageView
+            android:id="@+id/install_failed_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_appname"
+            android:layout_marginBottom="@dimen/down_man_item_padding_top_and_bottom"
+            android:layout_marginEnd="@dimen/down_man_item_margin_right"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/iv_icon"
+            android:gravity="start|center_vertical"
+            android:src="@drawable/install_failed"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_appname"
+            android:layout_marginBottom="@dimen/down_man_item_padding_top_and_bottom"
+
+
+            android:layout_marginTop="8dp"
+          
+
+            android:layout_marginEnd="10dp"
+            
+            android:layout_toEndOf="@+id/install_failed_iv"
+            android:layout_toStartOf="@+id/progressBtn"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/down_man_item_status_text"
+            android:textSize="@dimen/textsize_11" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/footer"
+        layout="@layout/view_download_man_footer" />
+
+</LinearLayout>

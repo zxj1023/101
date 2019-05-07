@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <Button
+        android:id="@+id/show_bottom_list_dialog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showDialog"
+        android:text="@string/show_bottom_list_dialog" />
+
+    <Button
+        android:id="@+id/show_bottom_list_dialog12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showDialog"
+        android:text="@string/show_bottom_list_dialog" />
+
+    <Button
+        android:id="@+id/show_bottom_list_dialog13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showDialog"
+        android:text="@string/show_bottom_list_dialog" />
+
+    <Button
+        android:id="@+id/show_bottom_list_dialog2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showDialog"
+        android:text="@string/show_bottom_list_dialog2" />
+
+    <Button
+        android:id="@+id/show_edit_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showDialog"
+        android:text="@string/show_edit_dialog" />
+
+    <Button
+        android:id="@+id/show_singleline_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showDialog"
+        android:text="@string/show_singleline_dialog" />
+
+    <Button
+        android:id="@+id/show_multiline_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showDialog"
+        android:text="@string/show_multiline_dialog" />
+
+    <Button
+        android:id="@+id/show_multiline_with_title_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showDialog"
+        android:text="@string/show_multiline_with_title_dialog" />
+
+    <Button
+        android:id="@+id/show_left_icon_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showDialog"
+        android:text="@string/show_left_icon_dialog" />
+
+    <Button
+        android:id="@+id/show_single_check_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showDialog"
+        android:text="@string/show_single_check_dialog" />
+</LinearLayout>

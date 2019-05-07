@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:internal="http://schemas.android.com/apk/prv/res/android"
+    android:background="#00000000"
+    android:id="@+id/status_bar_latest_event_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- 之前老版本上的-->
+    <!--internal:layout_minHeight="65dp"-->
+    <!--internal:layout_maxHeight="unbounded"-->
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="66dp"
+                android:layout_height="match_parent">
+                    <ImageView android:id="@+id/icon"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:background="@drawable/notification_template_icon_background"
+                        android:scaleType="centerInside"
+                        android:layout_gravity="center"
+                        />
+            </FrameLayout>
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@android:dimen/notification_large_icon_height"
+                android:orientation="vertical"
+                android:layout_marginEnd="@dimen/aurora_marginend"
+                android:gravity="center_vertical"
+                android:layout_marginStart="@dimen/aurora_notification_large_icon_width"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="8dp"
+                >
+                    <LinearLayout
+                        android:id="@+id/line1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="top"
+                        android:layout_marginBottom="3dp"
+                        >
+                            <TextView android:id="@+id/title"
+                                android:textAppearance="@style/AuroraEventContent.Title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:ellipsize="marquee"
+                                android:fadingEdge="horizontal"
+                                android:layout_weight="1"
+                                />
+                            <ViewStub android:id="@+id/time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="0"
+                                android:visibility="gone"
+                                android:layout="@layout/notification_template_part_time"
+                                />
+                            <ViewStub android:id="@+id/chronometer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="0"
+                                android:visibility="gone"
+                                android:layout="@layout/notification_template_part_chronometer"
+                                />
+                    </LinearLayout>
+                    <TextView android:id="@+id/text2"
+                        android:textAppearance="@style/AuroraEventContent.Line2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/aurora_marginend"
+                        android:singleLine="true"
+                        android:fadingEdge="horizontal"
+                        android:ellipsize="end"
+                        android:layout_marginBottom="3dp"
+                        android:visibility="gone"
+                        />
+                    <ProgressBar
+                        android:id="@+id/progress"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginEnd="@dimen/aurora_marginend"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:visibility="gone"
+                        android:background="@drawable/aurora_stat_seekbar_bg"
+                        />
+                    <TextView android:id="@+id/big_text"
+                        android:lineSpacingExtra="2.3dp"
+                        android:textAppearance="@style/AuroraEventContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/aurora_marginend"
+                        android:singleLine="false"
+                        android:maxLines="8"
+                        android:ellipsize="end"
+                        android:visibility="gone"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="5dp"
+                        />
+            </LinearLayout>
+        </FrameLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="3dp"
+            android:id="@+id/action_divider"
+            android:visibility="gone"
+            android:background="@drawable/aurora_imaginary_line" />
+            />
+        <include
+            layout="@layout/notification_action_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/aurora_notification_large_icon_width"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:id="@+id/overflow_divider"
+            android:visibility="visible"
+            android:background="@drawable/aurora_imaginary_line"
+            android:layout_marginBottom="5dp" />
+        <LinearLayout
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="@dimen/aurora_marginend"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/aurora_notification_large_icon_width"
+            android:layout_marginBottom="8dp"
+            >
+            <TextView android:id="@+id/text"
+                android:textAppearance="@style/AuroraEventContent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:fadingEdge="horizontal"
+                />
+            <TextView android:id="@+id/info"
+                android:textAppearance="@style/AuroraEventContent.Info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0"
+                android:singleLine="true"
+                android:gravity="center"
+                android:paddingStart="8dp"
+                />
+            <ImageView android:id="@+id/right_icon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:layout_weight="0"
+                android:layout_marginStart="@dimen/aurora_marginstart"
+                android:scaleType="centerInside"
+                android:visibility="gone"
+                android:alpha="0.6"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/vector_drawable_manager_setting_white_btn" android:state_pressed="true"/>
+    <item android:drawable="@drawable/vector_drawable_manager_setting_white_btn"/>
+
+</selector>

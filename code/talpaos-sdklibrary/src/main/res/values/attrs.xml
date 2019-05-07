@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TalpaOssdkFloatBtn">
+        <attr name="talpaossdkFloatBtnColor" format="color"/>
+        <attr name="talpaossdkShadowColor" format="color"/>
+        <attr name="talpaossdkShadowOffsetY" format="dimension"/>
+        <attr name="talpaossdkShadowRadius" format="dimension"/>
+        <attr name="talpaossdkFloatBtnSrc" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="TalpaOssdkCustomeSwitchTheme">
+        <attr name="Ossdk.Switch" format="reference" />
+        <attr name="Ossdk.SwitchPreferenceStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TalpaOssdkSwitchPreference">
+    </declare-styleable>
+
+    <declare-styleable name="TalpaOssdkSwitch">
+        <attr name="talpaossdkThumb" format="reference"/>
+        <!-- Drawable to use as the "track" that the switch thumb slides within. -->
+        <attr name="talpaossdkTrack" format="reference" />
+        <!-- switch thumb on drawable add by suyouxiong. @hide -->
+        <attr name="talpaossdkThumbOn" format="reference" />
+        <!-- switch thumb off drawable add by suyouxiong. @hide -->
+        <attr name="talpaossdkThumbOff" format="reference" />
+        <!-- Minimum width for the switch component -->
+        <attr name="talpaossdkSwitchMinWidth" format="dimension" />
+        <!-- Minimum space between the switch and caption text -->
+        <attr name="talpaossdkSwitchPadding" format="dimension" />
+        <!-- white track used in dark background -->
+        <attr name="talpaossdkWhiteTrack" format="reference" />
+        <attr name="talpaossdkSplitTrack" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="TalpaOssdkOperation">
+        <attr name="talpaossdkOperationItemIcon" format="reference"/>
+        <attr name="talpaossdkOperationItemTitle" format="reference"/>
+    </declare-styleable>
+</resources>

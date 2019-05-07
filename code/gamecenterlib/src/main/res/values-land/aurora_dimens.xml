@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     Gionee <zhangxx> <2013-06-20> add for auroraframework.
+ -->
+<resources>
+    <!-- aurora_action_bar_title_text_size -->
+    <dimen name="aurora_action_bar_title_text_size">16dp</dimen>
+    <!-- Top margin for action bar subtitles -->
+    <dimen name="aurora_action_bar_subtitle_top_margin">-2dp</dimen>
+    <!-- Bottom margin for action bar subtitles -->
+    <dimen name="aurora_action_bar_subtitle_bottom_margin">4dp</dimen>
+    <dimen name="aurora_action_bar_icon_vertical_padding">4dip</dimen> 
+    <dimen name="aurora_magicbar_max_listview_height">168dp</dimen> 
+       
+</resources>

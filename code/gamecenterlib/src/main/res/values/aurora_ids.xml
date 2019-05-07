@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item type="id" name="aurora_action_menu_presenter" />
+	
+	<!-- add by <flash> used to define listview's special layout start -->
+	<item name="aurora_listview_back" type="id"/>
+    	<item name="aurora_listview_front" type="id"/>
+    	<item name="aurora_list_header" type="id"/>
+    	<item name="content" type="id"/>
+    	
+	<!-- add by <flash> used to define listview's special layout end -->
+
+	<!-- add by <flash> 2013.9.27 used to define preference's default widget layout start -->
+	<item name="aurorastatus" type="id"/>
+    <item name="auroraarrow" type="id"/>
+	<!-- add by <flash> 2013.9.27 used to define preference's default widget layout end -->
+	
+		
+	<item name="aurora_dialog_button_divider1" type="id" />
+	<item name="aurora_dialog_button_divider2" type="id" />
+	
+	
+    <item name="aurora_contentPanel" type="id" />
+    <item name="aurora_topPanel" type="id" />
+    <item name="aurora_buttonPanel" type="id" />
+    <item name="aurora_customPanel" type="id" />
+    <item name="aurora_custom" type="id" />
+	<item name="aurora_title_template" type="id" />
+    <item name="aurora_alertTitle" type="id" />
+    <item name="aurora_scrollView" type="id" />
+    <item name="aurora_titleDivider" type="id" />
+    
+    <item name="aurora_parentPanel" type="id" />
+    <item name="aurora_leftSpacer" type="id" />
+    <item name="aurora_rightSpacer" type="id" />
+    <item name="aurora_titleDividerTop" type="id" />
+    
+     <item name="aurora_switchWidget" type="id" />
+    
+     
+    
+    <item name="aurora_list_left_checkbox" type="id"/>
+    
+    
+    
+    
+	<!-- aurora <luofu> <2013-11-8> add for system ui begin -->
+    <item name="alwaysUse" type="id" />
+	<item name="clearDefaultHint" type="id" />
+	
+	
+	<item name="banner" type="id" />
+    <item name="mount_button" type="id" />
+    <item name="unmount_button" type="id" />
+    
+    <!-- aurora <luofu> <2013-11-8> add for system ui end -->
+    
+    <!-- aurora <luofu> <2013-11-14> add for shutdown window begin -->
+    <item name="aurora_shutdown_grid" type="id" />
+    <item name="aurora_shutdown_grid_item_img" type="id" />
+    <item name="aurora_shutdown_grid_item_text" type="id" />
+    <!-- aurora <luofu> <2013-11-14> add for shutdown window begin -->
+    
+    
+    <item name="aurora_shutdown_btn" type="id" />
+    <item name="aurora_reboot_btn" type="id" />
+	<item name="aurora_airmode_btn" type="id" />
+    <item name="aurora_shutdown_text" type="id" />
+    <item name="aurora_airmode_text" type="id" />
+    <item name="aurora_reboot_text" type="id" />
+    
+    <!-- aurora <tangjun> <2013-11-28> add for searchviewactivity begin -->
+    <item name="aurora_activity_searchview_layout" type="id" />
+    <item name="aurora_activity_searchviewbar" type="id" />
+    <item name="aurora_activity_searchviewwidget" type="id" />
+    <item name="aurora_activity_searchviewcancelbtn" type="id" />
+    <item name="aurora_activity_searchview_background" type="id" />
+    <!-- aurora <tangjun> <2013-11-28> add for searchviewactivity begin -->
+     <item name="aurora_listview_divider" type="id" />
+     
+     
+    <!-- aurora <luofu> 2013.12.27 add for shutdown dialog anim begin -->
+    <item name="air_mode_layout" type="id" />
+    <item name="reboot_layout" type="id" />
+    <item name="shutdown_layout" type="id" />
+    <!-- aurora <luofu> 2013.12.27 add for shutdown dialog anim end -->
+    
+    <item name="control_padding" type="id" />
+     
+     
+    <item name="aurora_resolver_grid" type="id" />
+    <item name="aurora_button_bar" type="id" />
+    <item name="aurora_button_always" type="id" />
+    <item name="aurora_button_once" type="id" />
+    <item name="aurora_text2" type="id" />
+    <item name="aurora_icon" type="id" />
+    <item name="aurora_text1" type="id" /> 
+    <item name="aurora_resolve_cancel_button" type="id" /> 
+    
+    <item name="aurora_item_sliding_switch" type="id"/>
+    
+    
+    
+    
+    
+    
+    
+    <item  name="aurora_custom_action_bar_body" type="id" />
+	<item  name="aurora_custom_action_bar_bottom_widget" type="id" />
+	<item  name="aurora_custom_action_bar" type="id" />
+	<!--<item  name="aurora_custom_action_bar_title_custom" type="id" />-->
+	<item  name="aurora_custom_action_bar_left_panel" type="id" />
+	<item  name="aurora_custom_action_bar_title_icon" type="id" />
+	<item  name="aurora_custom_action_bar_title_panel" type="id" />
+	<item  name="aurora_custom_action_bar_title" type="id" />
+	<item  name="aurora_custom_action_bar_subtitle" type="id" />
+	<item  name="aurora_custom_action_bar_option_panel" type="id" />
+	<item  name="aurora_custom_action_bar_middle_panel" type="id" />
+	<item  name="aurora_custom_action_bar_layout" type="id" />
+	<item  name="aurora_custom_content_layout" type="id" />
+    
+    
+    
+    
+    <item   name="aurora_custom_action_bar_bottom_search_widget" type="id" />
+    <item   name="aurora_custom_action_bar_search_view_icon" type="id" />
+    <item   name="aurora_custom_action_bar_search_view_parent" type="id" />
+    <item   name="aurora_custom_action_bar_search_view" type="id" />
+    <item   name="aurora_custom_action_bar_search_hint_text" type="id" />
+    <item   name="aurora_custom_action_bar_default_option_items" type="id" />
+    
+    <item  name="aurora_custom_action_bar_bottom_search_icon_panel" type="id" />
+    
+    <item  name="aurora_nav_buttons" type="id" />
+   
+    <!-- add for volume panel begin -->
+    <item name="visible_panel" type="id" />
+    <item name="slider_group" type="id" />
+    <item name="expand_button_divider" type="id" />
+    <item name="expand_button" type="id" />
+	<item name="stream_icon" type="id" />
+	
+	<item name="seekbar" type="id" />
+    <!-- add for volume panel end -->
+    <item name="aurora_rubbish" type="id" />
+    
+    <item name="aurora_edittext_container" type="id" />
+    
+    
+    <item name="aurora_user_name_layout" type="id" />
+	<item name="aurora_user_name" type="id" />
+	<item name="aurora_password_layout" type="id" />
+	<item name="aurora_password" type="id" />
+	<item name="aurora_login_error_tip" type="id" />
+	<item name="aurora_login_forget_password" type="id" />
+	<item name="aurora_email_list" type="id" />
+	<item name="aurora_login_submit" type="id" />
+	
+    <item name="aurora_listview_custom_front" type="id" />
+    
+    
+    <item name="aurora_password_delete_btn" type="id" />
+	
+	<item name="aurora_user_name_delete_btn" type="id" />
+    <item name="aurora_login_progress" type="id" />
+    
+    <!-- aurora <rocktong> 2014.12.11 add notification id begin -->
+	<item name="status_bar_latest_event_content" type="id" />
+    <item name="icon" type="id" />
+    <item name="title" type="id" />
+    <item name="time" type="id" />
+    <item name="chronometer" type="id" />
+    <item name="text2" type="id" />
+    <item name="progress" type="id" />
+    <item name="line3" type="id" />
+    <item name="text" type="id" />
+    <item name="info" type="id" />
+    <item name="right_icon" type="id" />
+    <item name="line1" type="id" />
+    <item name="big_text" type="id" />
+    <item name="action_divider" type="id" />
+    <item name="actions" type="id" />
+    <item name="big_picture" type="id" />
+    <item name="action0" type="id" />
+    <item name="action1" type="id" />
+    <item name="action2" type="id" />
+    <item name="overflow_divider" type="id" />
+    <item name="inbox_text0" type="id" />
+    <item name="inbox_text1" type="id" />
+    <item name="inbox_text2" type="id" />
+    <item name="inbox_text3" type="id" />
+    <item name="inbox_text4" type="id" />
+    <item name="inbox_text5" type="id" />
+    <item name="inbox_text6" type="id" />
+    <item name="inbox_more" type="id" />
+    <item name="inbox_end_pad" type="id" />
+	<!-- aurora <rocktong> 2014.12.11 add notification id end -->
+	
+	 <item name="aurora_login_username_hint_text_view" type="id" />
+    <item name="aurora_login_password_hint_text_view" type="id" />
+	
+    <!-- add for loading view  -->
+    <item name="aurora_loading_point1" type="id" />
+    <item name="aurora_loading_point2" type="id" />
+    <item name="aurora_loading_point3" type="id" />
+	<!-- add for loading view end -->
+    
+    
+    
+</resources>
+    

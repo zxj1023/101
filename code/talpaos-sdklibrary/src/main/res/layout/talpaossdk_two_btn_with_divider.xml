@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/talpaossdk_btn_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View style="@style/TalpaOssdk_Normal_Horizontal_Divider"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:divider="@drawable/talpaossdk_normal_vertical_divider_drawable"
+        android:showDividers="middle">
+
+        <Button
+            android:id="@+id/talpaossdk_left_btn"
+            android:layout_weight="1"
+            style="@style/TalpaOssdk.Widget.Holo.Button.Borderless"/>
+
+        <Button
+            android:id="@+id/talpaossdk_right_btn"
+            android:layout_weight="1"
+            style="@style/TalpaOssdk.Widget.Holo.Button.Borderless"/>
+    </LinearLayout>
+</LinearLayout>

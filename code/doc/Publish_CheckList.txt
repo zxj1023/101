@@ -1,0 +1,20 @@
+1、修改AndroidManifest.xml 中的版本号和ReadMe.txt 中修改的的内容。
+2、将修改文件commit
+3、打本地TAG,按照Tag的定义规则打Tag
+4、把TAG Push到远程服务器。
+5、把本地代码Push到远程服务器对应的分支
+
+git commit
+git tag 1.000.1709062000D
+git push origin 1.000.1709062000D
+git push origin HEAD:refs/for/debug
+
+
+4-------稳定测试版本(Beta分支)-------B
+3-------临时测试版本(Test分支)-------T
+2-------量产稳定版本(product分支)----P
+1-------迭代稳定版本(master分支)-----M
+0-------迭代测试版本(Debug分支)------D
+//回退
+git log --oneline
+git reset --soft 版本号

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <View style="@style/TalpaOssdk_Normal_Horizontal_Divider"/>
+    <LinearLayout
+        android:id="@+id/talpaossdk_container"
+        style="@style/TalpaOssdk_Operation_Style">
+    </LinearLayout>
+</LinearLayout>

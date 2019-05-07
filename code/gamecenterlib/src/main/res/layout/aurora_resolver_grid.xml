@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright 2012, The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:divider="@drawable/aurora_alert_dialog_btn_panel_divider_h"
+              android:showDividers="middle"
+              android:dividerPadding="0dip"
+              >
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:layout_marginTop="@dimen/aurora_dialog_title_divider_margintop"
+                 >
+        <GridView
+            android:layout_gravity="center"
+            android:layout_width="313dp"
+            android:layout_height="match_parent"
+            android:id="@id/aurora_resolver_grid"
+            android:numColumns="3"
+            android:columnWidth="128dp"
+            android:clipToPadding="false"
+            android:scrollbarStyle="outsideOverlay" 
+            android:listSelector="@color/aurora_full_transparent"
+            android:paddingLeft="19dp"
+            android:paddingRight="19dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="25dp"/>
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#f1f1f1"
+        />
+    </FrameLayout>
+    
+    <Button 
+		android:id="@id/aurora_resolve_cancel_button"
+        style="@style/Widget.Aurora.Light.Dialog.Button"
+        android:text="@string/aurora_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/aurora_alert_dialog_button_bar_height"
+        android:visibility="gone"
+        android:textColor="@color/aurora_button_text_color"
+        />
+        
+    <LinearLayout
+        android:id="@id/aurora_button_bar"
+        android:visibility="gone"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/aurora_alert_dialog_button_bar_height"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:divider="@drawable/aurora_alert_dialog_btn_panel_divider_v"
+        android:layoutDirection="locale"
+        android:measureWithLargestChild="true">
+        <Button android:id="@id/aurora_button_always"
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:minHeight="@dimen/aurora_alert_dialog_button_bar_height"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textSize="@dimen/aurora_alert_dialog_btn_text_size"
+                android:layout_height="wrap_content"
+                android:background="@drawable/aurora_alert_dialog_btn_selector_left"
+                android:enabled="false"
+                android:textColor="@color/aurora_button_text_color"
+                android:text="@string/aurora_activity_resolver_use_always"
+                android:onClick="onButtonClick" />
+        <Button android:id="@id/aurora_button_once"
+                android:layout_width="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:maxLines="2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textSize="@dimen/aurora_alert_dialog_btn_text_size"
+                android:background="@drawable/aurora_alert_dialog_btn_selector_right"
+                android:minHeight="@dimen/aurora_alert_dialog_button_bar_height"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textColor="@color/aurora_button_text_color"
+                android:text="@string/aurora_activity_resolver_use_once"
+                android:onClick="onButtonClick" />
+    </LinearLayout>
+</LinearLayout>

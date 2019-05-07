@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--      Gionee <zhangxx> <2013-06-20> add for auroraframework.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="aurora_capital_on">Включить</string>
+    <string name="aurora_capital_off">Выключить</string>
+    <string name="aurora_time_picker_dialog_title">&quot;Установить время&quot;</string>
+    <string name="aurora_date_picker_dialog_title">&quot;Установить дату&quot;</string>
+    <string name="aurora_date_time_done">&quot;Завершение&quot;</string>
+    <string name="aurora_copy">Копировать</string>
+    <string name="aurora_paste">Вставить </string>
+    <string name="aurora_cut">Вырезать</string>
+    <string name="aurora_selectAll">Выбирать всё</string>
+    <string name="aurora_select">Выбирать</string>
+    <string name="aurora_inputMethod">Ввод</string>
+<!-- Strings for possible PreferenceActivity Back/Next buttons -->
+<string name="aurora_back_button_label">Предыдущий шаг</string>
+    <string name="aurora_next_button_label">Следующий шаг</string>
+<!-- Optional button to Skip a PreferenceActivity [CHAR LIMIT=20] -->
+<string name="aurora_skip_button_label">Перепрыгнуть</string>
+    <string name="aurora_ok">ОК</string>
+    <string name="aurora_cancel">Отмена</string>
+    <string name="aurora_yes">ОК</string>
+    <string name="aurora_no">Отмена</string>
+    <string name="aurora_action_mode_done">Завершение</string>
+    <string name="aurora_action_bar_home_description">&quot;Главная страница навигации&quot;</string>
+    <string name="aurora_action_bar_up_description">&quot;Направление навигации вверх&quot;</string>
+<!-- Gionee <xuhz> <2013-07-19> add for CR00838236 begin -->
+<!-- String for Smart Guider -->
+<string name="aurora_smart_full_btn_label">Я знаю</string>
+<!-- Gionee <xuhz> <2013-07-19> add for CR00838236 end -->
+<string name="aurora_datepicker_done">ОК</string>
+    <string name="aurora_datepicker_cancel">Отмена</string>
+    <string name="aurora_datepicker_year_label">Год</string>
+    <string name="aurora_datepicker_month_lebel">Месяц</string>
+    <string name="aurora_datepicker_day_label">День</string>
+<!-- Aurora <luofu> <2013-10-23> add for timepicker begin -->
+<string name="aurora_time_picker_hour_lebel">Час</string>
+    <string name="aurora_time_picker_m_label">Минута</string>
+    
+    <string name="lockscreen_carrier_default" msgid="8963839242565653192">&quot;Нет сервиса&quot;</string>
+    <string name="share" msgid="1778686618230011964">&quot;Разделение&quot;</string>
+    <string name="usb_storage_stop_notification_title" msgid="2336058396663516017">&quot;Закрыть устройство хранения USB &quot;</string>
+    <string name="usb_storage_stop_notification_message" msgid="1656852098555623822">&quot;Нажать и закрыть устройство хранения USB &quot;</string>
+    <!--<string name="ext_media_checking_notification_title" msgid="3449816005351468560" product="nosdcard">&quot;Подготовка устройства хранения USB &quot;</string>-->
+    <string name="ext_media_checking_notification_title" msgid="5457603418970994050" product="default">&quot;Подготовка <xliff:g id="storage_description">%s</xliff:g>&quot;</string>
+    <string name="ext_media_checking_notification_message" msgid="8287319882926737053">&quot;Проверить ошибки.&quot;</string>
+    <!--<string name="ext_media_nofs_notification_title" msgid="7788040745686229307" product="nosdcard">&quot;Нет файлов в устройстве хранения USB &quot;</string>-->
+    <string name="ext_media_nofs_notification_title" msgid="780477838241212997" product="default">&quot;Пусто <xliff:g id="storage_description">%s</xliff:g>&quot;</string>
+    <!--<string name="ext_media_nofs_notification_message" msgid="7840121067427269500" product="nosdcard">&quot;У устройства хранения USB нет файлов или используется не поддерживаемая файловая система.&quot;</string>-->
+    <string name="ext_media_nofs_notification_message" msgid="8641065641786923604" product="default">&quot;<xliff:g id="storage_description">%s</xliff:g>нет файлов или используется не поддерживаемая файловая система.&quot;</string>
+    <!--<string name="ext_media_unmountable_notification_title" msgid="2090046769532713563" product="nosdcard">&quot;Устройство хранения USB повреждено&quot;</string>-->
+    <string name="ext_media_unmountable_notification_title" msgid="6410723906019100189" product="default">&quot;<xliff:g id="storage_description">%s</xliff:g> повреждено&quot;</string>
+    <!--<string name="ext_media_unmountable_notification_message" msgid="1795917578395333280" product="nosdcard">&quot;Устройство хранения USB повреждено, попробуйте переформатировать.&quot;</string>-->
+    <string name="ext_media_unmountable_notification_message" msgid="1753898567525568253" product="default">&quot;<xliff:g id="storage_description">%s</xliff:g> повреждено, попробуйте переформатировать.&quot;</string>
+    <!--<string name="ext_media_badremoval_notification_title" msgid="1661683031330951073" product="nosdcard">&quot;Устройство хранения USB удалено случайно &quot;</string>-->
+    <string name="ext_media_badremoval_notification_title" msgid="6872152882604407837" product="default">&quot;<xliff:g id="storage_description">%s</xliff:g>ненормально удалено&quot;</string>
+    <!--<string name="ext_media_badremoval_notification_message" msgid="4329848819865594241" product="nosdcard">&quot;Отгрузить устройство USB, и потом удалить для избежания потерь данных.&quot;</string>-->
+    <string name="ext_media_badremoval_notification_message" msgid="7260183293747448241" product="default">&quot;Отгрузить устройство <xliff:g id="storage_description">%s</xliff:g>, и потом удалить во избежание потерь данных &quot;</string>
+    <!--<string name="ext_media_safe_unmount_notification_title" msgid="3967973893270360230" product="nosdcard">&quot;устройство хранения USB &quot;</string>-->
+    <string name="ext_media_safe_unmount_notification_title" msgid="6729801130790616200" product="default">&quot;Удалено безопасно <xliff:g id="storage_description">%s</xliff:g>&quot;</string>
+    <!--<string name="ext_media_safe_unmount_notification_message" msgid="6142195361606493530" product="nosdcard">&quot;Безопасно удалить устройство хранения USB. &quot;</string>-->
+    <string name="ext_media_safe_unmount_notification_message" msgid="568841278138377604" product="default">&quot;Безопасно удалить <xliff:g id="storage_description">%s</xliff:g>.&quot;</string>
+    <!--<string name="ext_media_nomedia_notification_title" msgid="4486377230140227651" product="nosdcard">&quot;Удалено устройство хранения USB &quot;</string>-->
+    <string name="ext_media_nomedia_notification_title" msgid="8902518030404381318" product="default">&quot;Удалено <xliff:g id="storage_description">%s</xliff:g>&quot;</string>
+    <!--<string name="ext_media_nomedia_notification_message" msgid="6921126162580574143" product="nosdcard">&quot;Удалено устройство хранения USB &quot; Вставите новые медиа. &quot;</string>-->
+    <string name="ext_media_nomedia_notification_message" msgid="3870120652983659641" product="default">&quot;Удалено <xliff:g id="storage_description">%s</xliff:g>&quot; Вставите новый.&quot;</string>
+    <string name="usb_storage_notification_title" msgid="8175892554757216525">&quot; USB подключен&quot;</string>
+    <string name="usb_storage_notification_message" msgid="939822783828183763">&quot; Трогать для копирования файлов в ЭВМ или из ЭВМ в хранилище.&quot;</string>
+    <string name="usb_storage_stop_title" msgid="660129851708775853">&quot; USB устройство  в использовании&quot;</string>
+    <!--<string name="usb_storage_stop_message" product="nosdcard" msgid="4264025280777219521">&quot;Удалить (стрелять) SD карты из устройства Android перед закрытием  устройства USB. &quot;</string>-->
+    <string name="usb_storage_stop_message" product="default" msgid="8043969782460613114">&quot;Удалить (стрелять) SD карты из устройства Android перед закрытием  устройства USB. &quot;</string>
+    <string name="usb_storage_title" msgid="5901459041398751495">&quot; USB подключен&quot;</string>
+    <!--<string name="usb_storage_message" product="nosdcard" msgid="3308538094316477839">&quot;Подключен к ЭВМ через USB. Трогайте кнопку для копирования файлов между ЭВМ и устройством.&quot;</string>-->
+    <string name="usb_storage_message" product="default" msgid="805351000446037811">&quot;Подключен к ЭВМ через USB. &quot;Трогайте кнопку для копирования файлов между ЭВМ и устройством.&quot;</string>
+    <string name="chooseUsbActivity" msgid="6894748416073583509">&quot;Выбирать приложение для USB Android &quot;</string>
+    
+    <string name="clearDefaultHintMsg" msgid="4815455344600932173">&quot;Очистить настройки по умолчанию в настройки&quot;</string>
+
+    
+    <string name="usb_storage_button_mount" msgid="1052259930369508235">&quot;Открыть устройство хранения USB &quot;</string>
+    <string name="usb_storage_stop_button_mount" msgid="7060218034900696029">&quot;Закрыть устройство хранения USB &quot;</string>
+        
+     <string name="aurora_shutdown">Отключить питание</string>
+     <string name="aurora_reboot">Перезапуск</string>
+     <string name="aurora_airmode">Режим полёта выключен</string>
+     
+     <string name="aurora_airmode_open">Режим полёта включен</string>
+     
+     
+     
+     <string name="usb_storage_activity_title" >&quot;Массовое запоминающее устройство USB &quot;</string>
+     <string name="description_target_search" >&quot;Поиск&quot;</string>
+     <string name="description_direction_up" >&quot;Вдвиньте вверх для <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>.&quot;</string>
+     <string name="description_direction_left" >&quot;Вдвиньте вниз для <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>.&quot;</string>
+     
+     <string name="aurora_dialog_default_title">Уведомление</string>
+     
+     
+      
+     
+     <string name="reboot_alert_title">Перезапуск</string>
+     <string name="reboot_alert_message">Будет перезапускать</string>
+     <string name="reboot_ok">Ок</string>
+     <string name="reboot_cancel">Отмена</string>
+     
+     <string name="aurora_activity_resolver_use_always">&quot;Всегда&quot;</string>
+     <string name="aurora_activity_resolver_use_once">&quot;Один раз&quot;</string>
+     
+  
+     <string name="aurora_custom_action_bar_search_hint_text">Введите поиск</string>
+     
+     <string name="aurora_no_application_can_perform_this_operation">Нет соответствующих приложений для операции</string> 
+   
+             
+     <string name="aurora_date_appwidget_day">День  </string>
+     <string name="aurora_date_appwidget_mon">Месяц</string>
+<!-- add for volume panel begin -->
+<string name="volume_ringtone" msgid="6885421406845734650">&quot;Громкость мелодии&quot;</string>
+    <string name="volume_music" msgid="5421651157138628171">&quot;Громкость медиа&quot;</string>
+    <string name="volume_music_hint_playing_through_bluetooth" msgid="9165984379394601533">&quot;Передавать через bluetooth&quot;</string>
+    <string name="volume_music_hint_silent_ringtone_selected" msgid="8310739960973156272">&quot;Установлен звук беззвучном режиме&quot;</string>
+    <string name="volume_call" msgid="3941680041282788711">&quot;Громкость вызова&quot;</string>
+    <string name="volume_bluetooth_call" msgid="2002891926351151534">&quot;Громкость вызова при использовании bluetooth &quot;</string>
+    <string name="volume_alarm" msgid="1985191616042689100">&quot;Громкость будильника&quot;</string>
+    <string name="volume_notification" msgid="2422265656744276715">&quot;Громкость уведомления&quot;</string>
+    <string name="volume_unknown" msgid="1400219669770445902">&quot;Громкость&quot;</string>
+    <string name="volume_icon_description_bluetooth" msgid="6538894177255964340">&quot;Громкость bluetooth &quot;</string>
+    <string name="volume_icon_description_ringer" msgid="3326003847006162496">&quot;Громкость мелодии&quot;</string>
+    <string name="volume_icon_description_incall" msgid="8890073218154543397">&quot;Громкость вызовов&quot;</string>
+    <string name="volume_icon_description_media" msgid="4217311719665194215">&quot;Громкость медиа&quot;</string>
+    <string name="volume_icon_description_notification" msgid="7044986546477282274">&quot;Громкость уведомления&quot;</string>
+<!-- add for volume panel end -->
+<string name="aurora_save">Сохранить</string>
+     
+      <string name="safe_media_volume_warning" product="default" >&quot;Увеличить громкость выше рекомендуемого уровня？\ N длительное прослушивание на большой громкости может привести к повреждению слуха.&quot;</string>
+     
+      <string name="aurora_login_user_name">Аккаунт:</string>
+      <string name="aurora_login_user_password">Пароль:</string>
+      <string name="aurora_login_submit">Войти</string>
+      <string name="aurora_login_user_name_hint">Номер телефона/почта</string>
+     <string name="aurora_login_password_hint">Введите пароль более 6 символов</string>
+      <string name="aurora_forget_password">Забыли пароль？</string>
+      <string name="whichApplication" >&quot;Выберите нужные приложения:&quot;</string>
+</resources>

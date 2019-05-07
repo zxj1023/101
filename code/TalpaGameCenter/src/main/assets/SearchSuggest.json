@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "desc": "操作成功",
+  "suggestions": [
+    {
+      "packageName": "com.tencent.mm",
+      "title": "莲兵"
+    },
+    {
+      "packageName": "com.tencent.mm",
+      "title": "苏巍"
+    },
+    {
+      "packageName": "com.tencent.mm",
+      "title": "陈杰"
+    },
+    {
+      "packageName": "com.tencent.mm",
+      "title": "微信"
+    },
+    {
+      "packageName": "com.tencent.mm",
+      "title": "微信"
+    }
+  ]
+}

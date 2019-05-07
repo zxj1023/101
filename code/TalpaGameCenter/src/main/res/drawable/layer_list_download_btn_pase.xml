@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <nine-patch android:src="@drawable/download_waiting_icon"></nine-patch>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <padding android:bottom="7dp"></padding>
+                <corners android:radius="16dp" />
+                <gradient
+                    android:angle="270"
+                    android:endColor="#c5c3c3"
+                    android:startColor="#bdbbbb" />
+                <size
+                    android:width="64dp"
+                    android:height="32dp" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

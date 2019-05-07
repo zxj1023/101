@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="talpaossdk_bottom_popup_window_anim_duration">200</integer>
+    <integer name="talpaossdk_operation_item_bg_animation_duration">200</integer>
+    <integer name="talpaossdk_operation_item_bg_animation_startalpha">0</integer>
+    <integer name="talpaossdk_operation_item_bg_animation_endalpha">13</integer>
+    <integer name="talpaossdk_floatbtn_mask_startalpha">0</integer>
+    <integer name="talpaossdk_floatbtn_mask_endalpha">25</integer>
+</resources>

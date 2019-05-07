@@ -1,0 +1,1942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--&lt;!&ndash;-->
+     <!--This file defines the base public resources exported by the-->
+     <!--platform, which must always exist.-->
+<!--&ndash;&gt;-->
+<!--&lt;!&ndash; Gionee <zhangxx> <2013-06-20> add for auroraframework. &ndash;&gt;-->
+<resources>
+
+    <!--<public id="0x7b010000" name="auroraswitchStyle" type="attr" />-->
+    <!--<public id="0x7b010001" name="auroranumberPickerStyle" type="attr" />-->
+    <!--<public id="0x7b010002" name="auroradatePickerStyle" type="attr" />-->
+    <!--<public id="0x7b010003" name="auroratimePickerStyle" type="attr" />-->
+    <!--<public id="0x7b010004" name="aurorathumb" type="attr" />-->
+    <!--<public id="0x7b010005" name="auroratrack" type="attr" />-->
+    <!--<public id="0x7b010006" name="auroratextOn" type="attr" />-->
+    <!--<public id="0x7b010007" name="auroratextOff" type="attr" />-->
+    <!--<public id="0x7b010008" name="aurorathumbTextPadding" type="attr" />-->
+    <!--<public id="0x7b010009" name="auroraswitchMinWidth" type="attr" />-->
+    <!--<public id="0x7b01000a" name="auroraswitchPadding" type="attr" />-->
+    <!--<public id="0x7b01000b" name="aurorasolidColor" type="attr" />-->
+    <!--<public id="0x7b01000c" name="auroraselectionDivider" type="attr" />-->
+    <!--<public id="0x7b01000d" name="auroraselectionDividerHeight" type="attr" />-->
+    <!--<public id="0x7b01000e" name="auroraselectionDividersDistance" type="attr" />-->
+    <!--<public id="0x7b01000f" name="aurorainternalMinHeight" type="attr" />-->
+    <!--<public id="0x7b010010" name="aurorainternalMaxHeight" type="attr" />-->
+    <!--<public id="0x7b010011" name="aurorainternalMinWidth" type="attr" />-->
+    <!--<public id="0x7b010012" name="aurorainternalMaxWidth" type="attr" />-->
+    <!--<public id="0x7b010013" name="aurorainternalLayout" type="attr" />-->
+    <!--<public id="0x7b010014" name="auroravirtualButtonPressedDrawable" type="attr" />-->
+    <!--<public id="0x7b010015" name="auroraselectionSrc" type="attr" />-->
+    <!--<public id="0x7b010016" name="aurorabackground" type="attr" />-->
+    <!--<public id="0x7b010017" name="aurorastartYear" type="attr" />-->
+    <!--<public id="0x7b010018" name="auroraendYear" type="attr" />-->
+    <!--<public id="0x7b010019" name="auroraspinnersShown" type="attr" />-->
+    <!--<public id="0x7b01001a" name="auroracalendarViewShown" type="attr" />-->
+    <!--<public id="0x7b01001b" name="auroraminDate" type="attr" />-->
+    <!--<public id="0x7b01001c" name="auroramaxDate" type="attr" />-->
+    <!--<public id="0x7b01001d" name="auroraframeListBackground" type="attr" />-->
+    <!--<public id="0x7b01001e" name="auroraframeListTopBackground" type="attr" />-->
+    <!--<public id="0x7b01001f" name="auroraframeListMiddleBackground" type="attr" />-->
+    <!--<public id="0x7b010020" name="auroraframeListBottomBackground" type="attr" />-->
+    <!--<public id="0x7b010021" name="auroraicon" type="attr" />-->
+    <!--<public id="0x7b010022" name="aurorakey" type="attr" />-->
+    <!--<public id="0x7b010023" name="auroratitle" type="attr" />-->
+    <!--<public id="0x7b010024" name="aurorasummary" type="attr" />-->
+    <!--<public id="0x7b010025" name="auroraorder" type="attr" />-->
+    <!--<public id="0x7b010026" name="aurorafragment" type="attr" />-->
+    <!--<public id="0x7b010027" name="auroralayout" type="attr" />-->
+    <!--<public id="0x7b010028" name="aurorawidgetLayout" type="attr" />-->
+    <!--<public id="0x7b010029" name="auroraenabled" type="attr" />-->
+    <!--<public id="0x7b01002a" name="auroraselectable" type="attr" />-->
+    <!--<public id="0x7b01002b" name="auroradependency" type="attr" />-->
+    <!--<public id="0x7b01002c" name="aurorapersistent" type="attr" />-->
+    <!--<public id="0x7b01002d" name="auroradefaultValue" type="attr" />-->
+    <!--<public id="0x7b01002e" name="aurorashouldDisableView" type="attr" />-->
+    <!--<public id="0x7b01002f" name="aurorasummaryOn" type="attr" />-->
+    <!--<public id="0x7b010030" name="aurorasummaryOff" type="attr" />-->
+    <!--<public id="0x7b010031" name="auroraswitchTextOn" type="attr" />-->
+    <!--<public id="0x7b010032" name="auroraswitchTextOff" type="attr" />-->
+    <!--<public id="0x7b010033" name="auroradisableDependentsState" type="attr" />-->
+    <!--<public id="0x7b010034" name="auroraid" type="attr" />-->
+    <!--<public id="0x7b010035" name="aurorabreadCrumbTitle" type="attr" />-->
+    <!--<public id="0x7b010036" name="aurorabreadCrumbShortTitle" type="attr" />-->
+    <!--<public id="0x7b010037" name="auroraorderingFromXml" type="attr" />-->
+    <!--<public id="0x7b010038" name="auroradialogTitle" type="attr" />-->
+    <!--<public id="0x7b010039" name="auroradialogMessage" type="attr" />-->
+    <!--<public id="0x7b01003a" name="auroradialogIcon" type="attr" />-->
+    <!--<public id="0x7b01003b" name="aurorapositiveButtonText" type="attr" />-->
+    <!--<public id="0x7b01003c" name="auroranegativeButtonText" type="attr" />-->
+    <!--<public id="0x7b01003d" name="auroradialogLayout" type="attr" />-->
+    <!--<public id="0x7b01003e" name="auroraentries" type="attr" />-->
+    <!--<public id="0x7b01003f" name="auroraentryValues" type="attr" />-->
+    <!--<public id="0x7b010040" name="auroraringtoneType" type="attr" />-->
+    <!--<public id="0x7b010041" name="aurorashowDefault" type="attr" />-->
+    <!--<public id="0x7b010042" name="aurorashowSilent" type="attr" />-->
+    <!--<public id="0x7b010043" name="aurorastreamType" type="attr" />-->
+    <!--<public id="0x7b010044" name="aurorafullDark" type="attr" />-->
+    <!--<public id="0x7b010045" name="auroratopDark" type="attr" />-->
+    <!--<public id="0x7b010046" name="auroracenterDark" type="attr" />-->
+    <!--<public id="0x7b010047" name="aurorabottomDark" type="attr" />-->
+    <!--<public id="0x7b010048" name="aurorafullBright" type="attr" />-->
+    <!--<public id="0x7b010049" name="auroratopBright" type="attr" />-->
+    <!--<public id="0x7b01004a" name="auroracenterBright" type="attr" />-->
+    <!--<public id="0x7b01004b" name="aurorabottomBright" type="attr" />-->
+    <!--<public id="0x7b01004c" name="aurorabottomMedium" type="attr" />-->
+    <!--<public id="0x7b01004d" name="auroracenterMedium" type="attr" />-->
+    <!--<public id="0x7b01004e" name="auroralistLayout" type="attr" />-->
+    <!--<public id="0x7b01004f" name="auroramultiChoiceItemLayout" type="attr" />-->
+    <!--<public id="0x7b010050" name="aurorasingleChoiceItemLayout" type="attr" />-->
+    <!--<public id="0x7b010051" name="auroralistItemLayout" type="attr" />-->
+    <!--<public id="0x7b010052" name="auroraprogressLayout" type="attr" />-->
+    <!--<public id="0x7b010053" name="aurorahorizontalProgressLayout" type="attr" />-->
+    <!--<public id="0x7b010054" name="auroratextAppearanceMediumSecond" type="attr" />-->
+    <!--<public id="0x7b010055" name="auroratextAppearanceMediumSecondInverse" type="attr" />-->
+    <!--&lt;!&ndash; AuroraActionBar &ndash;&gt;-->
+    <!--<public id="0x7b010056" name="auroranavigationMode" type="attr" />-->
+    <!--<public id="0x7b010057" name="auroradisplayOptions" type="attr" />-->
+    <!--<public id="0x7b010058" name="aurorasubtitle" type="attr" />-->
+    <!--<public id="0x7b010059" name="auroratitleTextStyle" type="attr" />-->
+    <!--<public id="0x7b01005a" name="aurorasubtitleTextStyle" type="attr" />-->
+    <!--<public id="0x7b01005b" name="auroralogo" type="attr" />-->
+    <!--<public id="0x7b01005c" name="auroradivider" type="attr" />-->
+    <!--<public id="0x7b01005d" name="aurorabackgroundStacked" type="attr" />-->
+    <!--<public id="0x7b01005e" name="aurorabackgroundSplit" type="attr" />-->
+    <!--<public id="0x7b01005f" name="auroracustomNavigationLayout" type="attr" />-->
+    <!--<public id="0x7b010060" name="auroraheight" type="attr" />-->
+    <!--<public id="0x7b010061" name="aurorahomeLayout" type="attr" />-->
+    <!--<public id="0x7b010062" name="auroraprogressBarStyle" type="attr" />-->
+    <!--<public id="0x7b010063" name="auroraindeterminateProgressStyle" type="attr" />-->
+    <!--<public id="0x7b010064" name="auroraprogressBarPadding" type="attr" />-->
+    <!--<public id="0x7b010065" name="auroraitemPadding" type="attr" />-->
+    <!--<public id="0x7b010066" name="auroraactionBarStyle" type="attr" />-->
+    <!--&lt;!&ndash; autocomplete text view &ndash;&gt;-->
+    <!--<public id="0x7b010067" name="auroracompletionHint" type="attr" />-->
+    <!--<public id="0x7b010068" name="auroracompletionHintView" type="attr" />-->
+    <!--<public id="0x7b010069" name="auroracompletionThreshold" type="attr" />-->
+    <!--<public id="0x7b01006a" name="auroradropDownSelector" type="attr" />-->
+    <!--<public id="0x7b01006b" name="auroradropDownVerticalOffset" type="attr" />-->
+    <!--<public id="0x7b01006c" name="auroradropDownHorizontalOffset" type="attr" />-->
+    <!--<public id="0x7b01006d" name="auroradropDownAnchor" type="attr" />-->
+    <!--<public id="0x7b01006e" name="auroradropDownWidth" type="attr" />-->
+    <!--<public id="0x7b01006f" name="auroradropDownHeight" type="attr" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-10> add for CR00812456 begin &ndash;&gt;-->
+    <!--&lt;!&ndash; for alertdialogstyle &ndash;&gt;-->
+    <!--<public id="0x7b010070" name="auroraalertDialogStyle" type="attr" />-->
+
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-07-11> add for CR00833379 begin &ndash;&gt;-->
+    <!--&lt;!&ndash; AuroraSpinner &ndash;&gt;-->
+    <!--<public id="0x7b010071" name="auroraspinnerMode" type="attr" />-->
+    <!--<public id="0x7b010072" name="auroraspinnerStyle" type="attr" />-->
+    <!--<public id="0x7b010073" name="auroraprompt" type="attr" />-->
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-07-11> add for CR00833379 end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Gionee <xuhz> <2013-07-25> add for CR00833450 begin &ndash;&gt;-->
+    <!--<public id="0x7b010074" name="auroragroupIndicator" type="attr" />-->
+    <!--<public id="0x7b010075" name="aurorachildIndicator" type="attr" />-->
+    <!--<public id="0x7b010076" name="auroraindicatorLeft" type="attr" />-->
+    <!--<public id="0x7b010077" name="auroraindicatorRight" type="attr" />-->
+    <!--<public id="0x7b010078" name="aurorachildIndicatorLeft" type="attr" />-->
+    <!--<public id="0x7b010079" name="aurorachildIndicatorRight" type="attr" />-->
+    <!--<public id="0x7b01007a" name="aurorachildDivider" type="attr" />-->
+    <!--<public id="0x7b01007b" name="auroraExpandableListViewStyle" type="attr" />-->
+    <!--&lt;!&ndash; Gionee <xuhz> <2013-07-25> add for CR00833450 end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-07-29> add for CR00833379 begin &ndash;&gt;-->
+    <!--<public id="0x7b01007c" name="auroraoptionMenuListBackground" type="attr" />-->
+    <!--<public id="0x7b01007d" name="auroraoptionMenuMoreBg" type="attr" />-->
+    <!--<public id="0x7b01007e" name="auroraoptionMenuBg" type="attr" />-->
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-07-29> add for CR00833379 end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b01007f" name="auroraActionBarTitleColor" type="attr" />-->
+    <!--<public id="0x7b010080" name="auroraActionBarBackground" type="attr" />-->
+    <!--<public id="0x7b010081" name="auroraActionBarItemBackground" type="attr" />-->
+    <!--<public id="0x7b010082" name="auroraActionBarDividerDrawable" type="attr" />-->
+    <!--<public id="0x7b010083" name="auroraActionBarDividerWidth" type="attr" />-->
+    <!--<public id="0x7b010084" name="auroraActionBarApplicationDrawable" type="attr" />-->
+    <!--<public id="0x7b010085" name="auroraActionBarHomeDrawable" type="attr" />-->
+    <!--<public id="0x7b010086" name="auroraActionBarItemColorNormal" type="attr" />-->
+    <!--<public id="0x7b010087" name="auroraActionBarItemColorAlt" type="attr" />-->
+    <!--<public id="0x7b010088" name="auroraActionBarMaxItems" type="attr" />-->
+    <!--<public id="0x7b010089" name="auroraActionBarStyle" type="attr" />-->
+    <!--<public id="0x7b01008a" name="auroraActionBarTitleStyle" type="attr" />-->
+    <!--<public id="0x7b01008b" name="auroraActionBarDividerStyle" type="attr" />-->
+    <!--<public id="0x7b01008c" name="auroraActionBarItemStyle" type="attr" />-->
+    <!--<public id="0x7b01008d" name="title" type="attr" />-->
+    <!--<public id="0x7b01008e" name="type" type="attr" />-->
+    <!--<public id="0x7b01008f" name="dividerDrawable" type="attr" />-->
+    <!--<public id="0x7b010090" name="dividerWidth" type="attr" />-->
+    <!--<public id="0x7b010091" name="homeDrawable" type="attr" />-->
+    <!--<public id="0x7b010092" name="maxItems" type="attr" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.5 add for searchview begin &ndash;&gt;-->
+    <!--<public id="0x7b010093" name="hintSearchIcon" type="attr" />-->
+    <!--<public id="0x7b010094" name="closeButtonDrawable" type="attr" />-->
+    <!--<public id="0x7b010095" name="editAreaBackgroud" type="attr" />-->
+    <!--<public id="0x7b010096" name="searchTextColor" type="attr" />-->
+    <!--<public id="0x7b010097" name="voiceButtonDrawable" type="attr" />-->
+    <!--<public id="0x7b010098" name="submitButtonDrawable" type="attr" />-->
+    <!--<public id="0x7b010099" name="dropdown_list_width" type="attr" />-->
+
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.5 add for searchview end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.16 add for Spinner begin &ndash;&gt;-->
+    <!--<public id="0x7b01009a" name="textMarginLeft" type="attr" />-->
+    <!--<public id="0x7b01009b" name="textMarginRight" type="attr" />-->
+    <!--<public id="0x7b01009c" name="imageDrawable" type="attr" />-->
+    <!--<public id="0x7b01009d" name="spinnerPaddingLeft" type="attr" />-->
+    <!--<public id="0x7b01009e" name="spinnerPaddingRight" type="attr" />-->
+    <!--<public id="0x7b01009f" name="popupDrawable" type="attr" />-->
+    <!--<public id="0x7b0100a0" name="spinnerDropDownVerticalOffset" type="attr" />-->
+    <!--<public id="0x7b0100a1" name="spinnerDropDownHorizontalOffset" type="attr" />-->
+    <!--<public id="0x7b0100a2" name="spinnerDivider" type="attr" />-->
+    <!--<public id="0x7b0100a3" name="entries" type="attr" />-->
+
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.16 add for Spinner end &ndash;&gt;-->
+    <!--<public id="0x7b0100a4" name="aurorabottomwidgetLayout" type="attr" />-->
+    <!--<public id="0x7b0100a5" name="changeArrowDirection" type="attr" />-->
+
+    <!--&lt;!&ndash; Aurora <luofu> <2013-11-26> add for button's animation begin &ndash;&gt;-->
+    <!--<public id="0x7b0100a6" name="playAnim" type="attr" />-->
+    <!--&lt;!&ndash; Aurora <luofu> <2013-11-26> add for button's animation end &ndash;&gt;-->
+
+    <!--<public id="0x7b0100a7" name="auroraPreferenceTitleAppearance" type="attr" />-->
+    <!--<public id="0x7b0100a8" name="auroraPreferenceSummaryAppearance" type="attr" />-->
+    <!--<public id="0x7b0100a9" name="spinnerPosition" type="attr" />-->
+    <!--<public id="0x7b0100aa" name="hideAmPm" type="attr" />-->
+    <!--<public id="0x7b0100ab" name="position" type="attr" />-->
+    <!--<public id="0x7b0100ac" name="track" type="attr" />-->
+    <!--<public id="0x7b0100ad" name="switchTextAppearance" type="attr" />-->
+    <!--<public id="0x7b0100ae" name="switchMinWidth" type="attr" />-->
+    <!--<public id="0x7b0100af" name="switchPadding" type="attr" />-->
+    <!--<public id="0x7b0100b0" name="isSingleChoice" type="attr" />-->
+    <!--<public id="0x7b0100b1" name="auroraDialogTheme" type="attr" />-->
+    <!---->
+    <!--<public id="0x7b0100b2" name="auroraPreferenceArrowTextAppearance" type="attr" />-->
+    <!--<public id="0x7b0100b3" name="auroraPreferenceArrowBackgroundAppearance" type="attr" />-->
+    <!---->
+    <!--<public id="0x7b0100b4" name="titleBackground" type="attr" />-->
+    <!---->
+    <!--<public id="0x7b0100b5" name="auroraTextBaseLinePadding" type="attr" />-->
+    <!---->
+    <!--&lt;!&ndash; add for action bar widget background begin &ndash;&gt;-->
+    <!--<public id="0x7b0100b6" name="actionBarLeftWidgetBackground" type="attr" />-->
+    <!---->
+    <!--<public id="0x7b0100b7" name="actionBarRightWidgetBackground" type="attr" />-->
+    <!---->
+    <!---->
+    <!--<public id="0x7b0100b8" name="auroraCheckableframeListBackground" type="attr" />-->
+    <!--<public id="0x7b0100b9" name="auroraCheckableframeListTopBackground" type="attr" />-->
+    <!--<public id="0x7b0100ba" name="auroraCheckableframeListMiddleBackground" type="attr" />-->
+    <!--<public id="0x7b0100bb" name="auroraCheckableframeListBottomBackground" type="attr" />-->
+    <!---->
+    <!--<public id="0x7b0100bc" name="auroraCheckablePreferenceTitleColor" type="attr" />-->
+    <!--<public id="0x7b0100bd" name="auroraCheckablePreferenceSummaryColor" type="attr" />-->
+    <!---->
+    <!--&lt;!&ndash; luofu 2014.4.23 add for timepicker begin &ndash;&gt;-->
+    <!--<public id="0x7b0100be" name="is24Hour" type="attr" />-->
+    <!--&lt;!&ndash; luofu 2014.4.23 add for timepicker end &ndash;&gt;-->
+    <!---->
+    <!--&lt;!&ndash; tangjun 2014.5.26 add for actionbar back button begin &ndash;&gt;-->
+    <!--<public id="0x7b0100bf" name="homeIcon" type="attr" />-->
+    <!--&lt;!&ndash; tangjun 2014.5.26 add for actionbar back button end &ndash;&gt;-->
+    <!--<public id="0x7b0100c0" name="auroraUseDefaultFont" type="attr" />-->
+	<!--<public id="0x7b0100c1" name="auroraTextViewStyle" type="attr" />-->
+    <!---->
+    <!--&lt;!&ndash; luofu add for action bar &ndash;&gt;-->
+    <!--<public id="0x7b0100c2" name="auroraListViewheaderShadowOffsetX" type="attr" />-->
+    <!--<public id="0x7b0100c3" name="auroraListViewheaderShadowOffsetY" type="attr" />-->
+    <!--<public id="0x7b0100c4" name="auroraShowRubbishIcon" type="attr" />  -->
+    <!--<public id="0x7b0100c5" name="auroraSingleLineEditTextStyle" type="attr" />  -->
+    <!--<public id="0x7b0100c6" name="auroraRoundDrawable" type="attr" />  -->
+      <!--&lt;!&ndash; add for action bar widget background   end&ndash;&gt;-->
+      <!--&lt;!&ndash; luofu <2014.08.4> add for EdtitText textselectHandle begin &ndash;&gt;-->
+      <!---->
+      <!--<public id="0x7b0100c7" name="auroraTextSelectHandleLeft" type="attr" />  -->
+      <!--<public id="0x7b0100c8" name="auroraTextSelectHandleRight" type="attr" />  -->
+      <!---->
+      <!--<public id="0x7b0100c9" name="auroraEditTextStyle" type="attr" />  -->
+      <!---->
+      <!--<public id="0x7b0100ca" name="auroraKeyCode" type="attr" />  -->
+      <!---->
+      <!--<public id="0x7b0100cb" name="auroraKeyRepeat" type="attr" />  -->
+      <!---->
+       <!--&lt;!&ndash; luofu <2014.08.4> add for EdtitText textselectHandle end &ndash;&gt;-->
+       <!---->
+    <!--<public id="0x7b0100cc" name="auroraListViewOverScroll" type="attr" />    -->
+      <!---->
+    <!--<public id="0x7b0100cd" name="aurora_login_style" type="attr" />    -->
+    <!--<public id="0x7b0100ce" name="auroraListViewSlideRight" type="attr" /> -->
+    <!--<public id="0x7b0100cf" name="auroraListViewSortItem" type="attr" />-->
+    <!---->
+    <!--<public id="0x7b0100d0" name="userNameType" type="attr" />-->
+    <!--<public id="0x7b0100d1" name="userNameHint" type="attr" />-->
+    <!--<public id="0x7b0100d2" name="passwordHint" type="attr" />-->
+    <!---->
+    <!--<public id="0x7b020000" name="aurora_numberpicker_selection_left" type="drawable" />-->
+    <!--<public id="0x7b020001" name="aurora_numberpicker_selection_center" type="drawable" />-->
+    <!--<public id="0x7b020002" name="aurora_numberpicker_selection_right" type="drawable" />-->
+    <!--<public id="0x7b020003" name="aurora_numberpicker_left" type="drawable" />-->
+    <!--<public id="0x7b020004" name="aurora_numberpicker_center" type="drawable" />-->
+    <!--<public id="0x7b020005" name="aurora_numberpicker_right" type="drawable" />-->
+    <!--<public id="0x7b020006" name="aurora_switch_select" type="drawable" />-->
+    <!--<public id="0x7b020007" name="aurora_switch_on" type="drawable" />-->
+    <!--<public id="0x7b020008" name="aurora_switch_off" type="drawable" />-->
+    <!--<public id="0x7b020009" name="aurora_text_select_handle_top_left" type="drawable" />-->
+    <!--<public id="0x7b02000a" name="aurora_text_select_handle_top_right" type="drawable" />-->
+    <!--<public id="0x7b02000b" name="aurora_text_toolbar_center" type="drawable" />-->
+    <!--<public id="0x7b02000c" name="aurora_text_toolbar_left" type="drawable" />-->
+    <!--<public id="0x7b02000d" name="aurora_text_toolbar_right" type="drawable" />-->
+    <!--<public id="0x7b02000e" name="aurora_text_toolbar_single" type="drawable" />-->
+    <!--<public id="0x7b02000f" name="aurora_text_toolbar_position_arrow_above" type="drawable" />-->
+    <!--<public id="0x7b020010" name="aurora_text_toolbar_position_arrow_below" type="drawable" />-->
+    <!--<public id="0x7b020011" name="aurora_transparent" type="drawable" />-->
+    <!--<public id="0x7b020012" name="aurora_dialog_full_light" type="drawable" />-->
+    <!--<public id="0x7b020013" name="aurora_dialog_top_light" type="drawable" />-->
+    <!--<public id="0x7b020014" name="aurora_dialog_middle_light" type="drawable" />-->
+    <!--<public id="0x7b020015" name="aurora_dialog_bottom_light" type="drawable" />-->
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-07-04> add for CR00833379 begin &ndash;&gt;-->
+    <!--<public id="0x7b020016" name="aurora_cab_background_bottom_light" type="drawable" />-->
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-07-04> add for CR00833379 end &ndash;&gt;-->
+    <!--<public id="0x7b020017" name="aurora_expandlist_group_bg_light" type="drawable" />-->
+    <!--&lt;!&ndash; for ActionBar &ndash;&gt;-->
+    <!--<public id="0x7b020018" name="aurora_intellegent_call_show" type="drawable" />-->
+    <!--<public id="0x7b020019" name="aurora_intellegent_call_drag" type="drawable" />-->
+    <!--<public id="0x7b02001a" name="aurora_btn_recom" type="drawable" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-31> add for CR00812456 begin &ndash;&gt;-->
+    <!--<public id="0x7b02001b" name="aurora_searchview_background" type="drawable" />-->
+    <!--<public id="0x7b02001c" name="aurora_searchview_icon_1" type="drawable" />-->
+    <!--<public id="0x7b02001d" name="aurora_searchview_icon_2" type="drawable" />-->
+    <!--<public id="0x7b02001e" name="aurora_searchview_icon_3" type="drawable" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-31> add for CR00812456 end &ndash;&gt;-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-08-02> add for CR00812456 begin &ndash;&gt;-->
+    <!--<public id="0x7b02001f" name="aurora_btn_loading" type="drawable" />-->
+    <!--<public id="0x7b020020" name="aurora_btn_loading_bg" type="drawable" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-08-02> add for CR00812456 end &ndash;&gt;-->
+
+    <!--<public id="0x7b020021" name="aurora_switch_track_on" type="drawable" />-->
+    <!--<public id="0x7b020022" name="aurora_switch_track_off" type="drawable" />-->
+    <!--<public id="0x7b020023" name="aurora_switch_track_sign_on" type="drawable" />-->
+    <!--<public id="0x7b020024" name="aurora_switch_track_sign_off" type="drawable" />-->
+    <!--<public id="0x7b020025" name="aurora_switch_thumb_dot_on" type="drawable" />-->
+    <!--<public id="0x7b020026" name="aurora_switch_thumb_dot_off" type="drawable" />-->
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b020027" name="aurora_action_bar_back_normal" type="drawable" />-->
+    <!--<public id="0x7b020028" name="aurora_action_bar_back_pressed" type="drawable" />-->
+    <!--<public id="0x7b020029" name="aurora_action_bar_divider" type="drawable" />-->
+    <!--<public id="0x7b02002a" name="aurora_action_bar_home" type="drawable" />-->
+    <!--<public id="0x7b02002b" name="aurora_action_bar_info" type="drawable" />-->
+    <!--<public id="0x7b02002c" name="aurora_action_bar_more_normal" type="drawable" />-->
+    <!--<public id="0x7b02002d" name="aurora_action_bar_more_selected" type="drawable" />-->
+    <!--<public id="0x7b02002e" name="aurora_action_bar_top_bg" type="drawable" />-->
+    <!--<public id="0x7b02002f" name="aurora_menu_bg" type="drawable" />-->
+    <!--<public id="0x7b020030" name="aurora_menu_item_click_normal" type="drawable" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.5 add for searchview begin &ndash;&gt;-->
+    <!--<public id="0x7b020031" name="aurora_inputmethod_btn_normal" type="drawable" />-->
+    <!--<public id="0x7b020032" name="aurora_inputmethod_btn_pressed" type="drawable" />-->
+    <!--<public id="0x7b020033" name="aurora_seachview_hint_left_icon" type="drawable" />-->
+    <!--<public id="0x7b020034" name="aurora_searchview_border" type="drawable" />-->
+    <!--<public id="0x7b020035" name="aurora_searchview_inputmethod_picker_item_background" type="drawable" />-->
+    <!--<public id="0x7b020036" name="aurora_action_bar_back" type="drawable" />-->
+    <!--<public id="0x7b020037" name="aurora_action_bar_more" type="drawable" />-->
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.5 add for searchview end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b020038" name="aurora_action_bar_add" type="drawable" />-->
+    <!--<public id="0x7b020039" name="aurora_menu_item_select" type="drawable" />-->
+    <!--<public id="0x7b020040" name="aurora_action_bar_add_normal" type="drawable" />-->
+    <!--<public id="0x7b020041" name="aurora_action_bar_add_selected" type="drawable" />-->
+    <!--<public id="0x7b020042" name="aurora_menu_cover_view_gb" type="drawable" />-->
+    <!--<public id="0x7b020043" name="aurora_menu_divider_line" type="drawable" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.16 add for spinner begin &ndash;&gt;-->
+    <!--<public id="0x7b020044" name="aurora_spinner_background_selector" type="drawable" />-->
+    <!--<public id="0x7b020045" name="aurora_spinner_img_selector" type="drawable" />-->
+    <!--<public id="0x7b020046" name="aurora_spinner_background_pressed" type="drawable" />-->
+    <!--<public id="0x7b020047" name="aurora_spinner_divider_line" type="drawable" />-->
+    <!--<public id="0x7b020048" name="aurora_spinner_image_normal" type="drawable" />-->
+    <!--<public id="0x7b020049" name="aurora_spinner_image_pressed" type="drawable" />-->
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.16 add for spinner end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.17 add for alert Dialog begin &ndash;&gt;-->
+    <!--<public id="0x7b02004a" name="aurora_alert_dialog_btn_normal" type="drawable" />-->
+    <!--<public id="0x7b02004b" name="aurora_alert_dialog_btn_panel_divider_h" type="drawable" />-->
+    <!--<public id="0x7b02004c" name="aurora_alert_dialog_btn_panel_divider_v" type="drawable" />-->
+    <!--<public id="0x7b02004d" name="aurora_alert_dialog_btn_pressed" type="drawable" />-->
+    <!--<public id="0x7b02004e" name="aurora_alert_dialog_btn_selector" type="drawable" />-->
+    <!--<public id="0x7b02004f" name="aurora_dialog_bottom_holo_dark" type="drawable" />-->
+    <!--<public id="0x7b020050" name="aurora_dialog_full_holo_dark" type="drawable" />-->
+    <!--<public id="0x7b020051" name="aurora_dialog_middle_holo_dark" type="drawable" />-->
+    <!--<public id="0x7b020052" name="aurora_dialog_top_holo_dark" type="drawable" />-->
+    <!--<public id="0x7b020053" name="aurora_ic_dialog_info" type="drawable" />-->
+    <!--<public id="0x7b020054" name="aurora_panel_background" type="drawable" />-->
+    <!--<public id="0x7b020055" name="aurora_popup_bottom_bright" type="drawable" />-->
+    <!--<public id="0x7b020056" name="aurora_popup_bottom_dark" type="drawable" />-->
+    <!--<public id="0x7b020057" name="aurora_popup_bottom_medium" type="drawable" />-->
+    <!--<public id="0x7b020058" name="aurora_popup_center_bright" type="drawable" />-->
+    <!--<public id="0x7b020059" name="aurora_popup_center_dark" type="drawable" />-->
+    <!--<public id="0x7b02005a" name="aurora_popup_center_medium" type="drawable" />-->
+    <!--<public id="0x7b02005b" name="aurora_popup_full_bright" type="drawable" />-->
+    <!--<public id="0x7b02005c" name="aurora_popup_full_dark" type="drawable" />-->
+    <!--<public id="0x7b02005d" name="aurora_popup_top_bright" type="drawable" />-->
+    <!--<public id="0x7b02005e" name="aurora_popup_top_dark" type="drawable" />-->
+    <!--<public id="0x7b02005f" name="aurora_dialog_white_bg" type="drawable" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.17 add for  alert Dialog  end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.18 add for  spinner  begin &ndash;&gt;-->
+    <!--<public id="0x7b020060" name="aurora_spinner_pressed_top" type="drawable" />-->
+    <!--<public id="0x7b020061" name="aurora_spinner_pressed_bottom" type="drawable" />-->
+    <!--<public id="0x7b020062" name="aurora_spinner_normal" type="drawable" />-->
+    <!--<public id="0x7b020063" name="aurora_spinner_backgound_bottom" type="drawable" />-->
+    <!--<public id="0x7b020064" name="aurora_spinner_backgound_middle" type="drawable" />-->
+    <!--<public id="0x7b020065" name="aurora_spinner_backgound_top" type="drawable" />-->
+    <!--<public id="0x7b020066" name="aurora_spinner_pressed_middle" type="drawable" />-->
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.18 add for  spinner  end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.23 add for Spinner begin &ndash;&gt;-->
+    <!--<public id="0x7b020067" name="aurora_grey_bg" type="drawable" />-->
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.29 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b020068" name="aurora_action_bar_edit_normal" type="drawable" />-->
+    <!--<public id="0x7b020069" name="aurora_action_bar_edit_selected" type="drawable" />-->
+    <!--<public id="0x7b02006a" name="aurora_action_bar_edit" type="drawable" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.29 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Aurora <luofu> 2013.10.12 add for Spinner begin &ndash;&gt;-->
+    <!--<public id="0x7b02006b" name="aurora_spinner_pressed_normal" type="drawable" />-->
+    <!--<public id="0x7b02006c" name="aurora_spinner_background_normal" type="drawable" />-->
+    <!--<public id="0x7b02006d" name="aurora_ic_clear_light_pre" type="drawable" />-->
+    <!--<public id="0x7b02006e" name="aurora_ic_clear_light" type="drawable" />-->
+    <!--<public id="0x7b02006f" name="aurora_searchview_close_button" type="drawable" />-->
+
+    <!--&lt;!&ndash; Aurora <luofu> 2013.10.12 add for Spinner end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <tangjun> <2013-10-16> add for preference widget begin &ndash;&gt;-->
+    <!--<public id="0x7b020070" name="aurora_delete_normal" type="drawable" />-->
+    <!--<public id="0x7b020071" name="aurora_delete_press" type="drawable" />-->
+    <!--<public id="0x7b020072" name="aurora_edittext_deleteall" type="drawable" />-->
+    <!--&lt;!&ndash; aurora <tangjun> <2013-10-16> add for preference widget end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <tangjun> <2013-11-8> add for system ui  begin &ndash;&gt;-->
+    <!--<public id="0x7b020073" name="ic_action_assist_generic_activated" type="drawable" />-->
+    <!--<public id="0x7b020074" name="ic_action_assist_generic_normal" type="drawable" />-->
+    <!--<public id="0x7b020075" name="ic_dialog_usb" type="drawable" />-->
+    <!--<public id="0x7b020076" name="scrubber_control_disabled_holo" type="drawable" />-->
+    <!--<public id="0x7b020077" name="usb_android" type="drawable" />-->
+    <!--<public id="0x7b020078" name="scrubber_control_focused_holo" type="drawable" />-->
+    <!--<public id="0x7b020079" name="scrubber_control_normal_holo" type="drawable" />-->
+    <!--<public id="0x7b02007a" name="scrubber_control_pressed_holo" type="drawable" />-->
+    <!--<public id="0x7b02007b" name="scrubber_primary_holo" type="drawable" />-->
+    <!--<public id="0x7b02007c" name="scrubber_secondary_holo" type="drawable" />-->
+    <!--<public id="0x7b02007d" name="scrubber_track_holo_dark" type="drawable" />-->
+    <!--<public id="0x7b02007e" name="status_bar_background" type="drawable" />-->
+    <!--<public id="0x7b02007f" name="usb_android_connected" type="drawable" />-->
+    <!--<public id="0x7b020080" name="ic_action_assist_generic" type="drawable" />-->
+    <!--<public id="0x7b020081" name="scrubber_control_selector_holo" type="drawable" />-->
+    <!--<public id="0x7b020082" name="scrubber_progress_horizontal_holo_dark" type="drawable" />-->
+    <!--<public id="0x7b020083" name="stat_sys_gps_on" type="drawable" />-->
+    <!--<public id="0x7b020084" name="stat_sys_tether_bluetooth" type="drawable" />-->
+    <!--<public id="0x7b020085" name="stat_sys_data_usb" type="drawable" />-->
+    <!--<public id="0x7b020086" name="stat_notify_call_mute" type="drawable" />-->
+    <!--<public id="0x7b020087" name="stat_notify_car_mode" type="drawable" />-->
+    <!--<public id="0x7b020088" name="stat_notify_chat" type="drawable" />-->
+    <!--<public id="0x7b020089" name="stat_notify_disabled" type="drawable" />-->
+    <!--<public id="0x7b02008a" name="stat_notify_disk_full" type="drawable" />-->
+    <!--<public id="0x7b02008b" name="stat_notify_email_generic" type="drawable" />-->
+    <!--<public id="0x7b02008c" name="stat_notify_error" type="drawable" />-->
+    <!--<public id="0x7b02008d" name="stat_notify_gmail" type="drawable" />-->
+    <!--<public id="0x7b02008e" name="stat_notify_missed_call" type="drawable" />-->
+    <!--<public id="0x7b02008f" name="stat_notify_more" type="drawable" />-->
+    <!--<public id="0x7b020090" name="stat_notify_rssi_in_range" type="drawable" />-->
+    <!--<public id="0x7b020091" name="stat_notify_sdcard_prepare" type="drawable" />-->
+    <!--<public id="0x7b020092" name="stat_notify_sdcard_usb" type="drawable" />-->
+    <!--<public id="0x7b020093" name="stat_notify_sdcard" type="drawable" />-->
+    <!--<public id="0x7b020094" name="stat_notify_sim_toolkit" type="drawable" />-->
+    <!--<public id="0x7b020095" name="stat_notify_sync_anim0" type="drawable" />-->
+    <!--<public id="0x7b020096" name="stat_notify_sync_error" type="drawable" />-->
+    <!--<public id="0x7b020097" name="stat_notify_sync" type="drawable" />-->
+    <!--<public id="0x7b020098" name="stat_notify_voicemail" type="drawable" />-->
+    <!--<public id="0x7b020099" name="stat_notify_wifi_in_range" type="drawable" />-->
+    <!--<public id="0x7b02009a" name="stat_sys_adb" type="drawable" />-->
+    <!--<public id="0x7b02009b" name="stat_sys_data_bluetooth" type="drawable" />-->
+    <!--<public id="0x7b02009c" name="stat_sys_download_anim0" type="drawable" />-->
+    <!--<public id="0x7b02009d" name="stat_sys_download_anim1" type="drawable" />-->
+    <!--<public id="0x7b02009e" name="stat_sys_download_anim2" type="drawable" />-->
+    <!--<public id="0x7b02009f" name="stat_sys_download_anim3" type="drawable" />-->
+    <!--<public id="0x7b0200a0" name="stat_sys_download_anim4" type="drawable" />-->
+    <!--<public id="0x7b0200a1" name="stat_sys_download_anim5" type="drawable" />-->
+    <!--<public id="0x7b0200a2" name="stat_sys_headset" type="drawable" />-->
+    <!--<public id="0x7b0200a3" name="stat_sys_phone_call_forward" type="drawable" />-->
+    <!--<public id="0x7b0200a4" name="stat_sys_phone_call_on_hold" type="drawable" />-->
+    <!--<public id="0x7b0200a5" name="stat_sys_phone_call" type="drawable" />-->
+    <!--<public id="0x7b0200a6" name="stat_sys_secure" type="drawable" />-->
+    <!--<public id="0x7b0200a7" name="stat_sys_speakerphone" type="drawable" />-->
+    <!--<public id="0x7b0200a8" name="stat_sys_tether_general" type="drawable" />-->
+    <!--<public id="0x7b0200a9" name="stat_sys_tether_usb" type="drawable" />-->
+    <!--<public id="0x7b0200aa" name="stat_sys_tether_wifi" type="drawable" />-->
+    <!--<public id="0x7b0200ab" name="stat_sys_throttled" type="drawable" />-->
+    <!--<public id="0x7b0200ac" name="stat_sys_upload_anim0" type="drawable" />-->
+    <!--<public id="0x7b0200ad" name="stat_sys_upload_anim1" type="drawable" />-->
+    <!--<public id="0x7b0200ae" name="stat_sys_upload_anim2" type="drawable" />-->
+    <!--<public id="0x7b0200af" name="stat_sys_upload_anim3" type="drawable" />-->
+    <!--<public id="0x7b0200b0" name="stat_sys_upload_anim4" type="drawable" />-->
+    <!--<public id="0x7b0200b1" name="stat_sys_upload_anim5" type="drawable" />-->
+    <!--<public id="0x7b0200b2" name="stat_sys_vp_phone_call_on_hold" type="drawable" />-->
+    <!--<public id="0x7b0200b3" name="stat_sys_vp_phone_call" type="drawable" />-->
+    <!--<public id="0x7b0200b4" name="stat_sys_warning" type="drawable" />-->
+    <!--<public id="0x7b0200b5" name="aurora_airmode_normal" type="drawable" />-->
+    <!--<public id="0x7b0200b6" name="aurora_airmode_pressed" type="drawable" />-->
+    <!--<public id="0x7b0200b7" name="aurora_reboot_normal" type="drawable" />-->
+    <!--<public id="0x7b0200b8" name="aurora_reboot_pressed" type="drawable" />-->
+    <!--<public id="0x7b0200b9" name="aurora_shutdown_bg" type="drawable" />-->
+    <!--<public id="0x7b0200ba" name="aurora_shutdown_normal" type="drawable" />-->
+    <!--<public id="0x7b0200bb" name="aurora_shutdown_pressed" type="drawable" />-->
+    <!--<public id="0x7b0200bc" name="aurora_shutdown_selector" type="drawable" />-->
+    <!--<public id="0x7b0200bd" name="aurora_reboot_selector" type="drawable" />-->
+    <!--<public id="0x7b0200bf" name="aurora_airmode_selector" type="drawable" />-->
+
+    <!--&lt;!&ndash; aurora <tangjun> <2013-11-8> add for system ui  end &ndash;&gt;-->
+
+    <!--<public id="0x7b0200c0" name="ic_lockscreen_glowdot" type="drawable" />-->
+    <!--<public id="0x7b0200c1" name="notify_panel_notification_icon_bg" type="drawable" />-->
+    <!--<public id="0x7b0200c2" name="platlogo" type="drawable" />-->
+    <!--<public id="0x7b0200c3" name="notification_item_background_color" type="drawable" />-->
+    <!--<public id="0x7b0200c4" name="dialog_full_holo_dark" type="drawable" />-->
+    <!--<public id="0x7b0200c5" name="list_selector_disabled_holo_dark" type="drawable" />-->
+    <!--<public id="0x7b0200c6" name="list_selector_pressed_holo_dark" type="drawable" />-->
+    <!--&lt;!&ndash; aurora <luofu> <2013-11-26> add for edittext begin &ndash;&gt;-->
+    <!--<public id="0x7b0200c7" name="aurora_edittext_border" type="drawable" />-->
+    <!--<public id="0x7b0200c8" name="aurora_edit_text_border" type="drawable" />-->
+    <!--<public id="0x7b0200c9" name="aurora_actionbar_bg_dark" type="drawable" />-->
+    <!--<public id="0x7b0200ca" name="aurora_dark_bg" type="drawable" />-->
+    <!--<public id="0x7b0200cb" name="aurora_action_bar_exit_arrow_dark" type="drawable" />-->
+    <!--<public id="0x7b0200cc" name="aurora_action_bar_back_dark" type="drawable" />-->
+    <!--<public id="0x7b0200cd" name="aurora_alert_btn_left" type="drawable" />-->
+    <!--<public id="0x7b0200ce" name="aurora_alert_btn_right" type="drawable" />-->
+    <!--<public id="0x7b0200cf" name="aurora_alert_dialog_btn_selector_middle" type="drawable" />-->
+    <!--<public id="0x7b0200d0" name="aurora_alert_dialog_btn_selector_left" type="drawable" />-->
+    <!--<public id="0x7b0200d1" name="aurora_alert_dialog_btn_selector_right" type="drawable" />-->
+    <!--<public id="0x7b0200d2" name="aurora_dialog_bg_top" type="drawable" />-->
+    <!--<public id="0x7b0200d3" name="aurora_dialog_bg_bottom" type="drawable" />-->
+    <!--<public id="0x7b0200d4" name="aurora_alert_dialog_bg2" type="drawable" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> <2014-2-19> add for shutdown dialog begin &ndash;&gt;-->
+
+    <!--<public id="0x7b0200d5" name="aurora_airmode004015" type="drawable" />-->
+    <!--<public id="0x7b0200d6" name="aurora_airmode004016" type="drawable" />-->
+    <!--<public id="0x7b0200d7" name="aurora_airmode004017" type="drawable" />-->
+    <!--<public id="0x7b0200d8" name="aurora_airmode004018" type="drawable" />-->
+    <!--<public id="0x7b0200d9" name="aurora_airmode004019" type="drawable" />-->
+    <!--<public id="0x7b0200da" name="aurora_airmode004020" type="drawable" />-->
+    <!--<public id="0x7b0200db" name="aurora_airmode004021" type="drawable" />-->
+    <!--<public id="0x7b0200dc" name="aurora_airmode004022" type="drawable" />-->
+    <!--<public id="0x7b0200dd" name="aurora_airmode004023" type="drawable" />-->
+    <!--<public id="0x7b0200de" name="aurora_airmode004024" type="drawable" />-->
+    <!--<public id="0x7b0200df" name="aurora_airmode004025" type="drawable" />-->
+    <!--<public id="0x7b0200e0" name="aurora_airmode004026" type="drawable" />-->
+    <!--<public id="0x7b0200e1" name="aurora_airmode004027" type="drawable" />-->
+    <!--<public id="0x7b0200e2" name="aurora_airmode004028" type="drawable" />-->
+    <!--<public id="0x7b0200e3" name="aurora_airmode004029" type="drawable" />-->
+    <!--<public id="0x7b0200e4" name="aurora_airmode004030" type="drawable" />-->
+    <!--<public id="0x7b0200e5" name="aurora_airmode004031" type="drawable" />-->
+    <!--<public id="0x7b0200e6" name="aurora_airmode004032" type="drawable" />-->
+    <!--<public id="0x7b0200e7" name="aurora_airmode004033" type="drawable" />-->
+    <!--<public id="0x7b0200e8" name="aurora_airmode004034" type="drawable" />-->
+    <!--<public id="0x7b0200e9" name="aurora_airmode004035" type="drawable" />-->
+    <!--<public id="0x7b0200ea" name="aurora_airmode004036" type="drawable" />-->
+    <!--<public id="0x7b0200eb" name="aurora_airmode004037" type="drawable" />-->
+    <!--<public id="0x7b0200ec" name="aurora_airmode004038" type="drawable" />-->
+    <!--<public id="0x7b0200ed" name="aurora_airmode004039" type="drawable" />-->
+    <!--<public id="0x7b0200ee" name="aurora_airmode004040" type="drawable" />-->
+    <!--&lt;!&ndash; shutdown &ndash;&gt;-->
+    <!--<public id="0x7b0200ef" name="aurora_shutdown0016" type="drawable" />-->
+    <!--<public id="0x7b0200f0" name="aurora_shutdown0017" type="drawable" />-->
+    <!--<public id="0x7b0200f1" name="aurora_shutdown0018" type="drawable" />-->
+    <!--<public id="0x7b0200f2" name="aurora_shutdown0019" type="drawable" />-->
+    <!--<public id="0x7b0200f3" name="aurora_shutdown0020" type="drawable" />-->
+    <!--<public id="0x7b0200f4" name="aurora_shutdown0021" type="drawable" />-->
+    <!--<public id="0x7b0200f5" name="aurora_shutdown0022" type="drawable" />-->
+    <!--<public id="0x7b0200f6" name="aurora_shutdown0023" type="drawable" />-->
+    <!--<public id="0x7b0200f7" name="aurora_shutdown0024" type="drawable" />-->
+    <!--<public id="0x7b0200f8" name="aurora_shutdown0025" type="drawable" />-->
+    <!--<public id="0x7b0200f9" name="aurora_shutdown0026" type="drawable" />-->
+    <!--<public id="0x7b0200fa" name="aurora_shutdown0027" type="drawable" />-->
+    <!--<public id="0x7b0200fb" name="aurora_shutdown0028" type="drawable" />-->
+    <!--<public id="0x7b0200fc" name="aurora_shutdown0029" type="drawable" />-->
+    <!--<public id="0x7b0200fd" name="aurora_shutdown0030" type="drawable" />-->
+    <!--<public id="0x7b0200fe" name="aurora_shutdown0031" type="drawable" />-->
+    <!--<public id="0x7b0200ff" name="aurora_shutdown0032" type="drawable" />-->
+    <!--<public id="0x7b020100" name="aurora_shutdown0033" type="drawable" />-->
+    <!--<public id="0x7b020101" name="aurora_shutdown0034" type="drawable" />-->
+    <!--<public id="0x7b020102" name="aurora_shutdown0035" type="drawable" />-->
+    <!--<public id="0x7b020103" name="aurora_shutdown0036" type="drawable" />-->
+    <!--<public id="0x7b020104" name="aurora_shutdown0037" type="drawable" />-->
+    <!--<public id="0x7b020105" name="aurora_shutdown0038" type="drawable" />-->
+    <!--<public id="0x7b020106" name="aurora_shutdown0039" type="drawable" />-->
+    <!--<public id="0x7b020107" name="aurora_shutdown0040" type="drawable" />-->
+    <!--&lt;!&ndash; reboot &ndash;&gt;-->
+    <!--<public id="0x7b020108" name="aurora_reboot0016" type="drawable" />-->
+    <!--<public id="0x7b020109" name="aurora_reboot0017" type="drawable" />-->
+    <!--<public id="0x7b02010a" name="aurora_reboot0018" type="drawable" />-->
+    <!--<public id="0x7b02010b" name="aurora_reboot0019" type="drawable" />-->
+    <!--<public id="0x7b02010c" name="aurora_reboot0020" type="drawable" />-->
+    <!--<public id="0x7b02010d" name="aurora_reboot0021" type="drawable" />-->
+    <!--<public id="0x7b02010e" name="aurora_reboot0022" type="drawable" />-->
+    <!--<public id="0x7b02010f" name="aurora_reboot0023" type="drawable" />-->
+    <!--<public id="0x7b020110" name="aurora_reboot0024" type="drawable" />-->
+    <!--<public id="0x7b020111" name="aurora_reboot0025" type="drawable" />-->
+    <!--<public id="0x7b020112" name="aurora_reboot0026" type="drawable" />-->
+    <!--<public id="0x7b020113" name="aurora_reboot0027" type="drawable" />-->
+    <!--<public id="0x7b020114" name="aurora_reboot0028" type="drawable" />-->
+    <!--<public id="0x7b020115" name="aurora_reboot0029" type="drawable" />-->
+    <!--<public id="0x7b020116" name="aurora_reboot0030" type="drawable" />-->
+    <!--<public id="0x7b020117" name="aurora_reboot0031" type="drawable" />-->
+    <!--<public id="0x7b020118" name="aurora_reboot0032" type="drawable" />-->
+    <!--<public id="0x7b020119" name="aurora_reboot0033" type="drawable" />-->
+    <!--<public id="0x7b02011a" name="aurora_reboot0034" type="drawable" />-->
+    <!--<public id="0x7b02011b" name="aurora_reboot0035" type="drawable" />-->
+    <!--<public id="0x7b02011c" name="aurora_reboot0036" type="drawable" />-->
+    <!--<public id="0x7b02011d" name="aurora_reboot0037" type="drawable" />-->
+    <!--<public id="0x7b02011e" name="aurora_reboot0038" type="drawable" />-->
+    <!--<public id="0x7b02011f" name="aurora_reboot0039" type="drawable" />-->
+    <!--<public id="0x7b020120" name="aurora_reboot0040" type="drawable" />-->
+    <!--<public id="0x7b020121" name="shape" type="drawable" />-->
+    <!--&lt;!&ndash; aurora <luofu> <2014-2-19> add for shutdown dialog end &ndash;&gt;-->
+	<!--<public id="0x7b020122" name="aurora_activity_picker_bg" type="drawable" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> <2013-11-26> add for edittext begin &ndash;&gt;-->
+    <!---->
+    <!--&lt;!&ndash; aurora <tangjun> <2014-4-1> add for deskclock begin &ndash;&gt;-->
+	<!--<public id="0x7b020123" name="aurora_appwidget_clock_dial" type="drawable" />-->
+	<!--<public id="0x7b020124" name="aurora_appwidget_clock_hour" type="drawable" />-->
+	<!--<public id="0x7b020125" name="aurora_appwidget_clock_minute" type="drawable" />-->
+	<!--<public id="0x7b020126" name="aurora_appwidget_clock_second" type="drawable" />-->
+    <!--&lt;!&ndash; aurora <tangjun> <2014-4-1> add for deskclock end &ndash;&gt;-->
+    <!--&lt;!&ndash; aurora <luofu> <2014-4-24> add for sim card begin &ndash;&gt;-->
+    <!--<public id="0x7b020127" name="aurora_business" type="drawable" />-->
+	<!--<public id="0x7b020128" name="aurora_enternet" type="drawable" />-->
+	<!--<public id="0x7b020129" name="aurora_family" type="drawable" />-->
+	<!--<public id="0x7b02012a" name="aurora_phone" type="drawable" />-->
+	<!--<public id="0x7b02012b" name="aurora_sim_card1" type="drawable" />-->
+	<!--<public id="0x7b02012c" name="aurora_sim_card2" type="drawable" />-->
+    <!--&lt;!&ndash; aurora <luofu> <2014-4-24> add for sim card end &ndash;&gt;-->
+    <!--&lt;!&ndash; aurora <tangjun> <2014-5-19> add for copy and paste window begin &ndash;&gt;-->
+	<!--<public id="0x7b02012d" name="aurora_text_edit_paste_window_selector" type="drawable" />-->
+    <!--&lt;!&ndash; aurora <tangjun> <2014-5-19> add for copy and paste window end &ndash;&gt;-->
+	<!---->
+	<!--&lt;!&ndash; aurora <flash> <2014-5-20> add for ListDivider begin &ndash;&gt;-->
+	<!--<public id="0x7b02012e" name="aurora_list_divider_light" type="drawable" />-->
+	<!--&lt;!&ndash; aurora <flash> <2014-5-20> add for ListDivider end &ndash;&gt;-->
+	<!---->
+	<!--&lt;!&ndash; aurora <tangjun> <2014-6-3> add for actionbar shadow begin &ndash;&gt;-->
+	<!--<public id="0x7b02012f" name="aurora_action_bar_widget_left_selector" type="drawable" />-->
+	<!--<public id="0x7b020130" name="aurora_action_bar_widget_right_selector" type="drawable" />-->
+	<!--<public id="0x7b020131" name="aurora_action_bar_widget_left_selector_dark" type="drawable" />-->
+	<!--<public id="0x7b020132" name="aurora_action_bar_widget_right_selector_dark" type="drawable" />-->
+    <!--&lt;!&ndash; aurora <tangjun> <2014-6-3> add for actionbar shadow end &ndash;&gt;-->
+    <!---->
+    <!--&lt;!&ndash; aurora <tangjun> <2014-6-19> add for searchview begin &ndash;&gt;-->
+	<!--<public id="0x7b020133" name="aurorasearchviewbarbackground" type="drawable" />-->
+		<!--&lt;!&ndash; aurora <tangjun> <2014-6-19> add for searchview end &ndash;&gt;-->
+	<!--<public id="0x7b020134" name="aurora_green_action_bar_most_left_item_pressed_selector" type="drawable" />-->
+	<!--<public id="0x7b020135" name="aurora_green_action_bar_most_right_item_pressed_selector" type="drawable" />-->
+	<!--<public id="0x7b020136" name="aurora_green_action_bar_normal_item_pressed_selector" type="drawable" />-->
+	<!---->
+	    <!--&lt;!&ndash; aurora <tangjun> <2014-7-16> add for rubbish pic begin &ndash;&gt;-->
+	<!--<public id="0x7b020137" name="aurora_rubbish_selector" type="drawable" />-->
+		<!--&lt;!&ndash; aurora <tangjun> <2014-7-16> add for rubbish pic end &ndash;&gt;-->
+	<!--<public id="0x7b020138" name="aurora_list_selector_light" type="drawable" />-->
+	<!---->
+	<!---->
+	<!--&lt;!&ndash; aurora <tangjun> <2014-7-31> add for aurorapromtbutton begin &ndash;&gt;-->
+	<!--<public id="0x7b020139" name="aurora_prompt_button" type="drawable" />-->
+	<!--&lt;!&ndash; aurora <tangjun> <2014-7-31> add for aurorapromtbutton end &ndash;&gt;-->
+	<!---->
+	<!--&lt;!&ndash; aurora <tangjun> <2014-8-4> add for bottombar pic begin &ndash;&gt;-->
+	<!--<public id="0x7b02013a" name="aurora_bottombar_cancel_selector" type="drawable" />-->
+	<!--<public id="0x7b02013b" name="aurora_bottombar_copy_selector" type="drawable" />-->
+	<!--<public id="0x7b02013c" name="aurora_bottombar_cut_selector" type="drawable" />-->
+	<!--<public id="0x7b02013d" name="aurora_bottombar_forward_selector" type="drawable" />-->
+	<!--<public id="0x7b02013e" name="aurora_bottombar_more_selector" type="drawable" />-->
+	<!--<public id="0x7b02013f" name="aurora_bottombar_save_selector" type="drawable" />-->
+	<!--<public id="0x7b020140" name="aurora_bottombar_share_selector" type="drawable" />-->
+	<!--<public id="0x7b020141" name="aurora_bottombar_sure_selector" type="drawable" />-->
+	<!--&lt;!&ndash; aurora <tangjun> <2014-8-4> add for bottombar pic end &ndash;&gt;-->
+	<!--&lt;!&ndash; aurora <luofu> <2014-8-4> add for preference begin &ndash;&gt;-->
+	<!--<public id="0x7b020142" name="aurora_preference_arrow_selector" type="drawable" />-->
+	<!--<public id="0x7b020143" name="aurora_ic_sysbar_highlight" type="drawable" />-->
+	<!---->
+	<!--&lt;!&ndash; aurora <luofu> <2014-8-4> add for preference end &ndash;&gt;-->
+	<!---->
+	<!--&lt;!&ndash; aurora <tangjun> <2014-8-12> add for pic click begin &ndash;&gt;-->
+	<!--<public id="0x7b020144" name="aurora_picture_pressed" type="drawable" />-->
+	<!--<public id="0x7b020145" name="aurora_pictureclick_selector" type="drawable" />-->
+	<!--&lt;!&ndash; aurora <tangjun> <2014-8-12> add for pic click end &ndash;&gt;-->
+	<!---->
+	<!--<public id="0x7b020146" name="aurora_action_bar_back_translucent" type="drawable" />-->
+	<!--<public id="0x7b020147" name="aurora_action_bar_back_translucent_pressed" type="drawable" />-->
+	<!---->
+	<!--&lt;!&ndash; add for volume panel begin &ndash;&gt;-->
+	<!--<public id="0x7b020148" name="ic_audio_alarm_mute" type="drawable" />-->
+	<!--<public id="0x7b020149" name="ic_audio_alarm" type="drawable" />-->
+	<!--<public id="0x7b02014a" name="ic_audio_bt_mute" type="drawable" />-->
+	<!--<public id="0x7b02014b" name="ic_audio_bt" type="drawable" />-->
+	<!--<public id="0x7b02014c" name="ic_audio_notification_mute" type="drawable" />-->
+	<!--<public id="0x7b02014d" name="ic_audio_notification" type="drawable" />-->
+	<!--<public id="0x7b02014e" name="ic_audio_phone" type="drawable" />-->
+	<!--<public id="0x7b02014f" name="ic_audio_ring_notif_mute" type="drawable" />-->
+
+	<!---->
+	<!--<public id="0x7b020150" name="ic_audio_ring_notif_vibrate" type="drawable" />-->
+	<!--<public id="0x7b020151" name="ic_audio_ring_notif" type="drawable" />-->
+	<!--<public id="0x7b020152" name="ic_audio_vol_mute" type="drawable" />-->
+	<!--<public id="0x7b020153" name="ic_audio_vol" type="drawable" />-->
+	<!--<public id="0x7b020154" name="ic_sysbar_quicksettings" type="drawable" />-->
+	<!---->
+	<!--<public id="0x7b020155" name="ic_media_route_disabled_holo_dark" type="drawable" />-->
+	<!--<public id="0x7b020156" name="ic_media_route_on_holo_dark" type="drawable" />-->
+
+	<!---->
+		<!--&lt;!&ndash; add for volume panel end &ndash;&gt;-->
+		<!---->
+	<!--&lt;!&ndash; aurora <tangjun> <2014-8-12> add for seekbar begin &ndash;&gt;-->
+	<!--<public id="0x7b020157" name="aurora_seekbar_progress_horizontal_holo_light_translucent" type="drawable" />-->
+	<!--<public id="0x7b020158" name="aurora_seekbar_bg_translucent" type="drawable" />-->
+	<!--&lt;!&ndash; aurora <tangjun> <2014-8-12> add for seekbar end &ndash;&gt;-->
+	<!---->
+	<!--<public id="0x7b020159" name="aurora_editlayout_background" type="drawable" />-->
+	<!--<public id="0x7b02015a" name="aurora_editlayout_divider" type="drawable" />-->
+	<!--<public id="0x7b02015b" name="aurora_search_button" type="drawable" />-->
+	<!---->
+	<!--&lt;!&ndash; aurora <tangjun> <2014-10-30> add for bottombar pic begin &ndash;&gt;-->
+	<!--<public id="0x7b02015c" name="aurora_bottombar_add_selector" type="drawable" />-->
+	<!--<public id="0x7b02015d" name="aurora_bottombar_calledit_selector" type="drawable" />-->
+	<!--<public id="0x7b02015e" name="aurora_bottombar_remove_selector" type="drawable" />-->
+	<!--<public id="0x7b02015f" name="seekbar_shape" type="drawable" />-->
+	<!--<public id="0x7b020160" name="aurora_bottombar_resume_selector" type="drawable" />-->
+	<!--<public id="0x7b020161" name="aurora_bottombarback" type="drawable" />-->
+	<!--<public id="0x7b020162" name="aurora_bottombar_add_2_selector" type="drawable" />-->
+	<!--&lt;!&ndash; aurora <tangjun> <2014-10-30> add for bottombar pic end &ndash;&gt;-->
+	<!--&lt;!&ndash; add for loading view &ndash;&gt;-->
+	<!--<public id="0x7b020163" name="aurora_loading_icon" type="drawable" />-->
+	<!--&lt;!&ndash; add for loading view  end&ndash;&gt;-->
+	<!--&lt;!&ndash; aurora <tongyh> <2015-01-30> add for systemui tatusBarIcon begin &ndash;&gt;-->
+	<!--<public id="0x7b020164" name="stat_sys_download" type="drawable" />-->
+	<!--<public id="0x7b020165" name="stat_sys_upload" type="drawable" />-->
+	<!--&lt;!&ndash; aurora <tongyh> <2015-01-30> add for systemui tatusBarIcon end &ndash;&gt;-->
+	<!---->
+	<!---->
+    <!--<public id="0x7b030000" name="aurora_action_bar_view" type="layout" />-->
+    <!--<public id="0x7b030001" name="aurora_alert_dialog_title" type="layout" />-->
+    <!--<public id="0x7b030002" name="aurora_date_picker" type="layout" />-->
+    <!--<public id="0x7b030003" name="aurora_date_picker_dialog" type="layout" />-->
+    <!--<public id="0x7b030004" name="aurora_number_picker" type="layout" />-->
+    <!--<public id="0x7b030005" name="aurora_time_picker" type="layout" />-->
+    <!--<public id="0x7b030006" name="aurora_time_picker_dialog" type="layout" />-->
+    <!--<public id="0x7b030007" name="aurora_alert_dialog_progress" type="layout" />-->
+    <!--<public id="0x7b030008" name="aurora_progress_dialog" type="layout" />-->
+    <!--<public id="0x7b030009" name="aurora_text_toolbar" type="layout" />-->
+    <!--<public id="0x7b03000a" name="aurora_preference" type="layout" />-->
+    <!--<public id="0x7b03000b" name="aurora_preference_list_fragment" type="layout" />-->
+    <!--<public id="0x7b03000c" name="aurora_preference_header_item" type="layout" />-->
+    <!--<public id="0x7b03000d" name="aurora_preference_list_content" type="layout" />-->
+    <!--<public id="0x7b03000e" name="aurora_preference_list_content_single" type="layout" />-->
+    <!--<public id="0x7b03000f" name="aurora_seekbar_dialog" type="layout" />-->
+    <!--<public id="0x7b030010" name="aurora_preference_widget_seekbar" type="layout" />-->
+    <!--<public id="0x7b030011" name="aurora_alert_dialog_light" type="layout" />-->
+    <!--<public id="0x7b030012" name="aurora_select_dialog" type="layout" />-->
+    <!--<public id="0x7b030013" name="aurora_select_dialog_multichoice" type="layout" />-->
+    <!--<public id="0x7b030014" name="aurora_select_dialog_singlechoice" type="layout" />-->
+    <!--<public id="0x7b030015" name="aurora_select_dialog_item" type="layout" />-->
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-07-04> add for CR00833379 begin &ndash;&gt;-->
+    <!--<public id="0x7b030016" name="aurora_magicbar_one_menuitem" type="layout" />-->
+    <!--<public id="0x7b030017" name="aurora_magicbar_two_menuitem" type="layout" />-->
+    <!--<public id="0x7b030018" name="aurora_magicbar_three_menuitem" type="layout" />-->
+    <!--<public id="0x7b030019" name="aurora_magicbar_four_menuitem" type="layout" />-->
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-07-04> add for CR00833379 end &ndash;&gt;-->
+    <!--&lt;!&ndash; for ActionBar &ndash;&gt;-->
+    <!--<public id="0x7b03001a" name="aurora_screen_action_bar" type="layout" />-->
+    <!--<public id="0x7b03001b" name="aurora_action_bar_title_item" type="layout" />-->
+    <!--<public id="0x7b03001c" name="aurora_simple_dropdown_hint" type="layout" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-10> add for CR00812456 begin &ndash;&gt;-->
+    <!--&lt;!&ndash; for ContextMenu &ndash;&gt;-->
+    <!--<public id="0x7b03001d" name="aurora_list_menu_item_layout" type="layout" />-->
+    <!--<public id="0x7b03001e" name="aurora_expanded_menu_layout" type="layout" />-->
+    <!--<public id="0x7b03001f" name="aurora_list_menu_item_icon" type="layout" />-->
+    <!--<public id="0x7b030020" name="aurora_list_menu_item_radio" type="layout" />-->
+    <!--<public id="0x7b030021" name="aurora_list_menu_item_checkbox" type="layout" />-->
+    <!--<public id="0x7b030022" name="aurora_list_content_simple" type="layout" />-->
+    <!--<public id="0x7b030023" name="aurora_expandable_list_content" type="layout" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-10> add for CR00812456 end &ndash;&gt;-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-15> add for CR00812456 end &ndash;&gt;-->
+    <!--<public id="0x7b030024" name="aurora_action_mode_close_item" type="layout" />-->
+    <!--<public id="0x7b030025" name="aurora_action_bar_home" type="layout" />-->
+    <!--<public id="0x7b030026" name="aurora_screen_action_bar_overlay" type="layout" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-15> add for CR00812456 end &ndash;&gt;-->
+    <!--<public id="0x7b030027" name="aurora_magicbar_listview_item" type="layout" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-31> add for CR00812456 begin &ndash;&gt;-->
+    <!--<public id="0x7b030028" name="aurora_search_view" type="layout" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-31> add for CR00812456 end &ndash;&gt;-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-08-05> add for CR00812456 begin &ndash;&gt;-->
+    <!--<public id="0x7b030029" name="aurora_search_dropdown_item_icons_2line" type="layout" />-->
+    <!--<public id="0x7b03002a" name="aurora_preference_check_click" type="layout" />-->
+    <!--<public id="0x7b03002b" name="aurora_preference_widget_checkbox" type="layout" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-08-05> add for CR00812456 end &ndash;&gt;-->
+    <!--<public id="0x7b03002c" name="aurora_screen_dialog" type="layout" />-->
+    <!--&lt;!&ndash; Gionee <zhangxx> <2013-08-14> modify for CR00857086 begin &ndash;&gt;-->
+    <!--<public id="0x7b03002d" name="aurora_preference_widget_switch" type="layout" />-->
+    <!--<public id="0x7b03002e" name="aurora_preference_dialog_edittext" type="layout" />-->
+    <!--&lt;!&ndash; Gionee <zhangxx> <2013-08-14> modify for CR00857086 end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b03002f" name="aurora_action_bar_dashboard" type="layout" />-->
+    <!--<public id="0x7b030030" name="aurora_action_bar_empty" type="layout" />-->
+    <!--<public id="0x7b030031" name="aurora_action_bar_item_base" type="layout" />-->
+    <!--<public id="0x7b030032" name="aurora_action_bar_normal" type="layout" />-->
+    <!--<public id="0x7b030033" name="aurora_content_dashboard" type="layout" />-->
+    <!--<public id="0x7b030034" name="aurora_content_empty" type="layout" />-->
+    <!--<public id="0x7b030035" name="aurora_content_normal" type="layout" />-->
+    <!--<public id="0x7b030036" name="aurora_menu_item" type="layout" />-->
+    <!--<public id="0x7b030037" name="aurora_menu_normal" type="layout" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.5 add for searchview inputmethod start &ndash;&gt;-->
+    <!--<public id="0x7b030038" name="aurora_input_method" type="layout" />-->
+    <!--<public id="0x7b030039" name="aurora_input_method_list_item" type="layout" />-->
+    <!--<public id="0x7b03003a" name="aurora_input_method_list" type="layout" />-->
+
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.5 add for searchview inputmethod end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.16 add for spinner  start &ndash;&gt;-->
+    <!--<public id="0x7b03003b" name="aurora_spinner" type="layout" />-->
+    <!--<public id="0x7b03003c" name="aurora_transient_notification" type="layout" />-->
+
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.16 add for spinner  end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.16 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b03003d" name="aurora_action_bar_all_delete" type="layout" />-->
+    <!--<public id="0x7b03003e" name="aurora_action_bar_custom" type="layout" />-->
+    <!--<public id="0x7b03003f" name="aurora_content_custom" type="layout" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.16 add for actionbar and menu end &ndash;&gt;-->
+
+    <!--<public id="0x7b030040" name="aurora_alert_dialog" type="layout" />-->
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.18 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b030041" name="aurora_action_bottom_bar_menu_item" type="layout" />-->
+    <!--<public id="0x7b030042" name="aurora_action_bottom_bar" type="layout" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.18 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Gionee <flash> <2013-09-20> add for listview begin start &ndash;&gt;-->
+    <!--<public id="0x7b030043" name="aurora_slid_listview" type="layout" />-->
+    <!--&lt;!&ndash; Gionee <flash> <2013-09-20> add for listview begin end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.18 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b030044" name="aurora_action_bottom_bar_style_1" type="layout" />-->
+    <!--<public id="0x7b030045" name="aurora_action_bottom_bar_style_2" type="layout" />-->
+    <!--<public id="0x7b030046" name="aurora_action_bottom_bar_style_3" type="layout" />-->
+    <!--<public id="0x7b030047" name="aurora_action_bottom_bar_style_4" type="layout" />-->
+    <!--<public id="0x7b030048" name="aurora_action_bottom_bar_style_5" type="layout" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.18 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Aurora <luofu> <2013-09-23> add for spinner begin &ndash;&gt;-->
+    <!--<public id="0x7b030049" name="aurora_spinner_dialog" type="layout" />-->
+    <!--<public id="0x7b03004a" name="aurora_spinner_list_item" type="layout" />-->
+
+    <!--&lt;!&ndash; Aurora <luofu> <2013-09-23> add for spinner  end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <flash> 2013.9.27 add for preference default widget layout  id start &ndash;&gt;-->
+    <!--<public id="0x7b03004b" name="aurora_preference_widget_arrow" type="layout" />-->
+    <!--&lt;!&ndash; aurora <flash> 2013.9.27 add for preference default widget layout picture id start &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.29 add for datePickerDialog start &ndash;&gt;-->
+
+    <!--<public id="0x7b03004c" name="aurora_date_picker_dialog_new" type="layout" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.29 add for datePickerDialog end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.30 add for timePickerDialog start &ndash;&gt;-->
+
+    <!--<public id="0x7b03004d" name="aurora_time_picker_dialog_new" type="layout" />-->
+    <!--<public id="0x7b03004e" name="aurora_alert_dialog_internal" type="layout" />-->
+    <!--<public id="0x7b03004f" name="aurora_list_preference_item" type="layout" />-->
+    <!--<public id="0x7b030050" name="aurora_list_preference" type="layout" />-->
+    <!--<public id="0x7b030051" name="always_use_checkbox" type="layout" />-->
+    <!--<public id="0x7b030052" name="usb_storage_activity" type="layout" />-->
+    <!--<public id="0x7b030053" name="aurora_preference_list_footer" type="layout" />-->
+    <!--<public id="0x7b030054" name="aurora_preference_list_hearder" type="layout" />-->
+    <!--<public id="0x7b030055" name="aurora_spinner_entries_drop_down" type="layout" />-->
+    <!--<public id="0x7b030056" name="aurora_simple_spinner_item" type="layout" />-->
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.30 add for timePickerDialog end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.11.14 add for shutdown window begin &ndash;&gt;-->
+    <!--<public id="0x7b030057" name="aurora_power_layout" type="layout" />-->
+    <!--<public id="0x7b030058" name="aurora_shutdown_grid_item" type="layout" />-->
+    <!--<public id="0x7b030059" name="aurora_preference_list_padding_top" type="layout" />-->
+    <!--<public id="0x7b03005a" name="aurora_preference_list_padding_bottom" type="layout" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.11.14 add for shutdown window end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <tangjun> 2013.11.28 add for shutdown window begin &ndash;&gt;-->
+    <!--<public id="0x7b03005b" name="aurora_searchview_activity" type="layout" />-->
+    <!--&lt;!&ndash; aurora <tangjun> 2013.11.28 add for shutdown window end &ndash;&gt;-->
+    <!--<public id="0x7b03005c" name="aurora_select_dialog_singlechoice_android" type="layout" />-->
+    <!--<public id="0x7b03005d" name="android_alert_dialog" type="layout" />-->
+
+    <!--&lt;!&ndash; aurora <tangjun> 2013.11.28 add for shutdown window begin &ndash;&gt;-->
+    <!--<public id="0x7b03005e" name="aurora_content_normal_pic" type="layout" />-->
+    <!--&lt;!&ndash; aurora <tangjun> 2013.11.28 add for shutdown window end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2014.1.17 add for PreferenceScreen begin &ndash;&gt;-->
+    <!--<public id="0x7b03005f" name="aurora_preference_screen_list_fragment" type="layout" />-->
+    <!--&lt;!&ndash; aurora <luofu> 2014.1.17 add for PreferenceScreen begin &ndash;&gt;-->
+	<!---->
+	<!--&lt;!&ndash; aurora <flash> 2014.2.22 add for share control begin &ndash;&gt;-->
+	<!--<public id="0x7b030060" name="aurora_resolve_list_item" type="layout" />-->
+	<!--<public id="0x7b030061" name="aurora_resolver_grid" type="layout" />-->
+	<!--&lt;!&ndash; aurora <flash> 2014.2.22 add for share control end &ndash;&gt;-->
+	<!---->
+	<!--<public id="0x7b030062" name="aurora_select_dialog_muil" type="layout" />-->
+	<!---->
+	<!--&lt;!&ndash; luofu add for action bar &ndash;&gt;-->
+	<!--<public id="0x7b030063" name="aurora_activity_content_layout" type="layout" />-->
+    <!--<public id="0x7b030064" name="aurora_custom_action_bar" type="layout" />-->
+
+    <!--&lt;!&ndash; add for volume panel begin &ndash;&gt;-->
+    <!--<public id="0x7b030065" name="volume_adjust_item" type="layout" />-->
+    <!--<public id="0x7b030066" name="volume_adjust" type="layout" />-->
+    <!---->
+    <!--<public id="0x7b030067" name="aurora_login_layout" type="layout" />-->
+     <!---->
+	<!--&lt;!&ndash; add for volume panel begin &ndash;&gt;-->
+	<!---->
+	<!--&lt;!&ndash; aurora <rocktong> 2014.12.11 add notification layout begin &ndash;&gt;-->
+    <!--<public id="0x7b030068" name="notification_action" type="layout" />-->
+    <!--<public id="0x7b030069" name="notification_action_list" type="layout" />-->
+    <!--<public id="0x7b03006a" name="notification_action_tombstone" type="layout" />-->
+    <!--<public id="0x7b03006b" name="notification_template_part_chronometer" type="layout" />-->
+    <!--<public id="0x7b03006c" name="notification_template_part_time" type="layout" />-->
+    <!--<public id="0x7b03006d" name="notification_template_base" type="layout" />-->
+    <!--<public id="0x7b03006e" name="notification_template_big_base" type="layout" />-->
+    <!--<public id="0x7b03006f" name="notification_template_big_picture" type="layout" />-->
+    <!--<public id="0x7b030070" name="notification_template_big_text" type="layout" />-->
+    <!--<public id="0x7b030071" name="notification_template_inbox" type="layout" />-->
+    <!--<public id="0x7b030072" name="status_bar_latest_event_ticker" type="layout" />-->
+    <!--<public id="0x7b030073" name="status_bar_latest_event_ticker_large_icon" type="layout" />-->
+	<!--&lt;!&ndash; aurora <rocktong> 2014.12.11 add notification layout end &ndash;&gt;-->
+	<!--&lt;!&ndash; add for loading view &ndash;&gt;-->
+	  <!--<public id="0x7b030074" name="aurora_loading_view_layout" type="layout" />-->
+	<!--&lt;!&ndash; add for loading view  end&ndash;&gt;-->
+	<!---->
+	<!---->
+    <!--<public id="0x7b040000" name="aurora_editor_toolbar_text_color" type="color" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-08-02> add for CR00812456 begin &ndash;&gt;-->
+    <!--<public id="0x7b040001" name="aurora_loading_button_text_color" type="color" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-08-02> add for CR00812456 end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b040002" name="aurora_action_bar_tint" type="color" />-->
+    <!--<public id="0x7b040003" name="aurora_action_bar_divider_tint" type="color" />-->
+    <!--<public id="0x7b040004" name="aurora_action_bar_title_color" type="color" />-->
+    <!--<public id="0x7b040005" name="aurora_action_bar_title_color_pressed" type="color" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Aurora <jackycheng> 2013.9.11 add for system color begin &ndash;&gt;-->
+    <!--<public id="0x7b040006" name="aurora_title_color" type="color" />-->
+    <!--<public id="0x7b040007" name="aurora_button_highlighted_color" type="color" />-->
+    <!--<public id="0x7b040008" name="aurora_highlighted_color" type="color" />-->
+    <!--<public id="0x7b040009" name="aurora_warning_color" type="color" />-->
+    <!--<public id="0x7b04000a" name="aurora_focus_color" type="color" />-->
+    <!--<public id="0x7b04000b" name="aurora_divide_line_color" type="color" />-->
+    <!--<public id="0x7b04000c" name="aurora_bottom_bar_color" type="color" />-->
+    <!--<public id="0x7b04000d" name="aurora_search_view_text_color" type="color" />-->
+    <!--<public id="0x7b04000e" name="aurora_textcolor_hint" type="color" />-->
+    <!--<public id="0x7b04000f" name="aurora_textcolor_link" type="color" />-->
+    <!--&lt;!&ndash; Aurora <jackycheng> 2013.9.11 add for system color end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu <java-symbol name="aurora_body" type="id" /> begin &ndash;&gt;-->
+    <!--<public id="0x7b040010" name="aurora_action_bar_btn_color" type="color" />-->
+    <!--<public id="0x7b040011" name="aurora_menu_item_text_color" type="color" />-->
+    <!--<public id="0x7b040012" name="aurora_menu_item_selected_color" type="color" />-->
+    <!--<public id="0x7b040013" name="aurora_menu_item_color" type="color" />-->
+    <!--<public id="0x7b040014" name="aurora_menu_item_cover_color" type="color" />-->
+    <!--<public id="0x7b040015" name="aurora_menu_item_text_color_pressed" type="color" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.17 add for search view background begin &ndash;&gt;-->
+    <!--<public id="0x7b040016" name="aurora_search_view_background_color" type="color" />-->
+    <!--<public id="0x7b040017" name="black" type="color" />-->
+    <!--<public id="0x7b040018" name="white" type="color" />-->
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.24 add for actionbar and menu  begin &ndash;&gt;-->
+    <!--<public id="0x7b040019" name="aurora_action_bottom_bar_background_color" type="color" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.24 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Aurora <flash> 2013.9.29 add for system color begin &ndash;&gt;-->
+    <!--<public id="0x7b04001a" name="aurora_full_transparent" type="color" />-->
+    <!--&lt;!&ndash; Aurora <flash> 2013.9.29 add for system color end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.29 add for button text color begin &ndash;&gt;-->
+    <!--<public id="0x7b04001b" name="aurora_button_text_color" type="color" />-->
+    <!--<public id="0x7b04001c" name="aurora_button_text_normal" type="color" />-->
+    <!--<public id="0x7b04001d" name="aurora_button_text_pressed" type="color" />-->
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.29 add for button text color begin &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.30 add for numberpicker text  begin &ndash;&gt;-->
+    <!--<public id="0x7b04001e" name="aurora_numberpicker_select_text_color" type="color" />-->
+    <!--<public id="0x7b04001f" name="aurora_numberpicker_mid_color" type="color" />-->
+    <!--<public id="0x7b040020" name="aurora_numberpicker_bottom_color" type="color" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.30 add for numberpicker text  end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.9 add for actionbar and menu  begin &ndash;&gt;-->
+    <!--<public id="0x7b040021" name="aurora_action_bottom_bar_title_change_color" type="color" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.9 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.10 add for actionbar and menu  begin &ndash;&gt;-->
+    <!--<public id="0x7b040022" name="aurora_action_bottom_bar_title_enable_color" type="color" />-->
+    <!--<public id="0x7b040023" name="aurora_text_view_link_color" type="color" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.10 add for actionbar and menu end &ndash;&gt;-->
+
+    <!--<public id="0x7b040024" name="aurora_preference_text_disable_color" type="color" />-->
+
+    <!--&lt;!&ndash; aurora<luofu> 2013.11.4 add for aurora texView list begin &ndash;&gt;-->
+    <!--<public id="0x7b040025" name="aurora_text_color_selector" type="color" />-->
+    <!--<public id="0x7b040026" name="aurora_preference_summary_disable_color" type="color" />-->
+    <!--<public id="0x7b040027" name="aurora_shutdown_bg_color" type="color" />-->
+
+    <!--<public id="0x7b040028" name="aurora_color" type="color" />-->
+    <!---->
+    <!--<public id="0x7b040029" name="aurora_list_textcolor" type="color" />-->
+    <!--<public id="0x7b04002a" name="aurora_list_subtext_explain_textcolor" type="color" />-->
+    <!--<public id="0x7b04002b" name="aurora_list_subtext_content_textcolor" type="color" />-->
+    <!--&lt;!&ndash; aurora<luofu> 2013.11.4 add for aurora texView list end &ndash;&gt;-->
+    <!--&lt;!&ndash; luofu 2014.7.24 add for dialog content text begin&ndash;&gt;-->
+    <!--<public id="0x7b04002c" name="aurora_dialog_content_text_color" type="color" />-->
+    <!--&lt;!&ndash; luofu 2014.7.24 add for dialog content text end&ndash;&gt;-->
+    <!---->
+    <!--&lt;!&ndash; tangjun 2014.7.24 add for alphabetlist start&ndash;&gt;-->
+    <!--<public id="0x7b04002d" name="aurora_alphabetlist_normalcolor" type="color" />-->
+    <!--<public id="0x7b04002e" name="aurora_alphabetlist_presscolor" type="color" />-->
+    <!--<public id="0x7b04002f" name="aurora_alphabetlist_color" type="color" />-->
+    <!--&lt;!&ndash; tangjun 2014.7.24 add for alphabetlist end&ndash;&gt;-->
+    <!---->
+    <!--&lt;!&ndash; aurora <tangjun> <2014-7-31> add for aurorapromtbutton begin &ndash;&gt;-->
+	<!--<public id="0x7b040030" name="aurora_prompt_button_color" type="color" />-->
+	<!--&lt;!&ndash; aurora <tangjun> <2014-7-31> add for aurorapromtbutton end &ndash;&gt;-->
+	<!---->
+	<!--<public id="0x7b040031" name="aurora_action_bar_button_change_color" type="color" />-->
+	<!---->
+	<!--<public id="0x7b040032" name="aurora_prompttextview_textcolor" type="color" />-->
+	<!---->
+	<!--&lt;!&ndash; add for colorstatelist of textview or edittext begin &ndash;&gt;-->
+    <!---->
+      <!--<public id="0x7b040033" name="aurora_primary_text_light" type="color" />-->
+        <!--<public id="0x7b040034" name="aurora_secondary_text_light" type="color" />-->
+        <!--<public id="0x7b040035" name="aurora_tertiary_text_light" type="color" />-->
+        <!--<public id="0x7b040036" name="aurora_primary_text_dark" type="color" />-->
+        <!--<public id="0x7b040037" name="aurora_secondary_text_dark" type="color" />-->
+        <!--<public id="0x7b040038" name="aurora_tertiary_text_dark" type="color" />-->
+        <!--<public id="0x7b040039" name="aurora_primary_text_disable_only_light" type="color" />-->
+        <!--<public id="0x7b04003a" name="aurora_primary_text_disable_only_dark" type="color" />-->
+        <!--<public id="0x7b04003b" name="aurora_primary_text_nodisable_light" type="color" />-->
+        <!--<public id="0x7b04003c" name="aurora_secondary_text_nodisable_light" type="color" />-->
+        <!--<public id="0x7b04003d" name="aurora_primary_text_nodisable_dark" type="color" />-->
+        <!--<public id="0x7b04003e" name="aurora_secondary_text_nodisable_dark" type="color" />-->
+        <!--<public id="0x7b04003f" name="aurora_hint_foreground_light" type="color" />-->
+       <!--<public id="0x7b040040" name="aurora_hint_foreground_dark" type="color" />-->
+        <!--<public id="0x7b040041" name="aurora_highlighted_text_light" type="color" />-->
+        <!--&lt;!&ndash; @hide android 2.3 have not these attrs &ndash;&gt;-->
+        <!--<public id="0x7b040042" name="aurora_highlighted_text_dark" type="color" />-->
+        <!--<public id="0x7b040043" name="aurora_bright_foreground_yellow" type="color" />-->
+        <!---->
+     <!--&lt;!&ndash; add for colorstatelist of textview or edittext end &ndash;&gt;-->
+	<!---->
+	<!---->
+	<!--<public id="0x7b040044" name="aurora_editlayouttextviewcolor" type="color" />-->
+	<!--<public id="0x7b040045" name="aurora_editlayoutedittexthintcolor" type="color" />-->
+	<!--<public id="0x7b040046" name="aurora_editlayoutedittextcolor" type="color" />-->
+    <!---->
+	  <!---->
+	<!---->
+    <!--&lt;!&ndash; for ActionBar &ndash;&gt;-->
+    <!--<public id="0x7b050000" name="aurora_action_bar_stacked_tab_max_width" type="dimen" />-->
+    <!--&lt;!&ndash; Gionee <xuhz> <2013-07-19> add for CR00838236 begin &ndash;&gt;-->
+    <!--&lt;!&ndash; String for Smart Guider &ndash;&gt;-->
+    <!--<public id="0x7b050001" name="aurora_smart_full_btn_bottom_margin" type="dimen" />-->
+    <!--&lt;!&ndash; Gionee <xuhz> <2013-07-19> add for CR00838236 end &ndash;&gt;-->
+
+  <!---->
+
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-07-30> add for CR00833379 begin &ndash;&gt;-->
+    <!--<public id="0x7b050002" name="aurora_magicbar_item_height" type="dimen" />-->
+    <!--<public id="0x7b050003" name="aurora_magicbar_list_item_height" type="dimen" />-->
+    <!--<public id="0x7b050004" name="aurora_magicbar_title_mode_height" type="dimen" />-->
+    <!--<public id="0x7b050005" name="aurora_magicbar_item_padding_land" type="dimen" />-->
+    <!--<public id="0x7b050006" name="aurora_magicbar_item3_padding_land" type="dimen" />-->
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-07-30> add for CR00833379 end &ndash;&gt;-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-31> add for CR00812456 begin &ndash;&gt;-->
+    <!--<public id="0x7b050007" name="aurora_search_view_preferred_width" type="dimen" />-->
+    <!--<public id="0x7b050008" name="aurora_dropdownitem_icon_width" type="dimen" />-->
+    <!--<public id="0x7b050009" name="aurora_dropdownitem_text_padding_left" type="dimen" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-31> add for CR00812456 end &ndash;&gt;-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-08-02> add for CR00812456 begin &ndash;&gt;-->
+    <!--<public id="0x7b05000a" name="aurora_loading_button_small_size" type="dimen" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-08-02> add for CR00812456 end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-08-05> add for CR00833379 begin &ndash;&gt;-->
+    <!--<public id="0x7b05000b" name="aurora_temp_pading" type="dimen" />-->
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-08-05> add for CR00833379 end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-08-06> add for CR00833379 begin &ndash;&gt;-->
+    <!--<public id="0x7b05000c" name="aurora_magicbar_max_listview_height" type="dimen" />-->
+    <!--<public id="0x7b05000d" name="aurora_magicbar_listview_left_right_margin" type="dimen" />-->
+    <!--<public id="0x7b05000e" name="aurora_magicbar_listview_bottom_margin" type="dimen" />-->
+    <!--&lt;!&ndash; Gionee <daizhimin> <2013-08-06> add for CR00833379 end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b05000f" name="aurora_separator_item_view_height" type="dimen" />-->
+    <!--<public id="0x7b050010" name="aurora_separator_item_view_padding_left" type="dimen" />-->
+    <!--<public id="0x7b050011" name="aurora_item_view_height" type="dimen" />-->
+    <!--<public id="0x7b050012" name="aurora_item_view_half_height" type="dimen" />-->
+    <!--<public id="0x7b050013" name="aurora_item_view_padding_left" type="dimen" />-->
+    <!--<public id="0x7b050014" name="aurora_drawable_width" type="dimen" />-->
+    <!--<public id="0x7b050015" name="aurora_drawable_height" type="dimen" />-->
+    <!--<public id="0x7b050016" name="aurora_drawable_margin" type="dimen" />-->
+    <!--<public id="0x7b050017" name="aurora_progress_bar_width" type="dimen" />-->
+    <!--<public id="0x7b050018" name="aurora_progress_bar_height" type="dimen" />-->
+    <!--<public id="0x7b050019" name="aurora_progress_bar_margin" type="dimen" />-->
+    <!--<public id="0x7b05001a" name="aurora_action_bar_height" type="dimen" />-->
+    <!--<public id="0x7b05001b" name="aurora_action_bar_text_size" type="dimen" />-->
+    <!--<public id="0x7b05001c" name="aurora_action_bar_margin_left" type="dimen" />-->
+    <!--<public id="0x7b05001d" name="aurora_action_bar_margin_right" type="dimen" />-->
+    <!--<public id="0x7b05001e" name="aurora_arrow_offset" type="dimen" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Aurora <jackycheng> 2013.9.11 add for system dimen begin &ndash;&gt;-->
+    <!--<public id="0x7b05001f" name="aurora_navigation_bar_title_text_size" type="dimen" />-->
+    <!--<public id="0x7b050020" name="aurora_subtitle_text_size" type="dimen" />-->
+    <!--<public id="0x7b050021" name="aurora_title_padding_left" type="dimen" />-->
+    <!--<public id="0x7b050022" name="aurora_title_padding_right" type="dimen" />-->
+    <!--<public id="0x7b050023" name="aurora_subtitle_padding_left" type="dimen" />-->
+    <!--<public id="0x7b050024" name="aurora_subtitle_padding_right" type="dimen" />-->
+    <!--<public id="0x7b050025" name="aurora_search_view_hight" type="dimen" />-->
+    <!--<public id="0x7b050026" name="aurora_search_view_padding_left" type="dimen" />-->
+    <!--<public id="0x7b050027" name="aurora_search_view_padding_right" type="dimen" />-->
+    <!--<public id="0x7b050028" name="aurora_search_view_padding_top" type="dimen" />-->
+    <!--<public id="0x7b050029" name="aurora_search_view_padding_bottom" type="dimen" />-->
+    <!--<public id="0x7b05002a" name="aurora_search_view_text_size" type="dimen" />-->
+    <!--<public id="0x7b05002b" name="aurora_listview_oneline_hight" type="dimen" />-->
+    <!--<public id="0x7b05002c" name="aurora_listview_twoline_hight" type="dimen" />-->
+    <!--<public id="0x7b05002d" name="aurora_listview_twoline_space" type="dimen" />-->
+    <!--<public id="0x7b05002e" name="aurora_navigation_bar_button_text_size" type="dimen" />-->
+    <!--<public id="0x7b05002f" name="aurora_mumu_button_text_size" type="dimen" />-->
+    <!--<public id="0x7b050030" name="aurora_listview_button_text_size" type="dimen" />-->
+    <!--<public id="0x7b050031" name="aurora_normal_button_text_size" type="dimen" />-->
+    <!--<public id="0x7b050032" name="aurora_mms_context_text_size" type="dimen" />-->
+    <!--&lt;!&ndash; Aurora <jackycheng> 2013.9.11 add for system dimen end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b050033" name="aurora_action_bar_btn_size" type="dimen" />-->
+    <!--<public id="0x7b050034" name="aurora_action_bar_title_margin_left" type="dimen" />-->
+    <!--<public id="0x7b050035" name="aurora_menu_item_height" type="dimen" />-->
+    <!--<public id="0x7b050036" name="aurora_menu_height" type="dimen" />-->
+    <!--<public id="0x7b050037" name="aurora_menu_item_text_size" type="dimen" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu end &ndash;&gt;-->
+	<!---->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.16 add for search view begin &ndash;&gt;-->
+    <!--<public id="0x7b050038" name="aurora_search_view_hint_icon_padding_left" type="dimen" />-->
+    <!--<public id="0x7b050039" name="aurora_search_view_hint_text_padding_left" type="dimen" />-->
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.16 add for search view end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.17 add for alert dialog begin &ndash;&gt;-->
+
+    <!--<public id="0x7b05003a" name="aurora_alert_dialog_btn_text_size" type="dimen" />-->
+    <!--<public id="0x7b05003b" name="aurora_alert_dialog_width" type="dimen" />-->
+    <!--<public id="0x7b05003c" name="aurora_alert_dialog_height" type="dimen" />-->
+    <!--<public id="0x7b05003d" name="aurora_alert_dialog_title_margin_top" type="dimen" />-->
+    <!--<public id="0x7b05003e" name="aurora_alert_dialog_title_margin_bottom" type="dimen" />-->
+    <!--<public id="0x7b05003f" name="aurora_alert_dialog_btn_panel_height" type="dimen" />-->
+    <!--<public id="0x7b050040" name="aurora_alert_dialog_btn_width" type="dimen" />-->
+    <!--<public id="0x7b050041" name="aurora_alert_dialog_title_text_size" type="dimen" />-->
+    <!--<public id="0x7b050042" name="aurora_alert_dialog_msg_text_size" type="dimen" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.9.17 add for alert dialog end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.24 add for actionbar and menu  begin &ndash;&gt;-->
+    <!--<public id="0x7b050043" name="aurora_action_bottom_bar_margin_bottom" type="dimen" />-->
+    <!--<public id="0x7b050044" name="aurora_action_bottom_bar_margin_top" type="dimen" />-->
+    <!--<public id="0x7b050045" name="aurora_action_bottom_bar_height" type="dimen" />-->
+    <!--<public id="0x7b050046" name="aurora_action_bottom_bar_margin_left" type="dimen" />-->
+    <!--<public id="0x7b050047" name="aurora_action_bottom_bar_title_size" type="dimen" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.24 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.15 add for actionbar and menu  begin &ndash;&gt;-->
+    <!--<public id="0x7b050048" name="aurora_action_bottom_bar_margin_size_2" type="dimen" />-->
+    <!--<public id="0x7b050049" name="aurora_action_bottom_bar_margin_size_3" type="dimen" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.15 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.10.16 add for searchview begin &ndash;&gt;-->
+    <!--<public id="0x7b05004a" name="aurora_search_view_hint_icon_padding_top" type="dimen" />-->
+    <!--<public id="0x7b05004b" name="aurora_search_view_hint_icon_padding_bottom" type="dimen" />-->
+    <!--&lt;!&ndash; aurora <luofu> 2013.10.16 add for searchview  end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.16 add for actionbar and menu  begin &ndash;&gt;-->
+    <!--<public id="0x7b05004c" name="aurora_action_bar_title_height" type="dimen" />-->
+    <!--<public id="0x7b05004d" name="aurora_action_bar_title__margin_top" type="dimen" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.16 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.17 add for actionbar and menu  begin &ndash;&gt;-->
+    <!--<public id="0x7b05004e" name="aurora_action_bar_custom_view_width" type="dimen" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.17 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.18 add for actionbar and menu  begin &ndash;&gt;-->
+    <!--<public id="0x7b05004f" name="aurora_action_bar_title_margin_top_first" type="dimen" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.18 add for actionbar and menu end &ndash;&gt;-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.11.8 add for system ui begin &ndash;&gt;-->
+    <!--<public id="0x7b050050" name="status_bar_icon_size" type="dimen" />-->
+    <!--<public id="0x7b050051" name="status_bar_height" type="dimen" />-->
+    <!--<public id="0x7b050052" name="app_icon_size" type="dimen" />-->
+    <!--<public id="0x7b050053" name="navigation_bar_height" type="dimen" />-->
+    <!--<public id="0x7b050054" name="system_bar_icon_size" type="dimen" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.11.8 add for system ui end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <tangjun> 2013.11.12 add for actionbar begin &ndash;&gt;-->
+    <!--<public id="0x7b050055" name="aurora_action_bar_title_maxwidth" type="dimen" />-->
+    <!--<public id="0x7b050056" name="aurora_action_bar_title_paddingbottom_first" type="dimen" />-->
+    <!--&lt;!&ndash; aurora <tangjun> 2013.11.12 add for actionbar end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.11.15 add for system ui begin &ndash;&gt;-->
+    <!--<public id="0x7b050057" name="navigation_bar_width" type="dimen" />-->
+    <!--<public id="0x7b050058" name="glowpadview_inner_radius" type="dimen" />-->
+    <!--<public id="0x7b050059" name="glowpadview_glow_radius" type="dimen" />-->
+    <!--<public id="0x7b05005a" name="system_bar_height" type="dimen" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.11.15 add for system ui end &ndash;&gt;-->
+    <!---->
+    <!--&lt;!&ndash; aurora <tangjun> 2013.11.12 add for actionbar begin &ndash;&gt;-->
+    <!--<public id="0x7b05005b" name="aurora_action_bar_title_paddingtop_first" type="dimen" />-->
+    <!--&lt;!&ndash; aurora <tangjun> 2013.11.12 add for actionbar end &ndash;&gt;-->
+	<!--<public id="0x7b05005c" name="aurora_list_cb_width" type="dimen" />-->
+	<!---->
+	<!---->
+	<!---->
+	<!--&lt;!&ndash; add by luofu &ndash;&gt;-->
+	<!--<public id="0x7b05005d" name="aurora_custom_action_bar_search_icon_margin_left" type="dimen" />-->
+    <!--<public id="0x7b05005e" name="aurora_custom_action_bar_search_view_margin_left" type="dimen" />-->
+    <!--<public id="0x7b05005f" name="aurora_custom_action_bar_search_hint_text_margin_left" type="dimen" />-->
+    <!--<public id="0x7b050060" name="aurora_custom_action_bar_icon_margin_top" type="dimen" />-->
+	<!--<public id="0x7b050061" name="aurora_custom_action_bar_icon_margin_right" type="dimen" />-->
+	<!---->
+	<!--<public id="0x7b050062" name="aurora_custom_action_bar_search_icon_padding_right" type="dimen" />-->
+	<!--<public id="0x7b050063" name="aurora_custom_action_bar_search_icon_padding_top" type="dimen" />-->
+	<!---->
+	<!--<public id="0x7b050064" name="aurora_number_picker_label_padding_right" type="dimen" />-->
+	<!--&lt;!&ndash; luofu add for preference 2014.7.16 begin &ndash;&gt;-->
+	<!--<public id="0x7b050065" name="aurora_preference_title_text_size" type="dimen" />-->
+     <!--<public id="0x7b050066" name="aurora_preference_summary_text_size" type="dimen" />-->
+     <!--<public id="0x7b050067" name="aurora_preference_summary_margin_top" type="dimen" />-->
+     <!--<public id="0x7b050068" name="aurora_preference_padding_top" type="dimen" />-->
+     <!--<public id="0x7b050069" name="aurora_preference_padding_bottom" type="dimen" />-->
+     <!--<public id="0x7b05006a" name="aurora_preference_single_line_height" type="dimen" />-->
+     <!--<public id="0x7b05006b" name="aurora_action_bar_search_view_height" type="dimen" />-->
+   <!---->
+     <!--&lt;!&ndash; xxj add for list 2014.7.17 begin &ndash;&gt;-->
+	 <!--<public id="0x7b05006c" name="aurora_list_singleline_height" type="dimen" />-->
+     <!--<public id="0x7b05006d" name="aurora_list_doubleline_height" type="dimen" />-->
+	 <!--<public id="0x7b05006e" name="aurora_list_content_layout_paddingtop" type="dimen" />-->
+     <!--<public id="0x7b05006f" name="aurora_list_content_layout_paddingbottom" type="dimen" />-->
+     <!--<public id="0x7b050070" name="aurora_list_gap_height_maintext_and_subtext" type="dimen" />-->
+     <!--<public id="0x7b050071" name="aurora_list_singleline_text_size" type="dimen" />-->
+     <!--<public id="0x7b050072" name="aurora_list_maintext_text_size" type="dimen" />-->
+     <!--<public id="0x7b050073" name="aurora_list_subtext_text_size" type="dimen" />-->
+     <!--<public id="0x7b050074" name="aurora_resolver_window_max_height" type="dimen" />-->
+     <!---->
+    <!--&lt;!&ndash; tangjun 2014.7.24 add for alphabetlist start&ndash;&gt;-->
+    <!--<public id="0x7b050075" name="aurora_alphabetlist_paddingtop" type="dimen" />-->
+    <!--<public id="0x7b050076" name="aurora_alphabetlist_paddingright" type="dimen" />-->
+    <!--<public id="0x7b050077" name="aurora_alphabetlist_height" type="dimen" />-->
+    <!--<public id="0x7b050078" name="aurora_alphabetlist_textsize" type="dimen" />-->
+    <!--<public id="0x7b050079" name="aurora_alphabetlist_showcirclepaddingtop" type="dimen" />-->
+    <!--&lt;!&ndash; tangjun 2014.7.24 add for alphabetlist end&ndash;&gt;-->
+    <!---->
+    <!---->
+     <!--&lt;!&ndash; luofu 2014.8.1 add for settings page begen&ndash;&gt;-->
+    <!--<public id="0x7b05007a" name="aurora_settings_padding_top" type="dimen" />-->
+    <!--<public id="0x7b05007b" name="aurora_settings_padding_left" type="dimen" />-->
+    <!--<public id="0x7b05007c" name="aurora_settings_padding_right" type="dimen" />-->
+    <!--<public id="0x7b05007d" name="aurora_settings_item_divider_height" type="dimen" />-->
+     <!--&lt;!&ndash; luofu 2014.8.1 add for settings page end&ndash;&gt;-->
+	<!--<public id="0x7b05007e" name="aurora_list_cb_doubleline_margintop" type="dimen" />-->
+     <!---->
+     <!--<public id="0x7b05007f" name="aurora_prompttextview_textsize" type="dimen" />-->
+     <!--<public id="0x7b050080" name="aurora_prompttextview_paddingtop" type="dimen" />-->
+     <!--<public id="0x7b050081" name="volume_panel_top" type="dimen" />-->
+     <!---->
+     <!--<public id="0x7b050082" name="aurora_editlayout_margin" type="dimen" />-->
+     <!--<public id="0x7b050083" name="aurora_editlayouttextviewsize" type="dimen" />-->
+     <!--<public id="0x7b050084" name="aurora_menu_item_textsize" type="dimen" />-->
+     <!---->
+	<!--&lt;!&ndash; luofu add for preference 2014.7.16 end &ndash;&gt;-->
+    <!--<public id="0x7b070000" name="aurora_preferences_prefer_dual_pane" type="bool" />-->
+    <!--&lt;!&ndash; for ActionBar &ndash;&gt;-->
+    <!--<public id="0x7b070001" name="aurora_action_bar_embed_tabs" type="bool" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-10> add for CR00812456 begin &ndash;&gt;-->
+    <!--<public id="0x7b070002" name="aurora_config_showMenuShortcutsWhenKeyboardPresent" type="bool" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-10> add for CR00812456 end &ndash;&gt;-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-08-05> add for CR00812456 begin &ndash;&gt;-->
+    <!--<public id="0x7b070003" name="aurora_action_bar_expanded_action_views_exclusive" type="bool" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-08-05> add for CR00812456 end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> <2013-11-8> add for system ui begin &ndash;&gt;-->
+    <!--<public id="0x7b070004" name="config_automatic_brightness_available" type="bool" />-->
+    <!--<public id="0x7b070005" name="config_alwaysUseCdmaRssi" type="bool" />-->
+    <!--<public id="0x7b070006" name="config_wimaxEnabled" type="bool" />-->
+    <!---->
+    <!--<public id="0x7b070007" name="config_voice_capable" type="bool" />-->
+    <!--&lt;!&ndash; aurora <luofu> <2013-11-8> add for system ui end &ndash;&gt;-->
+    <!---->
+    <!---->
+
+    <!--<public id="0x7b080000" name="Theme.Aurora.Light" type="style" />-->
+    <!--<public id="0x7b080001" name="Theme.Aurora.Light.NoActionBar" type="style" />-->
+    <!--<public id="0x7b080002" name="Theme.Aurora.Light.NoActionBar.Fullscreen" type="style" />-->
+    <!--<public id="0x7b080003" name="Theme.Aurora.Light.Dialog" type="style" />-->
+    <!--<public id="0x7b080004" name="Theme.Aurora.Light.Dialog.Alert" type="style" />-->
+    <!--<public id="0x7b080005" name="Theme.Aurora.Dialog.Alert.FullScreen" type="style" />-->
+    <!--<public id="0x7b080006" name="Widget.Aurora.Light.ActionBar" type="style" />-->
+    <!--<public id="0x7b080007" name="Widget.Aurora.Light.ActionBar.Solid" type="style" />-->
+    <!--<public id="0x7b080008" name="Widget.Aurora.Light.ActionBar.Solid.Inverse" type="style" />-->
+    <!--<public id="0x7b080009" name="TextAppearance.Aurora.Large" type="style" />-->
+    <!--<public id="0x7b08000a" name="TextAppearance.Aurora.Medium" type="style" />-->
+    <!--<public id="0x7b08000b" name="TextAppearance.Aurora.MediumSecond" type="style" />-->
+    <!--<public id="0x7b08000c" name="TextAppearance.Aurora.Small" type="style" />-->
+    <!--<public id="0x7b08000d" name="TextAppearance.Aurora.Large.Inverse" type="style" />-->
+    <!--<public id="0x7b08000e" name="TextAppearance.Aurora.Medium.Inverse" type="style" />-->
+    <!--<public id="0x7b08000f" name="TextAppearance.Aurora.MediumSecond.Inverse" type="style" />-->
+    <!--<public id="0x7b080010" name="TextAppearance.Aurora.Small.Inverse" type="style" />-->
+    <!--<public id="0x7b080011" name="TextAppearance.Aurora.Light.Large" type="style" />-->
+    <!--<public id="0x7b080012" name="TextAppearance.Aurora.Light.Medium" type="style" />-->
+    <!--<public id="0x7b080013" name="TextAppearance.Aurora.Light.MediumSecond" type="style" />-->
+    <!--<public id="0x7b080014" name="TextAppearance.Aurora.Light.Small" type="style" />-->
+    <!--<public id="0x7b080015" name="TextAppearance.Aurora.Light.Large.Inverse" type="style" />-->
+    <!--<public id="0x7b080016" name="TextAppearance.Aurora.Light.Medium.Inverse" type="style" />-->
+    <!--<public id="0x7b080017" name="TextAppearance.Aurora.Light.MediumSecond.Inverse" type="style" />-->
+    <!--<public id="0x7b080018" name="TextAppearance.Aurora.Light.Small.Inverse" type="style" />-->
+    <!--<public id="0x7b080019" name="Theme.Aurora.Dark" type="style" />-->
+    <!--<public id="0x7b08001a" name="Theme.Aurora.Dark.NoActionBar" type="style" />-->
+    <!--<public id="0x7b08001b" name="Theme.Aurora.Dark.NoActionBar.Fullscreen" type="style" />-->
+    <!--<public id="0x7b08001c" name="Theme.Aurora.Dark.Dialog" type="style" />-->
+    <!--<public id="0x7b08001d" name="Theme.Aurora.Dark.Dialog.Alert" type="style" />-->
+    <!--<public id="0x7b08001e" name="Widget.Aurora.Dark.ActionBar" type="style" />-->
+    <!--<public id="0x7b08001f" name="Widget.Aurora.Dark.ActionBar.Solid" type="style" />-->
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b080020" name="aurora" type="style" />-->
+    <!--<public id="0x7b080021" name="aurora.Widget" type="style" />-->
+    <!--<public id="0x7b080022" name="aurora.Widget.ActionBar" type="style" />-->
+    <!--<public id="0x7b080023" name="aurora.Widget.ActionBar.Dashboard" type="style" />-->
+    <!--<public id="0x7b080024" name="aurora.Widget.ActionBar.Empty" type="style" />-->
+    <!--<public id="0x7b080025" name="aurora.Widget.ActionBar.Item" type="style" />-->
+    <!--<public id="0x7b080026" name="aurora.Widget.ActionBar.Title" type="style" />-->
+    <!--<public id="0x7b080027" name="Theme.aurora" type="style" />-->
+    <!--<public id="0x7b080028" name="Theme.aurora.Light" type="style" />-->
+    <!--<public id="0x7b080029" name="PopupAnimation" type="style" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.5 add for searchview inputmethod button begin &ndash;&gt;-->
+    <!--<public id="0x7b08002a" name="AuroraInputMethodbutton0" type="style" />-->
+    <!--<public id="0x7b08002b" name="AuroraInputMethodbutton" type="style" />-->
+    <!--<public id="0x7b08002c" name="AuroraInputMethodbutton2" type="style" />-->
+    <!--&lt;!&ndash; Aurora <luofu> 2013.9.5 add for searchview inputmethod button end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Aurora <jackycheng> 2013.9.11 add font begin &ndash;&gt;-->
+    <!--<public id="0x7b08002d" name="AuroraTextAppearanceLarge" type="style" />-->
+    <!--<public id="0x7b08002e" name="AuroraTextAppearanceMedium" type="style" />-->
+    <!--<public id="0x7b08002f" name="AuroraTextAppearanceSmall" type="style" />-->
+    <!--<public id="0x7b080030" name="AuroraTextAppearanceTiny" type="style" />-->
+    <!--<public id="0x7b080031" name="AuroraTextAppearance" type="style" />-->
+    <!--&lt;!&ndash; Aurora <jackycheng> 2013.9.11 add font end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.16 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b080032" name="ActionBarPopupAnimation" type="style" />-->
+    <!--<public id="0x7b080033" name="aurora.Widget.ActionBar.Custom" type="style" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.16 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Toast test &ndash;&gt;-->
+    <!--<public id="0x7b080034" name="my_toast" type="style" />-->
+    <!--<public id="0x7b080035" name="AnimationToast" type="style" />-->
+    <!--<public id="0x7b080036" name="AuroraAlertDialogTheme" type="style" />-->
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.18 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b080037" name="ActionBottomBarPopupAnimation" type="style" />-->
+    <!--<public id="0x7b080038" name="Animation" type="style" />-->
+    <!--<public id="0x7b080039" name="Animation.RecentApplications" type="style" />-->
+    <!--<public id="0x7b08003a" name="Animation.ZoomButtons" type="style" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.11.14 add for shutdown window begin &ndash;&gt;-->
+    <!--<public id="0x7b08003b" name="Aurora_Dialog_Fullscreen" type="style" />-->
+    <!--<public id="0x7b08003c" name="TextAppearance.StatusBar.Icon" type="style" />-->
+    <!--<public id="0x7b08003d" name="TextAppearance.StatusBar.Ticker" type="style" />-->
+    <!--<public id="0x7b08003e" name="TextAppearance.StatusBar" type="style" />-->
+    <!--<public id="0x7b08003f" name="Theme.Holo.Dialog.Alert" type="style" />-->
+    <!--<public id="0x7b080040" name="Theme.Dialog.Alert" type="style" />-->
+    <!--<public id="0x7b080041" name="TextAppearance" type="style" />-->
+    <!--<public id="0x7b080042" name="Theme" type="style" />-->
+    <!--<public id="0x7b080043" name="Theme.Dialog" type="style" />-->
+    <!--<public id="0x7b080044" name="Theme.Holo.Dialog" type="style" />-->
+    <!--<public id="0x7b080045" name="Theme.Holo" type="style" />-->
+    <!--<public id="0x7b080046" name="DialogWindowTitle" type="style" />-->
+    <!--<public id="0x7b080047" name="DialogWindowTitle.Holo" type="style" />-->
+    <!--<public id="0x7b080048" name="AuroraShutdownDialogAnim" type="style" />-->
+    <!--<public id="0x7b080049" name="AuroraPreference" type="style" />-->
+    <!--<public id="0x7b08004a" name="AuroraDialogExit" type="style" />-->
+    <!--<public id="0x7b08004b" name="TextAppearance.Aurora.Dark.Medium" type="style" />-->
+    <!--<public id="0x7b08004c" name="Theme.aurora.Default" type="style" />-->
+
+    <!--<public id="0x7b08004d" name="Theme.Aurora.Dark.Transparent" type="style" />-->
+    <!--<public id="0x7b08004e" name="AuroraSingleLineEditText" type="style" />-->
+    <!--&lt;!&ndash; aurora <xxj> 2014.7.17 add for list begin &ndash;&gt;-->
+    <!--<public id="0x7b08004f" name="AuroraListSingleLineStyle" type="style" />-->
+    <!--<public id="0x7b080050" name="AuroraListMainTextStyle" type="style" />-->
+    <!--<public id="0x7b080051" name="AuroraListSubTextStyle" type="style" />-->
+    <!--&lt;!&ndash;<public id="0x7b080052" name="AuroraListSubTextForExplainStyle" type="style" />-->
+    <!--<public id="0x7b080053" name="AuroraListSubTextForContentStyle" type="style" /> -->
+     <!--luofu add for action bar &ndash;&gt;-->
+    <!---->
+    <!---->
+    <!--&lt;!&ndash; aurora <luofu> 2013.11.14 add for shutdown window  end &ndash;&gt;-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.18 add for actionbar and menu end &ndash;&gt;-->
+    <!---->
+    <!--&lt;!&ndash; aurora <tangjun> 2014.7.29 add for alphabetlist start &ndash;&gt;-->
+    <!--<public id="0x7b080052" name="AuroraAlphabetListStyle" type="style" />-->
+    <!--&lt;!&ndash; aurora <tangjun> 2014.7.29 add for alphabetlist end &ndash;&gt;-->
+    <!---->
+    <!--&lt;!&ndash; aurora <tangjun> 2014.7.29 add for u3 navigationbar menu start &ndash;&gt;-->
+    <!--<public id="0x7b080053" name="PopupAnimationForNavi" type="style" />-->
+    <!--&lt;!&ndash; aurora <tangjun> 2014.7.29 add for u3 navigationbar menu end &ndash;&gt;-->
+    <!---->
+    <!--&lt;!&ndash; aurora <tangjun> <2014-7-31> add for aurorapromtbutton begin &ndash;&gt;-->
+	<!--<public id="0x7b080054" name="AuroraPromptButton" type="style" />-->
+	<!--&lt;!&ndash; aurora <tangjun> <2014-7-31> add for aurorapromtbutton end &ndash;&gt;-->
+	 <!--&lt;!&ndash; aurora <luofu> <2014-8-6> add for spinner animation begin &ndash;&gt;-->
+	<!--<public id="0x7b080055" name="AuroraSpinnerAnimationStyle" type="style" />-->
+	 <!--&lt;!&ndash; aurora <luofu> <2014-8-6> add for spinner animation  end &ndash;&gt;-->
+	<!---->
+	<!--<public id="0x7b080056" name="AuroraPromptTextViewStyle" type="style" />-->
+	<!---->
+	<!--<public id="0x7b080057" name="Theme_Panel_Volume" type="style" />-->
+	<!--<public id="0x7b080058" name="Theme.Aurora.Dialog.Alert.Chooser" type="style" />-->
+
+	<!---->
+	<!---->
+	<!---->
+    <!--<public id="0x7b090000" name="aurora_time_picker_dialog_title" type="string" />-->
+    <!--<public id="0x7b090001" name="aurora_date_picker_dialog_title" type="string" />-->
+    <!--<public id="0x7b090002" name="aurora_date_time_done" type="string" />-->
+    <!--<public id="0x7b090003" name="aurora_copy" type="string" />-->
+    <!--<public id="0x7b090004" name="aurora_paste" type="string" />-->
+    <!--<public id="0x7b090005" name="aurora_cut" type="string" />-->
+    <!--<public id="0x7b090006" name="aurora_selectAll" type="string" />-->
+    <!--<public id="0x7b090007" name="aurora_select" type="string" />-->
+    <!--<public id="0x7b090008" name="aurora_inputMethod" type="string" />-->
+    <!--<public id="0x7b090009" name="aurora_action_bar_up_description" type="string" />-->
+    <!--<public id="0x7b09000a" name="aurora_action_bar_home_description" type="string" />-->
+
+    <!--&lt;!&ndash; Gionee <xuhz> <2013-07-19> add for CR00838236 begin &ndash;&gt;-->
+    <!--&lt;!&ndash; String for Smart Guider &ndash;&gt;-->
+    <!--<public id="0x7b09000b" name="aurora_smart_full_btn_label" type="string" />-->
+    <!--&lt;!&ndash; Gionee <xuhz> <2013-07-19> add for CR00838236 end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Gionee <zhangxx> <2013-08-14> modify for CR00857086 begin &ndash;&gt;-->
+    <!--<public id="0x7b09000c" name="aurora_capital_on" type="string" />-->
+    <!--<public id="0x7b09000d" name="aurora_capital_off" type="string" />-->
+    <!--&lt;!&ndash; Gionee <zhangxx> <2013-08-14> modify for CR00857086 end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b09000e" name="aurora_go_home" type="string" />-->
+    <!--<public id="0x7b09000f" name="aurora_info" type="string" />-->
+    <!--<public id="0x7b090010" name="aurora_back" type="string" />-->
+    <!--<public id="0x7b090011" name="aurora_more" type="string" />-->
+    <!--<public id="0x7b090012" name="aurora_divier_line" type="string" />-->
+    <!--<public id="0x7b090013" name="aurora_actionbar_image_button_content" type="string" />-->
+    <!--<public id="0x7b090014" name="aurora_add" type="string" />-->
+    <!--<public id="0x7b090015" name="aurora_action_bar_ok_btn" type="string" />-->
+    <!--<public id="0x7b090016" name="aurora_action_bar_cancel_btn" type="string" />-->
+    <!--<public id="0x7b090017" name="empty" type="string" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.12 add for actionbar and menu end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.16 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b090018" name="aurora_action_bar_select_all_btn" type="string" />-->
+    <!--<public id="0x7b090019" name="aurora_action_bar_cancel_all_btn" type="string" />-->
+    <!--<public id="0x7b09001a" name="aurora_edit" type="string" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.9.16 add for actionbar and menu end &ndash;&gt;-->
+
+    <!--<public id="0x7b09001b" name="aurora_datepicker_done" type="string" />-->
+    <!--<public id="0x7b09001c" name="aurora_datepicker_cancel" type="string" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.11.8 add for system ui begin &ndash;&gt;-->
+    <!--<public id="0x7b09001d" name="lockscreen_carrier_default" type="string" />-->
+    <!--<public id="0x7b09001e" name="share" type="string" />-->
+    <!--<public id="0x7b09001f" name="usb_storage_stop_notification_title" type="string" />-->
+    <!--<public id="0x7b090020" name="usb_storage_stop_notification_message" type="string" />-->
+    <!--<public id="0x7b090021" name="ext_media_checking_notification_title" type="string" />-->
+    <!--<public id="0x7b090022" name="ext_media_checking_notification_message" type="string" />-->
+    <!--<public id="0x7b090023" name="ext_media_nofs_notification_title" type="string" />-->
+    <!--<public id="0x7b090024" name="ext_media_nofs_notification_message" type="string" />-->
+    <!--<public id="0x7b090025" name="ext_media_unmountable_notification_title" type="string" />-->
+    <!--<public id="0x7b090026" name="ext_media_unmountable_notification_message" type="string" />-->
+    <!--<public id="0x7b090027" name="ext_media_badremoval_notification_title" type="string" />-->
+    <!--<public id="0x7b090028" name="ext_media_badremoval_notification_message" type="string" />-->
+    <!--<public id="0x7b090029" name="ext_media_safe_unmount_notification_title" type="string" />-->
+    <!--<public id="0x7b09002a" name="ext_media_safe_unmount_notification_message" type="string" />-->
+    <!--<public id="0x7b09002b" name="ext_media_nomedia_notification_title" type="string" />-->
+    <!--<public id="0x7b09002c" name="ext_media_nomedia_notification_message" type="string" />-->
+    <!--<public id="0x7b09002d" name="usb_storage_notification_title" type="string" />-->
+    <!--<public id="0x7b09002e" name="usb_storage_notification_message" type="string" />-->
+    <!--<public id="0x7b09002f" name="usb_storage_stop_title" type="string" />-->
+    <!--<public id="0x7b090030" name="usb_storage_stop_message" type="string" />-->
+    <!--<public id="0x7b090031" name="usb_storage_title" type="string" />-->
+    <!--<public id="0x7b090032" name="usb_storage_message" type="string" />-->
+    <!--<public id="0x7b090033" name="chooseUsbActivity" type="string" />-->
+    <!--<public id="0x7b090034" name="clearDefaultHintMsg" type="string" />-->
+    <!--<public id="0x7b090035" name="usb_storage_button_mount" type="string" />-->
+    <!--<public id="0x7b090036" name="usb_storage_stop_button_mount" type="string" />-->
+    <!--<public id="0x7b090037" name="usb_storage_activity_title" type="string" />-->
+    <!--<public id="0x7b090038" name="description_target_search" type="string" />-->
+    <!--<public id="0x7b090039" name="description_direction_up" type="string" />-->
+    <!--<public id="0x7b09003a" name="description_direction_left" type="string" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.11.8 add for system ui end &ndash;&gt;-->
+    <!--&lt;!&ndash; aurora <luofu> 2013.11.14 add for shutdown window begin &ndash;&gt;-->
+    <!--<public id="0x7b09003b" name="aurora_shutdown" type="string" />-->
+    <!--<public id="0x7b09003c" name="aurora_reboot" type="string" />-->
+    <!--<public id="0x7b09003d" name="aurora_airmode" type="string" />-->
+    <!--<public id="0x7b09003e" name="aurora_airmode_open" type="string" />-->
+    <!--<public id="0x7b09003f" name="aurora_dialog_default_title" type="string" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.11.14 add for shutdown window end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <tangjun> 2013.11.28 add for searchviewactivity begin &ndash;&gt;-->
+    <!--<public id="0x7b090040" name="aurora_activity_searchviewcancelbtnttext" type="string" />-->
+    <!--&lt;!&ndash; aurora <tangjun> 2013.11.28 add for searchviewactivity end &ndash;&gt;-->
+
+    <!--<public id="0x7b090041" name="reboot_alert_title" type="string" />-->
+    <!--<public id="0x7b090042" name="reboot_alert_message" type="string" />-->
+    <!--<public id="0x7b090043" name="reboot_ok" type="string" />-->
+    <!--<public id="0x7b090044" name="reboot_cancel" type="string" />-->
+	<!---->
+	 <!--<public id="0x7b090045" name="aurora_no_application_can_perform_this_operation" type="string" />-->
+	<!---->
+	 <!--&lt;!&ndash; add for volume panel begin &ndash;&gt;-->
+	<!--<public id="0x7b090046" name="volume_ringtone" type="string" />-->
+    <!--<public id="0x7b090047" name="volume_music" type="string" />-->
+    <!--<public id="0x7b090048" name="volume_music_hint_playing_through_bluetooth" type="string" />-->
+    <!--<public id="0x7b090049" name="volume_music_hint_silent_ringtone_selected" type="string" />-->
+    <!--<public id="0x7b09004a" name="volume_call" type="string" />-->
+    <!--<public id="0x7b09004b" name="volume_bluetooth_call" type="string" />-->
+    <!--<public id="0x7b09004c" name="volume_alarm" type="string" />-->
+    <!--<public id="0x7b09004d" name="volume_notification" type="string" />-->
+    <!--<public id="0x7b09004e" name="volume_unknown" type="string" />-->
+    <!--<public id="0x7b09004f" name="volume_icon_description_bluetooth" type="string" />-->
+    <!--<public id="0x7b090050" name="volume_icon_description_ringer" type="string" />-->
+    <!--<public id="0x7b090051" name="volume_icon_description_incall" type="string" />-->
+    <!--<public id="0x7b090052" name="volume_icon_description_media" type="string" />-->
+    <!--<public id="0x7b090053" name="volume_icon_description_notification" type="string" />-->
+    <!--<public id="0x7b090054" name="aurora_save" type="string" />-->
+    <!---->
+    <!---->
+    <!--<public id="0x7b090055" name="aurora_login_user_name" type="string" />-->
+    <!--<public id="0x7b090056" name="aurora_login_user_password" type="string" />-->
+    <!--<public id="0x7b090057" name="aurora_login_submit" type="string" />-->
+    <!--<public id="0x7b090058" name="aurora_login_user_name_hint" type="string" />-->
+    <!--<public id="0x7b090059" name="aurora_login_password_hint" type="string" />-->
+    <!--<public id="0x7b09005a"  name="aurora_forget_password" type="string" />-->
+    <!--<public id="0x7b09005b"  name="whichApplication" type="string" />-->
+    <!---->
+	  <!--&lt;!&ndash; add for volume panel end &ndash;&gt;-->
+	  <!---->
+  	<!--<public id="0x7b09005c"  name="usb_mtp_notification_title" type="string" />-->
+  	<!--<public id="0x7b09005d"  name="usb_ptp_notification_title" type="string" />-->
+  	<!--<public id="0x7b09005e"  name="usb_cd_installer_notification_title" type="string" />-->
+  	<!--<public id="0x7b09005f"  name="usb_accessory_notification_title" type="string" />-->
+  	<!--<public id="0x7b090060"  name="usb_notification_message" type="string" />-->
+  	<!--<public id="0x7b090061"  name="adb_active_notification_title" type="string" />-->
+  	<!--<public id="0x7b090062"  name="adb_active_notification_message" type="string" />-->
+	  <!---->
+	 <!---->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-31> add for CR00812456 begin &ndash;&gt;-->
+    <!--<public id="0x7b0a0000" name="aurora_searchview_text" type="anim" />-->
+    <!--&lt;!&ndash; Gionee <fenglp> <2013-07-31> add for CR00812456 end &ndash;&gt;-->
+    <!--<public id="0x7b0a0001" name="aurora_toast_enter" type="anim" />-->
+    <!--<public id="0x7b0a0002" name="aurora_toast_exit" type="anim" />-->
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.9 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b0a0003" name="aurora_menu_cover_enter" type="anim" />-->
+    <!--<public id="0x7b0a0004" name="aurora_menu_cover_exit" type="anim" />-->
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.9 add for actionbar and menu begin &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.11 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b0a0005" name="aurora_action_bar_menu_enter" type="anim" />-->
+    <!--<public id="0x7b0a0006" name="aurora_action_bar_menu_exit" type="anim" />-->
+    <!--&lt;!&ndash; aurora <leftaven> 2013.10.11 add for actionbar and menu begin &ndash;&gt;-->
+    <!--&lt;!&ndash; aurora <luofu> 2013.11.8 add for system ui begin &ndash;&gt;-->
+    <!--<public id="0x7b0a0007" name="push_down_in" type="anim" />-->
+    <!--<public id="0x7b0a0008" name="push_down_out" type="anim" />-->
+    <!--<public id="0x7b0a0009" name="push_up_in" type="anim" />-->
+    <!--<public id="0x7b0a000a" name="push_up_out" type="anim" />-->
+    <!--<public id="0x7b0a000b" name="fade_in" type="anim" />-->
+    <!--<public id="0x7b0a000c" name="fade_out" type="anim" />-->
+    <!--<public id="0x7b0a000d" name="recents_fade_in" type="anim" />-->
+    <!--<public id="0x7b0a000e" name="recents_fade_out" type="anim" />-->
+    <!--<public id="0x7b0a000f" name="aurora_listview_front_anim" type="anim" />-->
+    <!--<public id="0x7b0a0010" name="aurora_listview_left_anim" type="anim" />-->
+    <!--<public id="0x7b0a0011" name="aurora_listview_front_resume_anim" type="anim" />-->
+    <!--<public id="0x7b0a0012" name="grow_fade_in_from_bottom" type="anim" />-->
+    <!--<public id="0x7b0a0013" name="shrink_fade_out_from_bottom" type="anim" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.11.8 add for system ui end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <tangjun> 2013.11.28 add for actionbar and menu begin &ndash;&gt;-->
+    <!--<public id="0x7b0a0014" name="aurora_action_bar_up_enter" type="anim" />-->
+    <!--<public id="0x7b0a0015" name="aurora_action_bar_up_exit" type="anim" />-->
+    <!--<public id="0x7b0a0016" name="aurora_activity_searchviewbutton_enter" type="anim" />-->
+    <!--<public id="0x7b0a0017" name="aurora_activity_searchviewbutton_exit" type="anim" />-->
+    <!--<public id="0x7b0a0018" name="aurora_activity_searchviewlayout_enter" type="anim" />-->
+    <!--<public id="0x7b0a0019" name="aurora_activity_searchviewlayout_exit" type="anim" />-->
+    <!--<public id="0x7b0a001a" name="aurora_activity_up_exit" type="anim" />-->
+    <!--<public id="0x7b0a001b" name="aurora_activity_up_enter" type="anim" />-->
+    <!--<public id="0x7b0a001c" name="aurora_activity_searchviewwidget_exit" type="anim" />-->
+    <!--<public id="0x7b0a001d" name="aurora_activity_searchviewwidget_enter" type="anim" />-->
+    <!--<public id="0x7b0a001e" name="aurora_action_bar_dashboard_enter" type="anim" />-->
+    <!--<public id="0x7b0a001f" name="aurora_action_bar_dashboard_exit" type="anim" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.12.27 add for shutdown dialog anim begin &ndash;&gt;-->
+    <!--<public id="0x7b0a0020" name="aurora_airmode_anim" type="anim" />-->
+    <!--<public id="0x7b0a0021" name="aurora_airmode_icon" type="anim" />-->
+    <!--<public id="0x7b0a0022" name="aurora_reboot_anim" type="anim" />-->
+    <!--<public id="0x7b0a0023" name="aurora_reboot_icon" type="anim" />-->
+    <!--<public id="0x7b0a0024" name="aurora_shutdown_anim" type="anim" />-->
+    <!--<public id="0x7b0a0025" name="aurora_shutdown_icon" type="anim" />-->
+    <!--<public id="0x7b0a0026" name="aurora_shutdown_text_anim" type="anim" />-->
+    <!--<public id="0x7b0a0027" name="aurora_shutdown_dialog_push_up_out" type="anim" />-->
+    <!--<public id="0x7b0a0028" name="toast_enter" type="anim" />-->
+    <!--<public id="0x7b0a0029" name="toast_exit" type="anim" />-->
+    <!---->
+    <!--&lt;!&ndash; luofu 2014.4.23 add for activity animation begin &ndash;&gt;-->
+    <!--<public id="0x7b0a002a" name="aurora_activity_close_enter" type="anim" />-->
+    <!--<public id="0x7b0a002b" name="aurora_activity_close_exit" type="anim" />-->
+    <!--<public id="0x7b0a002c" name="aurora_activity_open_enter" type="anim" />-->
+    <!--<public id="0x7b0a002d" name="aurora_activity_open_exit" type="anim" />-->
+    <!---->
+    <!--<public id="0x7b0a002e" name="aurora_task_close_enter" type="anim" />-->
+    <!--<public id="0x7b0a002f" name="aurora_task_close_exit" type="anim" />-->
+    <!--<public id="0x7b0a0030" name="aurora_task_open_enter" type="anim" />-->
+    <!--<public id="0x7b0a0031" name="aurora_task_open_exit" type="anim" />-->
+    <!---->
+    <!--<public id="0x7b0a0032" name="aurora_activity_searchviewhost_enter" type="anim" />-->
+    <!--<public id="0x7b0a0033" name="aurora_activity_searchviewhost_exit" type="anim" />-->
+    <!---->
+    <!--<public id="0x7b0a0034" name="aurora_activity_searchviewonlyalpha_enter" type="anim" />-->
+    <!--<public id="0x7b0a0035" name="aurora_activity_searchviewonlyalpha_exit" type="anim" />-->
+    <!---->
+    <!--<public id="0x7b0a0036" name="aurora_activity_searchviewactionbar_enter" type="anim" />-->
+     <!--<public id="0x7b0a0037" name="aurora_multiple_choice_dialog_edit_enter" type="anim" />-->
+     <!---->
+     <!--<public id="0x7b0a0038" name="aurora_menu_enter" type="anim" />-->
+     <!--<public id="0x7b0a0039" name="aurora_menu_exit" type="anim" />-->
+    <!---->
+
+    <!--&lt;!&ndash; luofu 2014.4.23 add for activity animation end &ndash;&gt;-->
+    <!--&lt;!&ndash; aurora <luofu> 2013.12.27 add for shutdown dialog anim end &ndash;&gt;-->
+    <!--&lt;!&ndash; aurora <tangjun> 2013.11.28 add for actionbar and menu begin &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; Gionee <luofu> <2013-09-05> add for searchview begin &ndash;&gt;-->
+    <!--<public id="0x7b0b0000" name="auroraInputMethodChara" type="array" />-->
+    <!--<public id="0x7b0b0001" name="auroraInputMethodCharb" type="array" />-->
+    <!--<public id="0x7b0b0002" name="auroraInputMethodCharc" type="array" />-->
+    <!--<public id="0x7b0b0003" name="auroraWeekNumber" type="array" />-->
+    <!--<public id="0x7b0b0004" name="aurora_email_list" type="array" />-->
+    <!--&lt;!&ndash; Gionee <luofu> <2013-09-05> add for searchview end &ndash;&gt;-->
+   <!---->
+
+
+    <!--&lt;!&ndash; Gionee <flash> <2013-09-20> add for listview begin &ndash;&gt;-->
+    <!--<public id="0x7b0c0000" name="aurora_listview_back" type="id" />-->
+    <!--<public id="0x7b0c0001" name="aurora_listview_front" type="id" />-->
+    <!--&lt;!&ndash; Gionee <flash> <2013-09-20> add for listview end &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <flash> <2013-09-27> add for preference widget begin &ndash;&gt;-->
+    <!--<public id="0x7b0c0002" name="aurorastatus" type="id" />-->
+    <!--<public id="0x7b0c0003" name="auroraarrow" type="id" />-->
+    <!--&lt;!&ndash; aurora <flash> <2013-09-27> add for preference widget end &ndash;&gt;-->
+
+    <!--<public id="0x7b0c0004" name="aurora_dialog_button_divider1" type="id" />-->
+    <!--<public id="0x7b0c0005" name="aurora_dialog_button_divider2" type="id" />-->
+    <!--<public id="0x7b0c0006" name="aurora_contentPanel" type="id" />-->
+    <!--<public id="0x7b0c0007" name="aurora_topPanel" type="id" />-->
+    <!--<public id="0x7b0c0008" name="aurora_buttonPanel" type="id" />-->
+    <!--<public id="0x7b0c0009" name="aurora_customPanel" type="id" />-->
+    <!--<public id="0x7b0c000a" name="aurora_custom" type="id" />-->
+    <!--<public id="0x7b0c000b" name="aurora_title_template" type="id" />-->
+    <!--<public id="0x7b0c000c" name="aurora_alertTitle" type="id" />-->
+    <!--<public id="0x7b0c000d" name="aurora_scrollView" type="id" />-->
+    <!--<public id="0x7b0c000e" name="aurora_titleDivider" type="id" />-->
+    <!--<public id="0x7b0c000f" name="aurora_parentPanel" type="id" />-->
+    <!--<public id="0x7b0c0010" name="aurora_leftSpacer" type="id" />-->
+    <!--<public id="0x7b0c0011" name="aurora_rightSpacer" type="id" />-->
+    <!--<public id="0x7b0c0012" name="aurora_titleDividerTop" type="id" />-->
+    <!--<public id="0x7b0c0013" name="aurora_list_header" type="id" />-->
+    <!--<public id="0x7b0c0014" name="content" type="id" />-->
+    <!--<public id="0x7b0c0015" name="aurora_switchWidget" type="id" />-->
+    <!--<public id="0x7b0c0016" name="aurora_list_left_checkbox" type="id" />-->
+    <!--&lt;!&ndash; aurora <luofu> <2013-11-8> add for system ui begin &ndash;&gt;-->
+    <!--<public id="0x7b0c0017" name="alwaysUse" type="id" />-->
+    <!--<public id="0x7b0c0018" name="clearDefaultHint" type="id" />-->
+    <!--<public id="0x7b0c0019" name="banner" type="id" />-->
+    <!--<public id="0x7b0c001a" name="mount_button" type="id" />-->
+    <!--<public id="0x7b0c001b" name="unmount_button" type="id" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> <2013-11-8> add for system ui end &ndash;&gt;-->
+    <!--&lt;!&ndash; aurora <luofu> <2013-11-8> add for system ui begin &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <luofu> <2013-11-8> add for system ui end &ndash;&gt;-->
+    <!--&lt;!&ndash; aurora <luofu> <2013-11-14> add for shutdown window begin &ndash;&gt;-->
+    <!--<public id="0x7b0c001c" name="aurora_shutdown_grid" type="id" />-->
+    <!--<public id="0x7b0c001d" name="aurora_shutdown_grid_item_img" type="id" />-->
+    <!--<public id="0x7b0c001e" name="aurora_shutdown_grid_item_text" type="id" />-->
+    <!--<public id="0x7b0c001f" name="aurora_shutdown_btn" type="id" />-->
+    <!--<public id="0x7b0c0020" name="aurora_reboot_btn" type="id" />-->
+    <!--<public id="0x7b0c0021" name="aurora_airmode_btn" type="id" />-->
+    <!--<public id="0x7b0c0022" name="aurora_shutdown_text" type="id" />-->
+    <!--<public id="0x7b0c0023" name="aurora_airmode_text" type="id" />-->
+    <!--<public id="0x7b0c0024" name="aurora_reboot_text" type="id" />-->
+    <!--&lt;!&ndash; <public id="0x7b0c001e" name="aurora_shutdown_bottom" type="id" /> &ndash;&gt;-->
+    <!--&lt;!&ndash; aurora <luofu> <2013-11-14> add for shutdown window begin &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; aurora <tangjun> <2013-11-28> add for searchviewactivity begin &ndash;&gt;-->
+    <!--<public id="0x7b0c0025" name="aurora_activity_searchview_layout" type="id" />-->
+    <!--<public id="0x7b0c0026" name="aurora_activity_searchviewbar" type="id" />-->
+    <!--<public id="0x7b0c0027" name="aurora_activity_searchviewwidget" type="id" />-->
+    <!--<public id="0x7b0c0028" name="aurora_activity_searchviewcancelbtn" type="id" />-->
+    <!--<public id="0x7b0c0029" name="aurora_activity_searchview_background" type="id" />-->
+    <!--&lt;!&ndash; aurora <tangjun> <2013-11-28> add for searchviewactivity begin &ndash;&gt;-->
+
+    <!--<public id="0x7b0c002a" name="aurora_listview_divider" type="id" />-->
+
+    <!--&lt;!&ndash; aurora <luofu> 2013.12.27 add for shutdown dialog anim begin &ndash;&gt;-->
+    <!--<public id="0x7b0c002b" name="air_mode_layout" type="id" />-->
+    <!--<public id="0x7b0c002c" name="reboot_layout" type="id" />-->
+    <!--<public id="0x7b0c002d" name="shutdown_layout" type="id" />-->
+    <!--&lt;!&ndash; aurora <luofu> 2013.12.27 add for shutdown dialog anim end &ndash;&gt;-->
+    <!--<public id="0x7b0c002e" name="control_padding" type="id" />-->
+    <!---->
+	<!--<public id="0x7b0c002f" name="aurora_resolver_grid" type="id" />-->
+	<!--<public id="0x7b0c0030" name="aurora_button_bar" type="id" />-->
+	<!--<public id="0x7b0c0031" name="aurora_button_always" type="id" />-->
+	<!--<public id="0x7b0c0032" name="aurora_button_once" type="id" />-->
+	<!--<public id="0x7b0c0033" name="aurora_text2" type="id" />-->
+	<!--<public id="0x7b0c0034" name="aurora_icon" type="id" />-->
+	<!--<public id="0x7b0c0035" name="aurora_text1" type="id" />-->
+	<!--<public id="0x7b0c0036" name="aurora_resolve_cancel_button" type="id" />-->
+	<!---->
+	<!--<public id="0x7b0c0037" name="aurora_item_sliding_switch" type="id" />-->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!--&lt;!&ndash; luofu add for action bar &ndash;&gt;-->
+	<!---->
+	<!--<public id="0x7b0c0038" name="aurora_custom_action_bar_body" type="id" />-->
+	<!--<public id="0x7b0c0039" name="aurora_custom_action_bar_bottom_widget" type="id" />-->
+	<!--<public id="0x7b0c003a" name="aurora_custom_action_bar" type="id" />-->
+	<!--<public id="0x7b0c003b" name="aurora_custom_action_bar_title_custom" type="id" />-->
+	<!--<public id="0x7b0c003c" name="aurora_custom_action_bar_left_panel" type="id" />-->
+	<!--<public id="0x7b0c003d" name="aurora_custom_action_bar_title_icon" type="id" />-->
+	<!--<public id="0x7b0c003e" name="aurora_custom_action_bar_title_panel" type="id" />-->
+	<!--<public id="0x7b0c003f" name="aurora_custom_action_bar_title" type="id" />-->
+	<!--<public id="0x7b0c0040" name="aurora_custom_action_bar_subtitle" type="id" />-->
+	<!--<public id="0x7b0c0041" name="aurora_custom_action_bar_option_panel" type="id" />-->
+	<!--<public id="0x7b0c0042" name="aurora_custom_action_bar_middle_panel" type="id" />-->
+	<!--<public id="0x7b0c0043" name="aurora_custom_action_bar_layout" type="id" />-->
+	<!--<public id="0x7b0c0044" name="aurora_custom_content_layout" type="id" />-->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!--<public id="0x7b0c0045" name="aurora_custom_action_bar_bottom_search_widget" type="id" />-->
+    <!--<public id="0x7b0c0046" name="aurora_custom_action_bar_search_view_icon" type="id" />-->
+    <!--<public id="0x7b0c0047" name="aurora_custom_action_bar_search_view_parent" type="id" />-->
+    <!--<public id="0x7b0c0048" name="aurora_custom_action_bar_search_view" type="id" />-->
+	<!--<public id="0x7b0c0049" name="aurora_custom_action_bar_search_hint_text" type="id" />-->
+	<!---->
+	<!--<public id="0x7b0c004a" name="aurora_custom_action_bar_default_option_items" type="id" />-->
+	<!---->
+	<!--<public id="0x7b0c004b" name="aurora_custom_action_bar_bottom_search_icon_panel" type="id" />-->
+	<!---->
+	<!---->
+	<!--<public id="0x7b0c004c" name="aurora_nav_buttons" type="id" />-->
+	<!---->
+	<!---->
+  <!--&lt;!&ndash; add for volume panel begin &ndash;&gt;-->
+		          <!---->
+	<!---->
+	<!--<public id="0x7b0c004d" name="visible_panel" type="id" />-->
+    <!--<public id="0x7b0c004e" name="slider_group" type="id" />-->
+    <!--<public id="0x7b0c004f" name="expand_button_divider" type="id" />-->
+    <!--<public id="0x7b0c0050" name="expand_button" type="id" />-->
+	<!--<public id="0x7b0c0051" name="stream_icon" type="id" />-->
+	<!---->
+	<!--<public id="0x7b0c0052" name="seekbar" type="id" />-->
+	<!--&lt;!&ndash; add for volume panel end&ndash;&gt;-->
+	<!--<public id="0x7b0c0053" name="aurora_edittext_container" type="id" />-->
+	<!--<public id="0x7b0c0054" name="aurora_rubbish" type="id" />-->
+	<!---->
+	<!--<public id="0x7b0c0055" name="aurora_user_name_layout" type="id" />-->
+	<!--<public id="0x7b0c0056" name="aurora_user_name" type="id" />-->
+	<!--<public id="0x7b0c0057" name="aurora_password_layout" type="id" />-->
+	<!--<public id="0x7b0c0058" name="aurora_password" type="id" />-->
+	<!--<public id="0x7b0c0059" name="aurora_login_error_tip" type="id" />-->
+	<!--<public id="0x7b0c005a" name="aurora_login_forget_password" type="id" />-->
+	<!--<public id="0x7b0c005b" name="aurora_email_list" type="id" />-->
+	<!--<public id="0x7b0c005c" name="aurora_login_submit" type="id" />-->
+	<!--&lt;!&ndash; add raw &ndash;&gt;-->
+	<!--<public id="0x7b0c005d" name="aurora_listview_custom_front" type="id" />-->
+	<!---->
+	<!--<public id="0x7b0c005e" name="aurora_password_delete_btn" type="id" />-->
+	<!---->
+	<!--<public id="0x7b0c005f" name="aurora_user_name_delete_btn" type="id" />-->
+	<!---->
+	<!--<public id="0x7b0c0060" name="aurora_login_progress" type="id" />-->
+	<!---->
+	<!--&lt;!&ndash; aurora <rocktong> 2014.12.11 add notification id begin &ndash;&gt;-->
+	<!--<public id="0x7b0c0061" name="status_bar_latest_event_content" type="id" />-->
+    <!--<public id="0x7b0c0062" name="icon" type="id" />-->
+    <!--<public id="0x7b0c0063" name="title" type="id" />-->
+    <!--<public id="0x7b0c0064" name="time" type="id" />-->
+    <!--<public id="0x7b0c0065" name="chronometer" type="id" />-->
+    <!--<public id="0x7b0c0066" name="text2" type="id" />-->
+    <!--<public id="0x7b0c0067" name="progress" type="id" />-->
+    <!--<public id="0x7b0c0068" name="line3" type="id" />-->
+    <!--<public id="0x7b0c0069" name="text" type="id" />-->
+    <!--<public id="0x7b0c006a" name="info" type="id" />-->
+    <!--<public id="0x7b0c006b" name="right_icon" type="id" />-->
+    <!--<public id="0x7b0c006c" name="line1" type="id" />-->
+    <!--<public id="0x7b0c006d" name="big_text" type="id" />-->
+    <!--<public id="0x7b0c006e" name="action_divider" type="id" />-->
+    <!--<public id="0x7b0c006f" name="actions" type="id" />-->
+    <!--<public id="0x7b0c0070" name="big_picture" type="id" />-->
+    <!--<public id="0x7b0c0071" name="action0" type="id" />-->
+    <!--<public id="0x7b0c0072" name="action1" type="id" />-->
+    <!--<public id="0x7b0c0073" name="action2" type="id" />-->
+    <!--<public id="0x7b0c0074" name="overflow_divider" type="id" />-->
+    <!--<public id="0x7b0c0075" name="inbox_text0" type="id" />-->
+    <!--<public id="0x7b0c0076" name="inbox_text1" type="id" />-->
+    <!--<public id="0x7b0c0077" name="inbox_text2" type="id" />-->
+    <!--<public id="0x7b0c0078" name="inbox_text3" type="id" />-->
+    <!--<public id="0x7b0c0079" name="inbox_text4" type="id" />-->
+    <!--<public id="0x7b0c007a" name="inbox_text5" type="id" />-->
+    <!--<public id="0x7b0c007b" name="inbox_text6" type="id" />-->
+    <!--<public id="0x7b0c007c" name="inbox_more" type="id" />-->
+    <!--<public id="0x7b0c007d" name="inbox_end_pad" type="id" />-->
+	<!--&lt;!&ndash; aurora <rocktong> 2014.12.11 add notification id end &ndash;&gt;-->
+	<!---->
+	<!--&lt;!&ndash; add for login widget hint begin &ndash;&gt;-->
+	 <!--<public id="0x7b0c007e" name="aurora_login_username_hint_text_view" type="id" />-->
+    <!--<public id="0x7b0c007f" name="aurora_login_password_hint_text_view" type="id" />-->
+    <!--&lt;!&ndash; add for login widget hint begin &ndash;&gt;-->
+    <!--&lt;!&ndash; add for loading view &ndash;&gt;-->
+    <!--<public id="0x7b0c0080" name="aurora_loading_point1" type="id" />-->
+    <!--<public id="0x7b0c0081" name="aurora_loading_point2" type="id" />-->
+    <!--<public id="0x7b0c0082" name="aurora_loading_point3" type="id" />-->
+	<!---->
+	<!--<public id="0x7b0d0000" name="blip" type="raw" />-->
+    <!--<public id="0x7b0d0001" name="earlymorning" type="raw" />-->
+    <!--<public id="0x7b0d0002" name="fallbackring" type="raw" />-->
+	<!---->
+	 <!---->
+	<!---->
+
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+</resources>

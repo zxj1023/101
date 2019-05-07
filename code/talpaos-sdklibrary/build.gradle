@@ -1,0 +1,46 @@
+apply plugin: 'com.android.library'
+apply from: 'maven-release-talpaos_sdklibrary-aar.gradle'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1709151400
+        versionName "00.001.1709151400"
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+}
+
+task clearJar(type: Delete) {
+    delete 'build/libs/talpaos-sdklibrary.jar'//If has created the jar, delete it
+}
+
+task makeJar(type: Copy) {
+    from('build/intermediates/bundles/release/')
+    into('build/libs/')
+    include('classes.jar')
+    rename ('classes.jar', 'talpaos-sdklibrary.jar')
+}
+
+makeJar.dependsOn(clearJar, build)

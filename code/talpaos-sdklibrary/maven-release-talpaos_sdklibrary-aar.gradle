@@ -1,0 +1,33 @@
+// 1.maven
+apply plugin: 'maven'
+
+// 2.maven-info
+ext {// ext is a gradle closure allowing the declaration of global properties
+    PUBLISH_GROUP_ID = 'com.transsion.ossdk'
+    PUBLISH_ARTIFACT_ID = 'talpaos_sdklibrary'
+    PUBLISH_VERSION = '00.001.1709151400'
+}
+
+// 3.maven-outpath
+uploadArchives {
+    repositories.mavenDeployer {
+        repository(url: "file:///E://job//task//sdk//out_aar")
+
+        pom.project {
+            groupId project.PUBLISH_GROUP_ID
+            artifactId project.PUBLISH_ARTIFACT_ID
+            version project.PUBLISH_VERSION
+        }
+    }
+}
+
+
+//will generage jar source code
+/*task androidSourcesJar(type: Jar) {
+    classifier = 'sources'
+    from android.sourceSets.main.java.sourceFiles
+}
+
+artifacts {
+    archives androidSourcesJar
+}*/

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Begin: alertdialog -->
+    <dimen name="talpaossdk_dialog_max_height">420dip</dimen>
+    <dimen name="talpaossdk_dialog_min_height">160dip</dimen>
+    <dimen name="talpaossdk_dialog_title_textsize">18sp</dimen>
+    <dimen name="talpaossdk_dialog_listitem_height">56dip</dimen>
+    <dimen name="talpaossdk_dialog_listitem_twoline_height">64dip</dimen>
+    <dimen name="talpaossdk_dialog_btn_textsize">16sp</dimen>
+    <dimen name="talpaossdk_dialog_content_textsize">16sp</dimen>
+    <dimen name="talpaossdk_dialog_subtitle_textsize">12sp</dimen>
+    <dimen name="talpaossdk_dialog_content_paddingLR">24dip</dimen>
+    <dimen name="talpaossdk_dialog_content_paddingTB">25dip</dimen>
+    <dimen name="talpaossdk_dialog_et_container_paddingLR">24dip</dimen>
+    <dimen name="talpaossdk_dialog_et_secondtitle_marginbottom">6dip</dimen>
+    <dimen name="talpaossdk_dialog_et_content_marginTB">32dip</dimen>
+    <dimen name="talpaossdk_dialog_et_edittext_minheight">48dip</dimen>
+    <dimen name="talpaossdk_dialog_et_edittext_paddingTB">12dip</dimen>
+    <dimen name="talpaossdk_dialog_et_edittext_paddingLeft">16dip</dimen>
+    <dimen name="talpaossdk_dialog_et_title_textsize">12sp</dimen>
+    <dimen name="talpaossdk_dialog_title_container_paddingTop">26dip</dimen>
+    <dimen name="talpaossdk_dialog_title_in_list_paddingTop">16dip</dimen>
+    <dimen name="talpaossdk_dialog_custome_icon_wh">40dip</dimen>
+    <dimen name="talpaossdk_dialog_custome_icon_marginRight">16dip</dimen>
+    <!-- End: alertdialog -->
+
+    <!-- Begin: divider -->
+    <dimen name="talpaossdk_divider_wh">1px</dimen>
+    <!-- End: divider -->
+
+    <!-- Begin: btn -->
+    <dimen name="talpaossdk_btn_textsize">16sp</dimen>
+    <dimen name="talpaossdk_btn_minheight">56dip</dimen>
+    <!-- End: btn -->
+
+    <!-- Begin: operation -->
+    <dimen name="talpaossdk_operation_item_height">56dip</dimen>
+    <dimen name="talpaossdk_operation_item_icon_wh">20dip</dimen>
+    <dimen name="talpaossdk_operation_item_margin_tb">8dip</dimen>
+    <dimen name="talpaossdk_operation_item_textsize">12sp</dimen>
+    <dimen name="talpaossdk_operation_window_padding_lr">16dip</dimen>
+    <dimen name="talpaossdk_operation_item_bg_radius">25dp</dimen>
+    <!-- End: operation -->
+
+    <!-- Begin: floatBtn -->
+    <dimen name="talpaossdk_shadow_offsetY">5dip</dimen>
+    <dimen name="talpaossdk_shadow_radius">8dip</dimen>
+    <dimen name="talpaossdk_floatbtn_wh">52dip</dimen>
+    <dimen name="talpaossdk_floatbtn_marginLeft">7dip</dimen>
+    <dimen name="talpaossdk_floatbtn_maxHeight">65dip</dimen>
+    <dimen name="talpaossdk_floatbtn_maxWidth">66dip</dimen>
+    <!-- End: floatBtn -->
+
+    <!-- Begin: seekbar -->
+    <dimen name="talpaossdk_seekbar_progressdrawable_height">4dp</dimen>
+    <!-- End: seekbar -->
+
+    <!-- Begin: Switch -->
+    <dimen name="talpaossdk_switch_bg_width">74px</dimen> <!-- Without padding -->
+    <dimen name="talpaossdk_switch_bg_height">44px</dimen> <!-- Without padding -->
+    <dimen name="talpaossdk_switch_paddingLR">3dip</dimen>
+    <!--End: Switch -->
+</resources>
